@@ -1,0 +1,1274 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.21)  21 DEC 2021 21:35
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"./Met Sample Template.tex"
+(Met Sample Template.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2021-11-22>
+(D:\Program Files\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(D:\Program Files\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count183
+\c@chapter=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\c@figure=\count190
+\c@table=\count191
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(D:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(D:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(D:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+(D:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+
+(D:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(D:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(D:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(D:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(D:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(D:\Program Files\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(D:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(D:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(D:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(D:\Program Files\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(D:\Program Files\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(D:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen139
+\Hy@linkcounter=\count192
+\Hy@pagecounter=\count193
+
+(D:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(D:\Program Files\MiKTeX\tex/latex/hyperref\hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+)
+(D:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(D:\Program Files\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count194
+
+(D:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count195
+
+(D:\Program Files\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen140
+
+(D:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(D:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count196
+\Field@Width=\dimen141
+\Fld@charsize=\dimen142
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+
+(D:\Program Files\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count197
+\c@Item=\count198
+\c@Hfootnote=\count199
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(D:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+
+(D:\Program Files\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count266
+\c@bookmark@seq@number=\count267
+
+(D:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(D:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip49
+)
+(D:\Program Files\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2021/10/11 v1.3b Standard LaTeX Color (DPC)
+
+(D:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+) (lastpage.sty
+Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
+ (JPG)
+)
+(fancyheadings.sty
+\headrulewidth=\dimen143
+\footrulewidth=\dimen144
+\plainheadrulewidth=\dimen145
+\plainfootrulewidth=\dimen146
+\headwidth=\dimen147
+) (D:\Program Files\MiKTeX\tex/latex/graphics\epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+
+(D:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+)
+\epsfxsize=\dimen150
+\epsfysize=\dimen151
+)
+(D:\Program Files\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count268
+\float@exts=\toks17
+\float@box=\box50
+\@float@everytoks=\toks18
+\@floatcapt=\box51
+)
+(D:\Program Files\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen152
+\ar@mcellbox=\box52
+\extrarowheight=\dimen153
+\NC@list=\toks19
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box53
+)
+(D:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip52
+\LTright=\skip53
+\LTpre=\skip54
+\LTpost=\skip55
+\LTchunksize=\count269
+\LTcapwidth=\dimen154
+\LT@head=\box54
+\LT@firsthead=\box55
+\LT@foot=\box56
+\LT@lastfoot=\box57
+\LT@gbox=\box58
+\LT@cols=\count270
+\LT@rows=\count271
+\c@LT@tables=\count272
+\c@LT@chunks=\count273
+\LT@p@ftn=\toks20
+)
+(D:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count274
+\l__pdf_internal_box=\box59
+)
+(Met Sample Template.aux
+
+LaTeX Warning: Label `atcres' multiply defined.
+
+
+LaTeX Warning: Label `tab:nnwork' multiply defined.
+
+
+LaTeX Warning: Label `tab:nnwork' multiply defined.
+
+
+LaTeX Warning: Label `tab:nnwork' multiply defined.
+
+)
+\openout1 = `"Met Sample Template.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+ (D:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count275
+\scratchdimen=\dimen155
+\scratchbox=\box60
+\nofMPsegments=\count276
+\nofMParguments=\count277
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count278
+\MPscratchDim=\dimen156
+\MPnumerator=\count279
+\makeMPintoPDFobject=\count280
+\everyMPtoPDFconversion=\toks22
+) (D:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(D:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 41.
+
+(D:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(D:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(D:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count281
+)
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
+
+(Met Sample Template.out) (Met Sample Template.out)
+\@outlinefile=\write3
+\openout3 = `"Met Sample Template.out"'.
+
+Package epstopdf Info: Source file: <./metbkc.eps>
+(epstopdf)                    date: 2013-02-20 14:58:38
+(epstopdf)                    size: 5284753 bytes
+(epstopdf)             Output file: <./metbkc-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-12-13 11:39:30
+(epstopdf)                    size: 96212 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./metbkc-eps-convert
+ed-to.pdf ./metbkc.eps>
+(epstopdf)             \includegraphics on input line 87.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./metbkc-eps-converted-to.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+<./metbkc-eps-converted-to.pdf, id=265, 973.6375pt x 112.42pt>
+File: ./metbkc-eps-converted-to.pdf Graphic file (type pdf)
+<use ./metbkc-eps-converted-to.pdf>
+Package pdftex.def Info: ./metbkc-eps-converted-to.pdf  used on input line 87.
+(pdftex.def)             Requested size: 296.29788pt x 36.13466pt.
+[1
+
+{C:/Users/bright/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./metbkc-ep
+s-converted-to.pdf>]
+Package epstopdf Info: Source file: <./metbkc.eps>
+(epstopdf)                    date: 2013-02-20 14:58:38
+(epstopdf)                    size: 5284753 bytes
+(epstopdf)             Output file: <./metbkc-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-12-13 11:39:30
+(epstopdf)                    size: 96212 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./metbkc-eps-convert
+ed-to.pdf ./metbkc.eps>
+(epstopdf)             \includegraphics on input line 103.
+Package epstopdf Info: Output file is already uptodate.
+File: ./metbkc-eps-converted-to.pdf Graphic file (type pdf)
+<use ./metbkc-eps-converted-to.pdf>
+Package pdftex.def Info: ./metbkc-eps-converted-to.pdf  used on input line 103.
+
+(pdftex.def)             Requested size: 520.34865pt x 86.72662pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.133 \newpage
+               \pagenumbering{roman} [1]
+Underfull \hbox (badness 10000) in paragraph at lines 137--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--148
+
+ []
+
+[1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 151--155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--155
+
+ []
+
+[2
+
+] (Met Sample Template.toc
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9.79996> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+ [3
+
+]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[4])
+\tf@toc=\write4
+\openout4 = `"Met Sample Template.toc"'.
+
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[5] (Met Sample Template.lof)
+\tf@lof=\write5
+\openout5 = `"Met Sample Template.lof"'.
+
+ [6
+
+] (Met Sample Template.lot)
+\tf@lot=\write6
+\openout6 = `"Met Sample Template.lot"'.
+
+ [7
+
+]
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.173 \chapter
+              {Literature Survey} [1
+
+]
+Chapter 2.
+[2
+
+]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[3]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+[4
+
+]
+Chapter 4.
+[5
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 221.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 221.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 221.
+
+Overfull \hbox (0.62624pt too wide) in paragraph at lines 222--222
+[]|\OT1/cmr/bx/n/12 Phase| 
+ []
+
+
+Underfull \hbox (badness 4954) in paragraph at lines 222--222
+[]|\OT1/cmr/bx/n/12 Group Mem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+[]|\OT1/cmr/m/n/12 Functional Re-quire-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--226
+[]|\OT1/cmr/m/n/12 Set The-ory and Math
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--226
+[]|\OT1/cmr/m/n/12 Jaspreet,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
+[]|\OT1/cmr/m/n/12 Software Re-quire-ment
+ []
+
+
+Overfull \hbox (14.74149pt too wide) in paragraph at lines 221--234
+ [][] 
+ []
+
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.246 \newpage
+              ]
+Overfull \hbox (0.62624pt too wide) in paragraph at lines 250--250
+[]|\OT1/cmr/bx/n/12 Phase| 
+ []
+
+
+Underfull \hbox (badness 4954) in paragraph at lines 250--250
+[]|\OT1/cmr/bx/n/12 Group Mem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
+[]|\OT1/cmr/m/n/12 Defining Pro-gram-ming
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 252--252
+[]|\OT1/cmr/m/n/12 Development of Mile-stone
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 253--253
+[]|\OT1/cmr/m/n/12 Development of Mile-stone
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 254--254
+[]|\OT1/cmr/m/n/12 Development of Mile-stone
+ []
+
+
+Overfull \hbox (14.74149pt too wide) in paragraph at lines 249--259
+[][]
+ []
+
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.283 \chapter
+              {Design}]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[8]
+Chapter 5.
+
+LaTeX Warning: Citation `paper2' on page 9 undefined on input line 290.
+
+[9
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 305--308
+
+ []
+
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[10]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[11]
+<./metbkc.png, id=446, 685.56125pt x 78.2925pt>
+File: ./metbkc.png Graphic file (type png)
+<use ./metbkc.png>
+Package pdftex.def Info: ./metbkc.png  used on input line 324.
+(pdftex.def)             Requested size: 433.6319pt x 361.4006pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--326
+
+ []
+
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.330 
+       <./metbkc.png>]
+Overfull \hbox (6.776pt too wide) in paragraph at lines 337--338
+[]\OT1/cmr/bx/n/14.4 M-Learning Ap-pli-ca-tion: \OT1/cmr/m/n/12 The M-Learning 
+ap-pli-ca-tion will pro-vide a Graph-
+ []
+
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[13]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[14]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[15]
+File: ./metbkc.png Graphic file (type png)
+<use ./metbkc.png>
+Package pdftex.def Info: ./metbkc.png  used on input line 377.
+(pdftex.def)             Requested size: 361.35817pt x 289.11977pt.
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[16
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.382 \newpage
+              ]
+Underfull \hbox (badness 10000) in paragraph at lines 405--410
+
+ []
+
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[17
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.410 \item{
+            \textbf{Failure to meet technical standards}\\]
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
+
+ []
+
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[18]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[19]
+Chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--432
+
+ []
+
+[20
+
+]
+File: ./metbkc.png Graphic file (type png)
+<use ./metbkc.png>
+Package pdftex.def Info: ./metbkc.png  used on input line 441.
+(pdftex.def)             Requested size: 685.55957pt x 78.2923pt.
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[21
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.445 \newpage
+              ]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[22]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[23]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[24]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[25]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[26]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[27]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[28]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[29]
+Chapter 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
+
+ []
+
+[30
+
+]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[31]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[32]
+Chapter 8.
+
+Overfull \hbox (3.52203pt too wide) in paragraph at lines 548--548
+[]|\OT1/cmr/bx/n/14.4 Verdict| 
+ []
+
+
+Underfull \hbox (badness 5802) in paragraph at lines 549--549
+[]|\OT1/cmr/m/n/12 When ap-pli-ca-tion starts,
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 549--549
+[]|\OT1/cmr/m/n/12 Tray opened suc-
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 551--551
+[]|\OT1/cmr/m/n/12 On click-ing the ABOUT
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--551
+[]|\OT1/cmr/m/n/12 The con-tents of
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 551--551
+\OT1/cmr/m/n/12 ABOUT that are
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 552--552
+[]|\OT1/cmr/m/n/12 Video Col-lec-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 552--552
+[]|\OT1/cmr/m/n/12 Video Thumb-nail
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 552--552
+\OT1/cmr/m/n/12 suc-cess-fully.Video
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 552--552
+\OT1/cmr/m/n/12 User al-lowed to
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 553--553
+\OT1/cmr/m/n/12 and click-ing the HOME
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 553--553
+\OT1/cmr/m/n/12 but-ton user must be re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--553
+\OT1/cmr/m/n/12 on ev-ery screen
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 553--553
+\OT1/cmr/m/n/12 of the re-spec-tive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--553
+\OT1/cmr/m/n/12 learn-ing ap-pli-ca-
+ []
+
+
+Underfull \hbox (badness 7631) in paragraph at lines 553--553
+\OT1/cmr/m/n/12 tion. Per-forms
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--553
+\OT1/cmr/m/n/12 re-turn-ing to the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--553
+\OT1/cmr/m/n/12 pre-vi-ous screens
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 553--553
+\OT1/cmr/m/n/12 and home screen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
+[]|\OT1/cmr/m/n/12 Objective Test
+ []
+
+
+Underfull \hbox (badness 4132) in paragraph at lines 554--554
+[]|\OT1/cmr/m/n/12 Test started suc-
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 554--554
+\OT1/cmr/m/n/12 and their op-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
+\OT1/cmr/m/n/12 dis-played prop-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
+\OT1/cmr/m/n/12 erly and an-swer
+ []
+
+
+Underfull \hbox (badness 6641) in paragraph at lines 555--555
+[]|\OT1/cmr/m/n/12 On Click-ing the EULA
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 556--556
+[]|\OT1/cmr/m/n/12 On Click-ing the Con-tact
+ []
+
+
+Underfull \hbox (badness 7504) in paragraph at lines 556--556
+\OT1/cmr/m/n/12 dis-played suc-cess-
+ []
+
+
+Underfull \hbox (badness 7344) in paragraph at lines 557--557
+[]|\OT1/cmr/m/n/12 On Click-ing the HELP
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 557--557
+[]|\OT1/cmr/m/n/12 Help con-tents are
+ []
+
+
+Underfull \hbox (badness 7504) in paragraph at lines 557--557
+\OT1/cmr/m/n/12 dis-played suc-cess-
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 558--558
+\OT1/cmr/m/n/12 as Ob-jects must be dis-
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 558--558
+\OT1/cmr/m/n/12 played. On click-ing the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--558
+[]|\OT1/cmr/m/n/12 Objects are dis-
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 558--558
+\OT1/cmr/m/n/12 played as grid of
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 558--558
+\OT1/cmr/m/n/12 items and ap-pro-
+ []
+
+
+Underfull \hbox (badness 6758) in paragraph at lines 558--558
+\OT1/cmr/m/n/12 pri-ate con-tent is
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 558--558
+\OT1/cmr/m/n/12 shown on click-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+[]|\OT1/cmr/m/n/12 On click-ing the Solved
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+\OT1/cmr/m/n/12 Prob-lem thumb-nail the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+\OT1/cmr/m/n/12 menu must be shown.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+\OT1/cmr/m/n/12 Print-able and An-i-mated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+[]|\OT1/cmr/m/n/12 Solved Prob-lems
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+\OT1/cmr/m/n/12 thumb-nail dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--560
+[]|\OT1/cmr/m/n/12 Search com-pleted
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--560
+\OT1/cmr/m/n/12 suc-cess-fully if
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--560
+\OT1/cmr/m/n/12 re-quired con-tent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--560
+\OT1/cmr/m/n/12 found else no
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--561
+[]|\OT1/cmr/m/n/12 On click-ing the Solved
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--561
+\OT1/cmr/m/n/12 Prob-lem thumb-nail the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--561
+\OT1/cmr/m/n/12 menu must be shown.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--561
+\OT1/cmr/m/n/12 Print-able and An-i-mated
+ []
+
+
+Underfull \hbox (badness 7047) in paragraph at lines 561--561
+\OT1/cmr/m/n/12 op-tion Print-able in the
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 561--561
+\OT1/cmr/m/n/12 as Thumb-nail Tile List.
+ []
+
+
+Underfull \hbox (badness 6893) in paragraph at lines 561--561
+\OT1/cmr/m/n/12 Click-ing on any par-tic-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--561
+\OT1/cmr/m/n/12 u-lar So-lu-tion opens it
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--561
+[]|\OT1/cmr/m/n/12 Printable op-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--561
+\OT1/cmr/m/n/12 the So-lu-tions as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--561
+\OT1/cmr/m/n/12 Thumb-nail Tile
+ []
+
+
+Underfull \hbox (badness 7273) in paragraph at lines 561--561
+\OT1/cmr/m/n/12 open on click-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
+[]|\OT1/cmr/m/n/12 On click-ing the Solved
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
+\OT1/cmr/m/n/12 Prob-lem thumb-nail the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
+\OT1/cmr/m/n/12 menu must be shown.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
+\OT1/cmr/m/n/12 Print-able and An-i-mated
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 562--562
+\OT1/cmr/m/n/12 op-tion An-i-mated in the
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 562--562
+\OT1/cmr/m/n/12 as Thumb-nail Tile List.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
+[]|\OT1/cmr/m/n/12 Animation op-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
+\OT1/cmr/m/n/12 the So-lu-tions as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
+\OT1/cmr/m/n/12 Thumb-nail Tile
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 562--562
+\OT1/cmr/m/n/12 and An-i-ma-tion is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 563--563
+[]|\OT1/cmr/m/n/12 Audio Recorded
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 564--564
+[]|\OT1/cmr/m/n/12 Subject Ti-tle dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
+[]|\OT1/cmr/m/n/12 The con-tents
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
+\OT1/cmr/m/n/12 are dis-played as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--566
+[]|\OT1/cmr/m/n/12 The con-tents
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--566
+\OT1/cmr/m/n/12 are dis-played as
+ []
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 566--566
+\OT1/cmr/m/n/12 Scrol-lable List of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--567
+\OT1/cmr/m/n/12 List can-not be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--567
+\OT1/cmr/m/n/12 scrolled up or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
+[]|\OT1/cmr/m/n/12 Bookmark Man-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
+[]|\OT1/cmr/m/n/12 Content can be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
+\OT1/cmr/m/n/12 book-marked and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--569
+[]|\OT1/cmr/m/n/12 Audio can be
+ []
+
+[33
+
+]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[34]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[35]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[36]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[37]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 576--577
+
+ []
+
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[39]
+Chapter 9.
+[40
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 608--610
+
+ []
+
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[41]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[42]
+Chapter 10.
+
+Underfull \hbox (badness 10000) in paragraph at lines 627--629
+
+ []
+
+
+Overfull \hbox (2.39807pt too wide) in paragraph at lines 634--635
+[]\OT1/cmr/m/n/12 We vi-su-al-ize Mag-gie to al-low ex-port var-i-ous for-mat c
+on-tent like slideshows, SCORM,
+ []
+
+[43
+
+]
+Chapter 11.
+[44
+
+]
+Appendix A.
+[45
+
+
+]
+Appendix B.
+[46
+
+] AED: lastpage setting LastPage [47
+
+] (Met Sample Template.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `"Met Sample Template".out' has not changed.
+(rerunfilecheck)             Checksum: DDFA78194070E2605EDBCB71D3C96833;9392.
+ ) 
+Here is how much of TeX's memory you used:
+ 8868 strings out of 478659
+ 139079 string characters out of 2855773
+ 475998 words of memory out of 3000000
+ 26724 multiletter control sequences out of 15000+600000
+ 410946 words of font info for 51 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 60i,12n,63p,1398b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\bright\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
+m1440.pk><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:
+/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><D:/Program F
+iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmti12.pfb>
+Output written on "Met Sample Template.pdf" (56 pages, 381546 bytes).
+PDF statistics:
+ 666 PDF objects out of 1000 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
+ 539 words of extra memory for PDF output out of 10000 (max. 10000000)
+

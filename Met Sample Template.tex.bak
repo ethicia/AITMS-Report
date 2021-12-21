@@ -1,0 +1,907 @@
+\documentclass[openany,12pt]{report}
+
+\setlength{\textwidth}{6.25in} % original 6.25
+
+\setlength{\textheight}{8.9in}
+
+\renewcommand{\baselinestretch}{1.3}
+
+%\headheight 12.0pt
+
+\oddsidemargin 20pt    %  Left margin on odd-numbered pages.
+
+\evensidemargin 20pt   %  Note that \oddsidemargin = \evensidemargin
+
+\topmargin 0pt
+
+%\headsep 10pt
+
+\footskip 10.0pt
+
+\usepackage {graphics}
+
+%\usepackage {algorithm}
+
+%\usepackage {algorithmic}
+
+\usepackage{color}
+\usepackage{lastpage} % for the number of the last page in the document
+
+\usepackage{fancyheadings}
+
+\pagestyle{fancy}
+
+\usepackage {epsfig}
+
+\usepackage {graphicx}
+
+\usepackage{float}
+\usepackage{array} % for making text bold in table
+
+\usepackage{longtable}
+\usepackage[dvips, bookmarks, colorlinks=false]{hyperref}
+%\usepackage{hyperref} %for creating links in the pdf version and other additional pdf attributes, no effect on the printed document
+
+
+%*****************************Title Page**************************************************************
+
+\begin{document} % Begin document "environment".
+\lhead{}
+\chead{}
+\rhead{M-Learning Framework for Multiple Platforms}
+\lfoot{ MET's Institute of Engineering}
+\setlength{\headrulewidth}{0.4pt}
+\setlength{\footrulewidth}{0.4pt}
+\fontsize{12}{15}
+\begin{titlepage}
+
+\begin{center}
+\begin{figure*}[h]
+\centerline{\psfig{figure=./puneuni.eps,width=2.2in,height=1.2in}}
+\label{atcres}
+\end{figure*}
+
+%\vspace{0.2in}
+{\bf A Project Report on} \\
+\vspace{0.3in}\\
+{\Large \bf ``M-Learning Framework for Multiple Platforms''}\\
+
+\vspace{0.3in}\\
+
+{\it Submitted by}\\
+
+\vspace{0.2in}
+
+{\bf Mr. Saurabh Rawal}\hspace{0.32in}  {\bf (Exam Seat No: B8474255)}\\
+{\bf Ms. Jaspreet Kohli }\hspace{0.3in} {\bf (Exam Seat No: B8474227)}\\
+{\bf Mr. Arpeet Kale     }\hspace{0.5in}  {\bf (Exam Seat No: B8474225)}\\
+{\bf Mr. Komal Bafna    }\hspace{0.43in}  {\bf (Exam Seat No: B8474206)}\\
+
+\vspace{0.3in}
+
+{\it in partial fulfillment of the requirements\\ for the award of the degree of}\\
+\vspace{0.2in}
+{\bf Bachelor in }\\
+\vspace{0.2in}
+{\bf COMPUTER ENGINEERING}\\
+\vspace{0.2in}
+{\bf For Academic Year 2011-2012}\\
+
+\vspace{0.2in}
+
+{\it Under the guidance of}\\
+
+\vspace{0.1in}
+
+{\bf Mr. Vaibhav D. Dabhade}\\
+\vspace{0.3in}\\
+
+
+{\small DEPARTMENT OF COMPUTER ENGINEERING \\
+
+{\large MET's Institute of Engineering Bhujbal Knowledge City}\\
+
+{\small Adgaon, Nashik-422003}\\
+{\small May, 2012}
+\end{center}
+
+
+\end{titlepage}
+
+
+
+%*****************************Certificate*************************************************************
+
+\fontsize{14}{16}
+\thispagestyle{empty}
+
+\begin{center}
+\begin{figure*}[h]
+\centerline{\psfig{figure=./metbkc.eps,width=7.2in,height=1.2in}}
+\label{atcres}
+\end{figure*}
+
+\vspace{0.1in}
+{\it \Huge  \textbf{Certificate}}
+\vspace{0.2in}
+
+{\it This is to Certify that}
+\vspace{0.2in}
+
+{\bf Mr. Saurabh Rawal}\hspace{0.32in}  {\bf (Exam Seat No:B8474255)}\\
+{\bf Ms. Jaspreet Kohli }\hspace{0.3in} {\bf (Exam Seat No:B8474227)}\\
+{\bf Mr. Arpeet Kale     }\hspace{0.5in}  {\bf (Exam Seat No:B8474225)}\\
+{\bf Ms. Komal Bafna    }\hspace{0.43in}  {\bf (Exam Seat No:B8474206)}\\
+
+\vspace{0.3in}
+{\it have completed the necessary project work and prepared the Preliminary Project Report on}\\
+\vspace{0.2in}\\
+{\Large \bf ``M-Learning Framework for Multiple Platforms''}\\
+\vspace{0.2in}\\
+{\it in satisfactory manner as a fulfillment of the requirement for the award of degree of  Bachelor of Computer Engineering in the Academic Year\\ 2011-2012}
+
+
+\end{center}
+\vspace{0.7in}
+\noindent
+
+\hspace{0.1in} Project Guide  \hspace{1.0in}H.O.D \hspace{0.8in} Principal \hspace{0.3in} External Examiner \\
+\hspace{4.6in} (Mr. Vaibhav Dabhade) \hspace{0.2in}(Dr. M. U. Kharat)\hspace{0.2in}(Dr. V. P. Wani)\\
+\begin{center}
+
+\end{center}
+\newpage \pagenumbering{roman}
+\vskip
+\chapter*{Acknowledgements\markboth{Acknowledgements}{Acknowledgements}}\\
+
+\hspace*{0.5in}We have taken efforts in this project. However, it would not have been possible without the kind support and help of many individual and organizations. We would like to extend our sincere thanks to all of them. It gives us proud privilege to complete the project on \textbf{ ``M-Learning Framework for Multiple Platforms''}. We are highly indebted to our internal guide \textbf{Mr. Vaibhav D.  Dabhade} for his guidance and constant supervision as well as for providing necessary information regarding the project and also for his support in completing the project.\\
+\\
+\hspace*{0.5in}We are also extremely grateful to our respected H.O.D. (Computer Department) \textbf{Dr. M. U. Kharat}  and  \textbf{Prof. Archana Ugale} (Project Co-ordinator) for providing all facilities and every help for smooth progress of project work.\\
+\\
+\hspace*{0.5in}The project is sponsored by Cognifront Pvt. Ltd. We would like to express our special gratitude and thanks to \textbf{Mr. Suchit Tiwari, Cognifront Pvt. Ltd.} and his team for their kind co-operation and encouragement which helped us in completion of this project.\\
+\\
+\hspace*{0.5in}Our thanks and appreciation also goes to our beloved parents for their blessings, all the staff members, friends and colleagues for providing help and support in our work.\\
+\\
+\\
+\hspace*{4.0in}Mr. Saurabh Rawal\\
+\hspace*{4.0in}Ms. Jaspreet Kohli\\
+\hspace*{4.0in}Mr. Arpeet Kale\\
+\hspace*{4.0in}Ms. Komal Bafna
+
+
+%*****************************Abstract*************************************************************
+
+
+
+
+\chapter*{Abstract\markboth{Abstract}{Abstract}}\\
+\hspace*{0.5in}The Global Renaissance in Education is happening as the mankind has realized that to solve tomorrows problems we have to globally unite and education will remain at the forefront of everything. Government's objective is to raise the Gross Enrollment Ratio to over 30 percent by 2020. As a result the Enrollment in University System are expected to rise to 45 Million
+students from current 15 Million by 2020 and as a result the number of Universities will increase to 1000+ from current 500+ Universities by 2020. Another 45000 Colleges will be required to raise the Gross Enrollment Ratio, these requirements introduce the need of M-Learning. M-Learning can be thought of as delivering eLearning on small form factor devices and it has the potential to do much more than deliver courses, or parts of courses. It includes the use of mobile/hand-held devices to deliver Education/Learning.\\
+\\
+\hspace*{0.5in}Our project basically focuses on providing an environment that will help develop M-Learning applications for learners. The architecture of M-Learning framework encompasses of system specifications and an actual working application based on Android 2.2 (Froyo), Android 2.3 (Gingerbread), Android 3.0 (Honeycomb) and Android 4.0 (Ice Cream Sandwich) platforms. The M-Learning framework will also import Engineering learning contents from Cognifront. The framework will also provide SD-card based M-Learning, it will include Animated/Multimedia/2D/3D based content and Interactive 2D/3D content. The framework will include Cognitive Science Research Implementations carried out recently at Cognifront by the prodigies in the field of education.\\
+
+\newpage
+\tableofcontents
+\listoffigures
+\listoftables
+\newpage	
+\pagenumbering{arabic}
+
+
+
+
+%*****************************Chapter1 *****************************
+
+\chapter{Introduction}\\
+\hspace*{0.5in}This chapter describes the term M-Learning and introduces the concept of M-Learning Framework. It also gives the overview of the M-Learning Framework which describes the deliverables of the project. We have code named our project as Maggie.\\
+\section{Objective}
+%*************************Chapter 2************************
+
+\chapter{Literature Survey}\\
+
+\hspace*{0.5in}In this chapter we will see the various studies and research conducted in order to identify the current scenarios and trends in digital learning and also the attempts of introducing mobile devices in education.
+
+\section{Gartner's Report 2011}
+\hspace*{0.5in}Gartner estimates that by the end of 2012, 5 billion people will carry handsets capable of rich, mobile commerce providing an ideal environment for the convergence of mobility and the Web. Mobile devices are becoming computers in their own right, with an astounding amount of processing ability and bandwidth. There are already hundreds of thousands of applications for platforms like the Apple iPhone, in spite of the limited market (only for the one platform) and need for unique coding.
+\\
+\hspace*{0.5in}The quality of the experience of applications on these devices, which can apply location, motion and other context in their behavior, is leading customers to interact with companies preferentially through mobile devices. This has lead to a race to push out applications as a competitive tool to improve relationships and gain advantage over competitors whose interfaces are purely browser-based.
+
+\section{Evolution towards M-Learning, Marela Andres}
+\hspace*{0.5in}The integration of technology in education forms a new breed of learning called M-Learning or mobile learning. In the broadest terms, M-Learning is the learning process that the learner goes through while using mobile technologies. Mobile technologies are devices which include laptops, MP3 players, notebooks, and mobile phones. These gadgets remove the need for the student to be in a fixed position (e.g., in the classroom) to learn; thus increasing mobility in one’s education. This paper focuses on the necessary changes in learners, teachers, technologies and educational institutions in order to make use of the learning opportunities that M-Learning offers\cite{paper9}.
+
+\section{Managed M-Learning, Greg Luckock}
+\hspace*{0.5in}Research In Motion (RIM) sold over 50,000,000 Blackberry devices in the past ten years according to an April 2009 article on mobilewack.com. It also states that RIM announced the number of current users surpassed 25 million. Of that, 3.9 million were added in the first quarter of 2009 alone. The article claims Blackberry is now available in 150 countries from roughly 425 carriers, these statistics are only for Blackberry. When all the other Windows mobile, Apple, Palm and other smart-phone devices are added to that number, it seems obvious to those of us in the training industry that there is a very large audience of potential learners who use mobile devices daily.
+\\
+\hspace*{0.5in}The dilemma for learning professionals has been to find a way to leverage the audience's familiarity with these devices for training solutions. In an attempt to capitalize on the popularity and portability of mobile devices, early-applications of M-Learning have focused on getting the content to the learners, not tracking their interactions and results\cite{paper10}.
+
+\section{Summary}
+\hspace*{0.5in}In this chapter we discussed the various researches conducted in order to achieve a clear view of mobile learning framework and also understand the needs of users who are attracted towards digital education.
+%*************************Chapter 3 ************************
+
+\chapter{Problem Definition}\\
+
+\hspace*{0.5in}This chapter explains the need of M-Learning Framework and also describes the importance of high quality mobile education. It introduces the basic concept of the role of mobile devices in learning.\\
+
+
+\section{Summary}
+\hspace*{0.5in}In this chapter we introduced
+
+
+%*****************************Chapter 4******************
+
+
+\chapter{Analysis}
+
+\hspace*{0.5in}This chapter describes the project plan adopted and determines the requirement analysis. We have implemented the project on the basis of Rapid Application Development (RAD) model and Model View Controller (MVC) model. The stake holders who participated in the requirement analysis process were the developers of Cognifront who will be among the end users of the M-Learning Framework for building M-Learning Applications.
+
+\section{Project Plan}
+
+\subsection{Project Plan for semester I}
+
+\hspace*{0.5in}The following Table 4.1 describes the project plan for semester I. It describes the various activities and accountability of the developers for the respective modules. Following are the major activities carried out in this plan :
+\begin{itemize}
+\item{Identifying the functional requirements.}
+\item{Designing of the Framework.}
+\item{Studying the necessary development tools and technologies.}
+\end{itemize}
+
+\newpage
+\begin{table} [htb]
+\centering
+\begin{tabular}{|p{1.2cm}|p{5cm}|p{2.5cm}|p{2.5cm}|p{3cm}| }\hline
+\textbf{Phase}	&\textbf{Activity}	&\textbf{Start Date}	&\textbf{End Date} &\textbf{Group Members}\\\hline\hline
+1 &Selection of Project Topic	&22-07-2011 	&25-07-2011 &Team \\\hline
+1 &Functional Requirement Specification(FRS) &29-07-2011 &09-08-2011 &Team\\\hline
+1 &Design Prototype &11-08-2011 &21-08-2011 &Team\\\hline
+1 &Set Theory and Math Model &23-08-2011 &06-09-2011 & Jaspreet, Saurabh \\\hline
+1 &UML Diagram Prototype &23-08-2011 &03-09-2011 &Team \\\hline
+1 &Project Problem Statement using NP Complete &08-09--2011 &19-09-2011 &Arpeet, Komal\\\hline
+1 &UML Diagram in StarUML &05-09-2011 &22-09-2011 &Team \\\hline
+1 &Paper Presentation &05-10-2011 &05-10-2011 &Team \\\hline
+1 &Software Requirement Specification &6-10-2011 &10-10-2011 &Team \\\hline
+1 &Test Plan &11-10-2011 &15-10-2011 &Team \\\hline
+\end{tabular}
+\caption{Planner and Progress Report I for Maggie}
+\label{tab:nnwork}
+\end{table}
+
+
+\subsection{Project Plan for semester II}
+\hspace*{0.5in}The following Table 4.2 describes the project plan for semester II. It describes the various activities and accountability of the developers for the respective modules. Following are the major activities carried out in this plan :
+\begin{itemize}
+\item{Define Programming Standards.}
+\item{Development of project in 3 Milestones.}
+\item{Formal Technical Review and Testing.}
+\end{itemize}
+\newpage
+\begin{table} [htb]
+%\centering
+\begin{tabular}{|p{1.2cm}|p{5cm}|p{2.5cm}|p{2.5cm}|p{3cm}| }\hline
+\textbf{Phase}	&\textbf{Activity}	&\textbf{Start Date}	&\textbf{End Date} &\textbf{Group Members}\\\hline\hline
+2 &Defining Programming Standards	&10-12-2011 	&15-12-2011 &Team \\\hline
+2 &Development of Milestone No.1 &16-12-2011 &05-01-2012 &Team\\\hline
+2 &Development of Milestone No.2 &7-01-2012 &02-02-2012 &Team\\\hline
+2 &Development of Milestone No.3 &05-02-2012 &29-02-2012 & Team \\\hline
+2 &Formal Technical Review &02-03-2012 &10-03-2012 &Team \\\hline
+2 &Testing and Bug Fixing  &22-03-2012 &10-04-2012 &Team\\\hline
+
+\end{tabular}
+\caption{Planner and Progress Report II for Maggie}
+\label{tab:nnwork}
+\end{table}
+
+\section{Requirement Analysis}
+
+\subsection{Necessary Functions}
+\begin{itemize}
+\item{Deliver a reusable piece of code.}
+\item{Build an application and}
+\item{Deployment of application built onto the tablet.}
+\end{itemize}
+
+\subsection{Desirable  Functions}
+\begin{itemize}
+\item{Social Networking Interface.}
+\item{Bookmark Manager.}
+\item{Interactive Objects.}
+\item{PDF and PPT Reader.}
+\end{itemize}
+
+\section{Summary}
+\hspace*{0.5in}In this chapter we described the implementation details of the project plan for Semester I and Semester II. We also studied the necessary functions and the desirable functions of M-Learning Framework.
+%*****************************Chapter5***************
+
+\chapter{Design}\\
+\hspace*{0.5in}This chapter describes the Software Requirement Specification (SRS) to be implemented for Maggie. It also explains the architecture of the system and external interface requirements. We have also described the Risk assessment strategy and the Data Flow Diagram which explains the flow of the project.
+\section{Software Requirement Specifications}
+\hspace*{0.5in} The Software Requirement Specification describes the scope of the project, operating environment, user characteristics, design and constraints. It also elaborates the system architecture of the M-Learning Framework.
+
+\subsection{Project Scope}
+
+\hspace*{0.5in}Mobile devices are becoming ever more important due in main to their ubiquity. The number of mobile phone subscribers will increase to 5 billion in 2012. Because of the growth of smart-phones in developed nations and mobile services in poor nations. Industry predictions are that the sales of smart-phones will surpass that of ordinary mobile phones. The definition and scope of mobile learning is central to the debate over the pedagogic use of such devices. “Mobile learning framework– as we understand it is not about delivering content to mobile devices but instead about the processes of coming to know and being able to operate successfully in and across, new and ever changing contexts and learning spaces”. “M-Learning Framework  is understood as the process of coming to know and being able to operate successfully  in and across ever changing contexts and learning spaces as well as understanding and knowing how to utilize  our everyday life worlds as learning spaces. It is viewed as a process of meaning making through communication and conversation across multiple contexts among people within a triangle of social structures, cultural practices and agency as well as an augmentation of the inner, conceptual and outer semiotic resources – increasingly with and through mobile devices\cite{paper2}.”
+\\The scope of M-Learning Framework for Multiple Platforms can be considered as a collection of reusable piece of code, style-sheets and include files that can be used by the developer for developing learning applications and also considering the following points :
+\begin{itemize}
+\item{Making learners mobile so that they are able to expand their horizons.}
+\item{Engaging learners on their own ground and addressing them as people who are learners already and    as knowledge makers.}
+\item{Providing them full recognition in their position and achievements in their lives; as well as of their position as learners and makers of knowledge. In this context, learning means being mobile, being able to change.}
+\end{itemize}
+
+\subsection{Operating Environment}
+\hspace*{0.5in}We propose an M-Learning Framework for developers to develop learning application with ease of operations that will save the time for developing the application as the reusable piece of code will be provided in our framework. Furthermore, this application can be used by the user for learning anywhere and anytime required with interactivity and portability.
+
+\subsection{User Classes and Characteristics}
+\hspace*{0.5in}The user who is going to operate the system should have the tablet or phone having android as the base operating system.
+
+\subsection{Design and Implementation Constraints}
+\hspace*{0.5in}Using mobile devices like phones, tablets, and laptops (with touch interface) has a very different set of challenges. The issue is not whether you have larger screen - but fundamentally they are different.\\
+\\ Battery life, screen size, form factor, variations in keyboard availability and dynamically changing orientation (horizontal or vertical positioning done by user) present using set of issues to be dealt with. The sponsoring organization Cognifront develops teaching tools software as well as self learning aids for students. Keeping in mind vision of Cognifront, it was necessary to innovate the space where maximum number of users would benefit. Mobile devices including phones and tablets are the most prominent majority - and also have high projections for the future. So it is imperative that we have to have good tools for content creation and dissemination. Teachers who are our prime focus must have some superb tools to create their M-Learning modules. And students, who will eventually consume these modules, must have excellent tools to use these M-Learning units. Out of this exact need, Maggie was born. Maggie must be extremely portable, FREE to use and open source. Our philosophy is to make world a better place.\\
+\hspace*{0.5in}Following are the merits of the design implementation :
+\begin{itemize}
+\item{\textbf{Portability:}  As it is M-Learning, on the move learning is achieved anywhere and anytime.}
+\item{\textbf{Delivery Mechanism:}  It is convenient to develop application and even very easy to use.}
+\item{\textbf{User-friendly:}  It is user-friendly due to the use of mobile devices like tablets.}
+\end{itemize}
+
+\subsection{Assumptions and Dependencies}
+\hspace*{0.5in}The Framework is capable of allowing the developer to develop the learning application with ease and import it on the tablet(Android OS)  . This application developed by the vendor will allow the user to use it with high power of interactivity and portability. The commercialization of the tablets  may take time. It incorporated best practice in M-Learning research into a practical framework of M-Learning design requirements.
+
+\newpage
+\section{System Architecture}
+
+\hspace*{0.5in}In the current scenario, there are the various hardware platforms available as shown above. Above these the Operating Systems reside. The application programming interfaces are above the Operating Systems and provide the interaction between the applications built on them and the underlying Operating System and the Hardware Platform. There layer above the API is occupied by the M-Learning framework on which the applications are proposed to be built. Following is the detailed description of each layer.
+\\
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in,height=5in]{./sysarc}
+\caption{M-Learning System Architecture}
+\end{figure}
+\\
+\hspace*{0.5in}An \textbf{operating system (OS)} is a set of programs that manages computer hardware resources, and provides common services for application software. The operating system is the most important type of system software in a computer system. Without an operating system, a user cannot run an application program on their computer, unless the application program is self booting. An \textbf{Application Programming Interface (API)} is a particular set of rules (code) and specifications that software programs can follow to communicate with each other.I t serves as an interface between different software programs and facilitates their interaction, similar to the way the user interface facilitates interaction between humans and computers. An API can be created for applications, libraries, operating systems, etc., as a way of defining their vocabularies and resources request conventions (e.g. function-calling conventions). It may include specifications for routines, data structures, object classes, and protocols used to communicate between the consumer program and the implementer program of the API.
+\\
+\hspace*{0.5in}An API consist of a core set of packages and classes. As shown in the Figure 4.1 the applications will be built using the M-Learning Framework. These applications will be built by importing the libraries, include files and the style sheets developed as a whole framework. The framework is developed considering the developer's point of view that is to be able to develop the applications by putting in less time and efforts. Thus the developer will access the API’s present in the framework and develop the applications by writing small amount of code.
+
+\section{External Interface Requirement}
+
+\subsection{User Interfaces}
+
+\begin{itemize}
+\item{\textbf{Desktop Application:}  Using the desktop application the end user will be able to provide the M-Learning content for the application to be developed using the M-Learning Framework.}
+\item{\textbf{M-Learning Application:}  The M-Learning application will provide a Graphical User Interface which will consist of several screens which the end user will be able to navigate to consume learning.}
+\end{itemize}
+
+\subsection{Hardware Interfaces}
+\begin{itemize}
+\item{\textbf{Mobile Devices:} The M-Learning applications built using the framewok will be deployed on mobile devices like smart-phones and tablets supporting Android operating system version 2.2 and above.}
+\item{\textbf{SD card:}  The M-Learning application will load the learning content stored on the SD card. End user will be able to write on the SD card as well.}
+\end{itemize}
+
+\subsection{Communication Interfaces}
+\hspace*{0.5in}The M-Learning application will be communicating through the internet via a Transmission Control Protocol of the TCP/IP suite for Social Networking Interface(SNI) and video streaming.
+
+\section{Software System Attribute}
+\begin{itemize}
+\item{\textbf{Reliability:} The M-Learning applications built using the framewok should ensure that the SD card is mounted on the device. Internet facility must be available for using the feature of Social Networking Interface and video streaming.}
+\item{\textbf{Availability:} The M-Learning application shall be available and running in a stable state at all times.}
+\item{\textbf{Maintainability:}  The M-Learning framework shall be available to the developers for developing theri own M-Learning applications.}
+\item{\textbf{Portability:}  The M-Learning application can be used regardless of the time and location constraints.}
+
+\end{itemize}
+
+\section{Nonfunctional Requirement}
+\hspace*{0.5in} M-learning systems represent a broad class of software systems with complex characteristics that tend to make evaluation difficult. The educational potential of mlearning contents, both as a learning and teaching tool, is widely acknowledged, and various initiatives undertaken encourage the integration of educational multimedia resources in school practice.\\
+\hspace*{0.5in}There  is a need to develop richer models for capturing and analysing NFRs in Software Engineering. However this not a simple enterprise.
+Mobile e-Learning is so new that we are only beginning to see the potential of mobile devices in training and performance support.\\
+\hspace*{0.5in}Following are the Non Functional Requirements of M-Learning Framework:
+\begin{itemize}
+\item{\textbf{Small screen size of mobile devices:} Mobile devices are small, portable and compact. They can often fit in a pocket or purse. Unlike laptop computers, which are expensive, heavy and power hungry, mobile devices are relatively low-cost, lightweight, and some work a very long time on a charge or a couple of standard disposable or rechargeable batteries.
+The small screen size of mobile devices  makes some people questions their worth as e-Learning delivery tools. The truth is, some of these devices also have good audio capability,allowing students to listen to a narrated
+lecture, rather than read material on a small screen.}
+\item{\textbf{Input capabilities:} Input capabilities  of some of these devices, questioning students’ ability to enter large amounts of text into a device to take notes or answer an essay-type question..}
+\item{\textbf{Extremely Adaptable:} Many of these devices, however, are extremely adaptable and can be attached to a full-size folding keyboard that makes entering large amounts of information every bit as fast as with a conventional computer.}
+\end{itemize}
+\hspace*{0.5in}As mobile devices evolve and people discover new ways in which mobile devices functionalities can be applied to training, mobile e-Learning will likely become something increasingly different from conventional e-Learning.
+
+\section{Risk Assessment}
+\hspace*{0.5in}The Figure 5.2 shows a very simple framework for assessing individual risks that have been identified.
+\newpage
+\begin{figure}[H]
+\centering
+\includegraphics[width=5in,height=4in]{./risk}
+\caption{Risk Assessment}
+\end{figure}
+\hspace*{0.5in}We have adopted this framework for the categorization of risk areas for M-learning Framework. The two main axes represent potential impact and likelihood. There are only two values on each axis: high or low. This forces a simple binary judgment to be made about any risk. There is a third dimension, also binary, that measures whether the speed of onset of the risk is considered to be slow or fast. This third dimension is rarely alluded to in the guidance literature but it makes an important difference to how a risk is treated.\\
+\hspace*{0.5in}This framework identifies just eight possible outcomes. These consist of the four labeled areas of the diagram, A, B, C and D, together with an indication of whether the onset of the risk is slow (s) or fast (f).Determining where a risk fits on this model requires making simple but significant judgments about each risk. Often, the placing of a risk within this framework can be achieved by making a considered judgment about appropriate reactions. Assuming that a particular risk is to be treated (rather than tolerated, transferred or the associated activity terminated) there are natural responses to each category, as given in the following table:
+\newpage
+\begin{table} [htb]
+\centering
+\begin{tabular}{|p{3cm}|p{10cm}|}\hline
+\textbf{Category}	&\textbf{Response}\\\hline\hline
+Af &“All hands to the pump” – drop everything and deal with this\\\hline
+As &Major priority to take evasive action. Develop “worst case scenario” plan\\\hline
+Bf &Fire fighting: contain the crisis and implement a recovery plan\\\hline
+Bs &Develop a recovery plan. Monitor early warning signs carefully\\\hline
+Cf &Minor but regular problem: develop rapid response capability and put resources into determining causes \\\hline
+Cs &Minor but regular problem with early warning signs. Develop response capability and put resources into determining causes\\\hline
+D &Monitor to ensure it does not move in the direction of A, B or C \\\hline
+
+\end{tabular}
+\caption{Risk Assessment category}
+\label{tab:nnwork}
+\end{table}
+\\
+\\
+\hspace*{0.5in} Following is the list of risks identified:
+\begin{itemize}
+\item{\textbf{Insufficient or uncertain human resources }\\
+\textbf{Af:} High likelihood, high impact, fast onset. \\
+Significant anecdotal evidence exists that the human resources and time needed to create content is frequently underestimated. Even with ready-made material, creating content is extremely time-intensive. Also, projects cannot assume that after creation of a content infrastructure, subject experts will be able to create M-Learning content independently - they will require guidance and support, which is likely to increase demand for human resources both from the project team and from parent institutions.}
+\item{\textbf{Technical limitations of solutions reached or exceeded}\\
+ \textbf{As:}High likelihood, high impact, slow onset.\\
+The technologies used by some of the projects are at the leading edge of development and may not always meet prior expectations.\\
+\\
+\hspace*{0.5in}Several of the projects depend on technology and systems development and implementation work and in a few cases a particular technology turned out not to be capable of providing the required solution at its current stage of development.}
+\item{\textbf{Failure to meet technical standards}\\
+ \textbf{Bs:}Low likelihood, high impact, slow onset.\\
+The effect of failure to meet technical standards is only likely to be felt once the project is completed. Some concerns were expressed regarding the level of ‘maturity’ of potentially relevant emerging standards, and the uncertainties this brings for project.}
+\item{\textbf{Poor Quality Assurance}\\
+\textbf{D:} Low likelihood, low impact (but could become a problem if not attended to)\\
+Quality assurance should be built into the project management process. However, there may be specific quality issues associated, for example, with projects producing M-Learning materials. There is a particular issue with Learning Objects, their definition and reuse.}
+\end{itemize}
+\section{Data Flow Diagram}
+\hspace*{0.5in} The Data Flow Diagram of the M-Learning Application developed using the M-Learning Framework is as shown in Figure 5.3. The Data Flow Diagram explains the flow of information in the project that is it indicates from where information (data) is reseived (inputs) and where information is send (outputs).\\
+\newpage
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in,height=7.5in]{./dfd}
+\caption{Data Flow Diagram}
+\end{figure}
+
+\section{Summary}
+\hspace*{0.5in} In this chapter we studied the operating environment and the user classes and characteristics which describes the scope of the project. We have also described the software system attributes and various nonfunctional requirements.
+%*****************************Chapter 6******************
+
+\chapter{Modeling}
+
+\hspace*{0.5in} This chapter includes the various modeling techniques which describes the various users of the M-Learning Framework and M-Learning application. It also describes the functionality of the different features of the M-Learning framework.
+
+\section{Use Case Diagram}
+\hspace*{0.5in} A use case diagram is a type of behavioral diagram defined by the UML created from a use case analysis. Its purpose is to present a graphical overview of the functionality provided by a system in terms of actors, their goals represented as use case and any dependencies between those use cases.\\
+\hspace*{0.5in}Four modeling elements make up the use case diagram; these are:\\
+\begin{itemize}
+\item{\textbf{Actors:} Actors refer to a type of users, users are people who use the system. In this case student, teacher developer are the users of the framework and application}
+\item{\textbf{Use cases:} A use case defines behavioral features of a system. Each use case is named using a verb phrase that express a goal of the system. The name may appear inside or outside the ellipse.}
+\item{\textbf{Associations:} An association is a relationship between an actor and a use case. The relationship is represented by a line between an actor and a use case.}
+\item{\textbf{The include relationship:} It is analogous to a call between objects. One use case requires some type of behavior which is fully defined in  another use case.}
+\end{itemize}
+\newpage
+\begin{figure}[H]
+\centering
+\includegraphics[angle=90,height=7.5in]{./usecase}
+\caption{Use Case Diagram}
+\end{figure}
+
+\newpage
+\section{Class Diagram}
+\hspace*{0.5in}The class diagram shows the building blocks of any object oriented system. Class diagram depicts a static view of the model or part of the model, describing what attributes and behavior it has rather that the detailing the methods of achieving operations. Class diagrams are most useful in illustrating relationships between classes and interfaces. Generalizations, aggregations, and associations are all valuable in reflecting interface, composition or usage and connections receptively.\\
+\hspace*{0.5in}The Figure 6.2 illustrates aggregation relationships between classes. The lighter aggregation indicates that the class ObjectExplorer used ThumbNail, but does not necessarily contain an instance of it.The strong, composite aggregations by the other connectors indicate ownership or containment of the source classes by the target. Class, for example VideoPlayer  values will be contained in TableOfContents.
+\newpage
+\begin{figure}[H]
+\centering
+\includegraphics[angle=90,width=6in, height=8in]{./class}
+\caption{Class Diagram}
+\end{figure}
+
+\newpage
+\section{Activity Diagram}
+\hspace*{0.5in}Use cases show what your system should do. Activity diagrams allow you to specify how your system will accomplish its goals. Activity diagrams show high-level actions chained together to represent a process occurring in your system. An activity diagram is essentially a flowchart, showing flow of control from activity to activity. Unlike a traditional flowchart, an activity diagram shows concurrency as well as branches of control. Activity diagrams focus on the dynamic flow of a system.\\
+\hspace*{0.5in}An activity is the process being modeled, such as using the M-Learning application. An action is a step in the overall activity, such as select subject, select topic. The flow of the activity is shown using arrowed lines called edges or paths. The arrowhead on an activity edge shows the direction of flow from one action to the next. A line going into a node is called as an incoming edge, and a line exiting a node is called an outgoing edge. Fork Node is used to show the parallel or concurrent actions. Fork has single incoming flows and multiple outgoing flows. The join means that all incoming actions must finish before the flow can proceed past the join. Join has multiple incoming flows and single outgoing flow.
+\newpage
+\begin{figure}[H]
+\centering
+\includegraphics[angle=90]{./activity1}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[angle=90]{./activity2}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[angle=90]{./activity3}
+\caption{Activity Diagram}
+\end{figure}
+
+\section{Sequence Diagram}
+\hspace*{0.5in}The sequence diagram is used primarily to show the interactions between objects in the sequential order that those interactions occur. Developers typically think sequence diagrams were meant exclusively for them. However, an organization's business staff can find sequence diagrams useful to communicate how the business currently works by showing how various business objects interact.Sequence diagrams illustrate how objects interact with each other. They focus on message sequences, that is, how messages are sent and received between a number of objects. The main purpose of sequence diagram is to show the order of events between the parts of system that are involved in particular interaction.\\
+\hspace*{0.5in}The basic element of sequence diagram is collection of participants, that is, the parts of the system that interact with each other during the sequence. The participants are arranged horizontally with no two participants overlapping each other. in Figure 6.4 developer, framework, applications are some examples of participants. A message is communication between objects that conveys information with the expectation that action will be taken. An event is any point in an interaction where something occurs. Message can flow in whatever direction makes sense for the required interaction from left to right, right to left, or even back to the Message Caller itself.
+\newpage
+\begin{figure}[H]
+\centering
+\includegraphics[angle=90,width=6in,height=8in]{./Sequence}
+\caption{Sequence Diagram}
+\end{figure}
+
+\newpage
+\section{Package Diagram}
+\hspace*{0.5in} Package diagrams are used to reflect the organizations of packages and their elements, and provide a visualization of their corresponding name space. Following are the elemts of package diagram:
+\begin{itemize}
+\item{\textbf{Package:} A package is a namespace as well as an element that can be contained in other package's namespace. A package can own or merge with other package, and its elements can be imported into a package's namespace.}
+\item{\textbf{Class:} A class is a representation of objects, that reflects their structure and behavior within the system. It is a template from which actual running instances are created. A class may have attributes and methods.}
+\item{\textbf{Interface:} An interface is a specification of behavior that implements agree to meet, it is a contract. By implementing an interface, classes are guaranteed to support a required behavior.}
+\item{\textbf{Object:} An object is an instance of a class at runtime. Objects are often used in analysis to represent the numerous artifacts and items that exist in any business.}
+\item{\textbf{Table:} A table is a stereotyped class. It is drawn with a small table icon in the upper right corner. A table element has special properties dialog with settings for database type and ability to set column information and data related operations such as triggers and indices.}
+\end{itemize}
+\newpage
+\begin{figure}[H]
+\centering
+\includegraphics[angle=90,width=6in, height=8in]{./package}
+\caption{Package Diagram}
+\end{figure}
+
+\newpage
+\section{State Machine Diagram}
+\hspace*{0.5in}A state machine diagram models the behavior of a single object, specifying the sequence of events that an object goes through during its lifetime in response to events. In figure 6.6, the state machine diagram shows the states the that a video or an audio file goes through during its lifetime. The file can be in one of the four states Play, Pause, Seek or Stop. It can respond to the events Play, Pause, Seek and Stop. Notice that not all events are valid in all states. For example; if a video is stopped, you cannot pause it until you play it. Also notice that a state transition can have a guard condition attached. If the file is stopped it can only respond to the play event.
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in,height=5.2in]{./statemachine}
+\caption{State Machine Diagram}
+\end{figure}
+
+\newpage
+\section{Object Diagram}
+\hspace*{0.5in}In UML, an object diagram is a diagram that shows complete or partial view of the structure of a modeled system at a specific time. This snapshot focuses on some particular set of object instances and attributes and link between instances. Object diagrams are useful in understanding class diagrams. They don't show anything architecturally different to class diagram, but reflects multiplicity and roles. Basically an object diagram shows a set of objects and their relationships at a specific point in time.\\
+\hspace*{0.5in}To draw an object diagram, the first thing is to add the actual objects themselves. Object notation is actually very simple if one is familiar with class notations; an object is shown with a rectangle just like a class, but to show that this is an instance of a class rather than the class itself, the title is underlined. An object is representation of an entity. Each object in  a system has three characteristics: state, behavior and identity. The state of an object is one of the possible conditions in which it may exist, the state of an object typically changes over time.
+\newpage
+\begin{figure}[H]
+\centering
+\includegraphics[angle=90,width=6in,height=8in]{./Object}
+\caption{Object Diagram}
+\end{figure}
+
+
+\newpage
+\section{Component Diagram}
+\hspace*{0.5in}Component diagram are one of the two kinds of diagrams found in modeling the physical aspects of object oriented systems. A component diagram shows organization and dependencies among set of components. Component diagram can be seen to model the static implementation view of a system. This involves modeling the physical things that resides on a node, such as executables, libraries, tables, files and documents.\\
+\hspace*{0.5in}Component diagram shows a set of components and their relationships. Graphically a component diagram is a collection of vertices and arcs. Component diagrams commonly contain,
+\begin{itemize}
+\item{\textbf{Components}}
+\item{\textbf{Interfaces}}
+\item{\textbf{Dependency, generalization, association and realization relationships.}}
+\end{itemize}
+\newpage
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in,height=5in]{./component}
+\caption{Component Diagram}
+\end{figure}
+
+\newpage
+\section{Deployment Diagram}
+\hspace*{0.5in}he deployment diagram depicts the runtime architecture of devices, execution environments and artifacts that reside in this architecture. It is the ultimate physical description of the system topology, describing the structure of the hardware units and the software taht executes on each unit. The deployment diagram shows how a system will be physically deployed in the hardware environment. Its purpose is to show where the different components of the system will physically run and how they will communicate with each other.
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in,height=5.7in]{./deployment}
+\caption{Deployment Diagram}
+\end{figure}
+
+\section{Summary}
+\hspace*{0.5in}Thus we saw the various modeling techniques used for the design of M-Learning Framework and the M-Learning Applications.
+
+%*****************************Chapter 7******************
+
+\chapter{Implementation and Results}
+\hspace*{0.5in}This chapter consists of the various implementation details and snapshots of the M-Learning Application developed using the M-Learning Framework.
+
+\section{Implementation Details}
+\hspace*{0.5in}This section describes the various features of the Maggie and also describes the implementation methods. Following are some of the features explained with their implementation details:\\
+\begin{itemize}
+
+\item{\textbf{Multilingual Application:}The Multilingual feature is one of the most important features provided by the framework. The framework provides support for the Hindi language along with English; which is a primary language. The framework can provide support for more languages if required. This is implemented using the language packs of the respective language. Using the Language button on the transparent bar the user can switch between the languages. The user input is recorded in a text file and depending upon the user language selection the typeface of the content titles is changed. The content like theory animations also can be changed to respective language if recorded in that language.}
+
+\item{\textbf{Social Networking Interface (SNI):} The SNI consists of Twitter and Facebook. This implementation requires the supporting archives and libraries for both Twitter and Facebook. The Twitter and Facebook provides the app interface to facilitate the interaction and related activities. The authentication is done using these app interfaces.The library Twitter 4J is required for the Twitter SNI Support. The OAuth Authentication is used for the authentication. This requires signing up for the Twitter App which provides with the consumer key, secret key and callback url. Using this authentication is done. When the framework app user first uses the Twitter, it asks for the authorization to the Twitter App and then after the authentication the user is directed to his/her account. Then the user can publish the posts. }
+
+\item{\textbf{Logger:}The Logger is basically used for the keep track of the usage of the framework application. It logs the activities performed by the user to a text file on the SD card. It stores information like the Device Manufacturer, Device Name, Android Operating System version, Subject being consumed and the other activities performed during learning with date and time. The Logger can also be used for error detection and correction. By tracking through the log files the reason for the failure can be uncovered.}
+
+\item{\textbf{Objective Test Taking:}The Objective Test Taking provide the user/learner to assess the knowledge consumed using the framework app. The question along with four options is displayed when the user starts the test. Out of the four options one is the answer. The user has to select one option and proceed to next question. At the end of the test the result is displayed and also the user can verify the answers. The SQLite version 3.7 is used for storing the questions and answers. By clicking on the next button the next question and associated options are retrieved.
+}
+
+\item{\textbf{Interactive Objects:}The interactive objects explorer provides the user with the various interactive objects to interact with and consume knowledge through the touch based interaction. This is implemented using the FLASH & HTML support for mobile devices. The framework app lists the HTML interactive files stored on the SD card. The user can then select between those for learning. When a selection is made the HTML code triggers the respective SWF file and the interactive object is displayed. User can then interact using the touch and gain knowledge.}
+
+\item{\textbf{Notes Manager:}The Notes Manager utility is basically for taking down notes in three different forms-Type, Audio Record and Sketched Notes; as per user's wish.\\
+\textbf{1. Typed Notes:}This is basically a notepad where user/learner can type the notes which are stored in the database. The database is created using SQLite. Every time user adds a new note it is stored in the database and is retrieved whenever user wants to.\\
+\textbf{2.Audio Recorded Notes:}The user/learner can record the notes in audio format and play it back as well. The framework provides support for two types of audio format- 3GPP & MP4. This is implemented by creating a new file with the specified extension every time user starts a new recording. This file is then saved to the SD card when user stops recording. Each new file saved on the SD card is named as Recording & its associated number (E.g. Recording 1) along with current date.
+\\
+\textbf{3. Sketched Notes:}The user/learner can sketch the diagrams whenever required using this utility. The user can also annotate any image or diagram. This sketched or annotated image or diagram can be saved on the SD card for future retrieval and learning. This is implemented using the Canvas API provided by the Android SDK. Whenever user jots or draws a line the screen is redrawn around the closest portion where the user touches. Also user is able to draw straight line by tapping two fingers which act as starting and ending points of the line. This is achieved by recording the co-ordinates of the user touch as starting and ending co-ordinates for the line to be drawn and accordingly the line is displayed.
+\end{itemize}
+
+\section{Results}
+\hspace*{0.5in}The snapshots below are taken on the mobile device itself having Android 2.3.3 operating system, screen of 5 inches with a resolution of 800 x 480.\\
+\\
+\hspace*{0.5in}Following are the snapshots of M-Learning Application:
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./English_HomeScreen}
+\caption{Home Screen in English}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./HomeScreen_Transparent}
+\caption{Home Screen in English with transparent bar}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./EGP_Screen}
+\caption{Subject Screen with various content}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./Subject_Screen}
+\caption{Subject Screen with transparent bar}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./EGP_Video}
+\caption{Theory Animations listed in Grid View}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./EGP_Theory}
+\caption{A 2D/3D video being played in the application}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./Interactive_Screen}
+\caption{Interactive content being played in the application}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./Ot_Home}
+\caption{Objective Test Home Screen}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./DSA_Objective}
+\caption{Objective Test Question and Option screen}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./Ot_Answers}
+\caption{Objective Test Question and Answers screen}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./Search_Screen}
+\caption{Search Manager}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./Twitter_Screen}
+\caption{SNI's Twitter Screen}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./Notes_Manager}
+\caption{Notes Manager}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./Textual_Notes}
+\caption{Textual Notes}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./Audio_Notes}
+\caption{Audio Note being recorded}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./Sketched_Notes}
+\caption{Annotate and Sketch Notes}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./Language_Change}
+\caption{Multi-Lingual message box}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in]{./Hindi_HomeScreen}
+\caption{Home Screen in Hindi}
+\end{figure}
+
+\section{Summary}
+\hspace*{0.5in}In this chapter we discussed the implementation details of the M-Learning Framework and also the implementation of various features included in the application. We also saw the results in the form of snapshots of the M-Learning Application.
+%*****************************Chapter 8******************
+
+\chapter{Testing}
+\hspace*{0.5in}This chapter includes the details of Formal Technical Review meetings and describes the process carried during the review process. It also includes the Test Plan adopted for testing the M-Learning Framework and Application.
+\section{Formal Technical Review}
+\hspace*{0.5in}Formal Technical Reviews and Inspections of documents or software are performed to identify and
+remove defects. The Formal Technical Review of our project was carried at regular intervals in the form of stand-up meetings and brainstorming sessions conducted in presence of the director of Cognifront  Mr. Suchit Tiwari. The process included verification of the checklist which was developed for the review process ,the code review  checklist template is as follows:
+
+\begin{itemize}
+\item{\textbf{Does the code conform to Hungarian Notations?}}
+\item{\textbf{Is the code well-structured , consistent in style and consistently formatted?}}
+\item{\textbf{Are all variables properly defined with meaningful,consistent and clear names?}}
+\item{\textbf{Are there any redundant or unused variables?}}
+\item{\textbf{Does the code consist of comments ?}}
+\item{\textbf{Is the code error free?}}
+\item{\textbf{Does the code handles Exceptions?}}
+\item{\textbf{Does the code verifies Class name according to the standard format?}}
+\item{\textbf{Does the code avoid nested loop variables?}
+\item{\textbf{Code refactoring (maximum 40 lines of code in a function).}
+\item{\textbf{Deallocation of Resources.}
+\end{itemize}
+
+\section{Test Plan}
+\begin{longtable}{|p{3.5cm}|p{5cm}|p{3.5cm}|p{1.7cm}|} \hline
+\textbf{Module being Tested}	&\textbf{Expected Result}	&\textbf{Actual Result}	&\textbf{Verdict} \\\hline\hline
+Tray Control	&When application starts, the tray should be closed. When we click on the closed tray, the tray must open up in sliding manner. And it must close, when we close the application or remove the focus from it. 	 &Tray opened successfully and closed upon removing focus. &PASS\\\hline
+Tool Tip &On a single click over a particular content a tip must appear on the screen in a fade-in and fade-out manner. &Tool Tip displayed Successfully on single clicking over the content. &PASS \\\hline
+About Cognifront &On clicking the ABOUT thumbnail the EULA, Contact and Help must be displayed. &The contents of ABOUT that are EULA,Contact and Help are shown. &PASS \\\hline
+Video Collection Page &On starting the application, video thumbnails must appear as list and the video title must be shown on the thumbnail. On clicking the video thumbnail, the video should be played. The user must be able to play,pause and stop the video. &Video Thumbnail and title displayed successfully.Video played successfully. User allowed to pause and stop the video. &PASS \\\hline
+Navigation Bar &The Navigation Bar must appear on every screen of the respective learning application. It must consist of PREVIOUS and HOME screen buttons. On Clicking the previous button, previous screen must be shown and clicking the HOME button user must be returned to home screen of the application. &Navigation Bar displayed successfully on every screen of the respective learning application. Performs returning to the previous screens and home screen successfully. &PASS \\\hline
+Objective Test Taking &When the test starts user should answer the question by selecting the appropriate option and submit it by clicking it on SUBMIT button.  On clicking the NEXT button next question must appear. To end the test user must click END TEST button and the result must be shown. &Test started successfully, questions and their options displayed properly and answer submitted successfully. Test result displayed. &PASS \\\hline
+EULA &On Clicking the EULA thumbnail the End User's License Agreement must be displayed. &EULA contents are displayed. &PASS \\\hline
+Contact &On Clicking the Contact thumbnail the Contact details of the respective authority must be displayed. &Contact details are displayed successfully. &PASS \\\hline
+Help &On Clicking the HELP thumbnail the HELP contents of the respective application must be displayed. &Help contents are displayed successfully. &PASS \\\hline
+Object Explorer &On clicking the Object Explorer thumbnail in the application menu the content as Objects must be displayed. On clicking the Object thumbnail the appropriate content must be shown. &Objects are displayed as grid of items and appropriate content is shown on clicking it.  &PASS \\\hline
+Solved Problems &On clicking the Solved Problem thumbnail the menu must be shown. The menu must consist of Printable and Animated options. &Solved Problems thumbnail displays the menu on clicking it. &PASS \\\hline
+Search &When user enters the content to be searched, the relevant results must be displayed if content is found otherwise no results should be displayed. &Search completed  successfully if required content found else no results displayed. &PASS \\\hline
+Printable &On clicking the Solved Problem thumbnail the menu must be shown. The menu must consist of Printable and Animated options. Clicking on the option Printable in the menu opens the Solutions as Thumbnail Tile List. Clicking on any particular Solution opens it and provides the printing facility. &Printable option opens and displays the Solutions as Thumbnail Tile List and Solutions open on clicking them providing the printing facility. &PASS \\\hline
+Animated &On clicking the Solved Problem thumbnail the menu must be shown. The menu must consist of Printable and Animated options. Clicking on the option Animated in the menu opens the Solutions as Thumbnail Tile List. Clicking on any particular Solution opens it and the Animation is played. &Animation option opens and displays the Solutions as Thumbnail Tile List and Solutions open on clicking it and Animation is played. &PASS \\\hline
+Audio Recorded Notes &On clicking the Record button user must be able to Record the notes in his voice and save them. &Notes recorded and Saved properly. &PASS \\\hline
+Subject Title &When user  starts the Subject Application Subject Title must be displayed. &Subject Title  displayed. &PASS \\\hline
+Thumbnail &When user starts the application, the application contents must be displayed as Thumbnails. &The  contents are displayed  as Thumbnails. &PASS \\\hline
+Title List &When user starts the application, the application contents must be displayed as Scrollable List of Thumbnails. User must be able to flick or scroll the list of thumbnails up and down. &The contents are displayed as Scrollable List of  Thumbnails. The List can be Scrolled up and down. &PASS \\\hline
+Table of Content &When user starts the application, the application contents must be displayed as Table of Contents. User must not be able to flick or scroll Table of Contents up and down if enough Contents are not present in the Table. &Table Of Contents is  displayed. The List cannot be scrolled up or down. &PASS \\\hline
+Bookmark Manager &User must be able to select the content to be bookmarked. The User must be able to Save the bookmark. &Content can be bookmarked and saved. &PASS \\\hline
+Audio Player &User must be able to play the audio by clicking on the respective content. &Audio can be played. &PASS \\\hline
+Video Player &When user starts the application, the application contents must be displayed as Scrollable List of Table of Contents. User must be able to flick or scroll the list of Table of Contents up and down. User must be able to select the Content by tapping it. The respective content must be played in the Video Player. &Table Of Contents is  displayed. The List can be scrolled up or down. The Content can be selected. The Content is played in the Video Player upon tapping it. &PASS \\\hline
+\caption{Test Plan for M-Learning Framework}
+\label{tab:nnwork}
+\end{longtable}
+\\
+\section{Summary}
+\hspace{0.5in}In this chapter we have described the formal technical reviews and the outcome of those. We have described the Test Plan which was successfully carried out at regular development phases.
+
+%*******************t**********Chapter 9******************
+
+
+\chapter{Technical Specifications}
+\hspace*{0.5in}In this chapter we will discuss the advantages and limitations of the M-Learning Framework. We will also go through the applications of the framework and have a brief study about the technical requirements.
+\section{Advantages}
+\hspace*{0.5in}A key benefit of M-Learning is its potential for increasing productivity by making learning available anywhere, anytime. Because mobile devices have the power to make learning even more widely available and accessible, mobile devices are a natural extension of eLearning. M-Learning is the power of learning that is truly “just-in-time” where you could actually access training at the precise place and time on the job that you need. Our project provides the reusable piece of code that will help the developers for developing multiple M-Learning applications easily; one can also prepare audio or textual notes on move. The greatest benefit of this delivery is the combination of true interactivity coupled with portability.
+\\Following are some more advantages of M-learning Framework:
+\begin{itemize}
+\item{\textbf{Just in time learning:}Learning at the point of need.}
+\item{\textbf{Ability to access learning (almost) everywhere:}This means down time can be leveraged for learning.}
+\item{\textbf{Potential to be two way and multi-media:}Video, powerpoint, podcasts, and quizes are all potential outputs to iPhone devices. This provides a great deal of flexibility for mobile development.}
+\item{\textbf{Potential for location based learning:}This means the phone can alert the person when they are near a potential learning experience based in the context in which the learning will be used–which potentially can help retention and return on investment.}
+\end{itemize}
+
+\section{Limitations}
+\hspace*{0.5in}To participate in mobile learning one must have a tablet or mobile devices with android as its base operating system,these can have high ranges of cost, due to this reason it cannot be affordable by everybody in todays world.
+\\
+\hspace*{0.5in}Another aspect to be considered is the size of the device, this is only a challenge if one incorrectly plans mobile learning content to be nothing more than compressed eLearning. If your users are already using their mobile device that you plan to push learning to, your strategy should be what content do they need in the context of using the device. Add to that, the greatly improved displays, such as the OLED display on the DROID Incredible, and size isn't a detriment any more, but an advantage.
+
+\section{Applications}
+\hspace*{0.5in}The M-Learning framework can be used in following areas:
+\begin{itemize}
+\item{Institutions for teaching the learning material developed by the developer for mobile learning.}
+\item{Students can study with ease.}
+\item{The education application developer can use this framework for developing number of applications that can be imported on mobile devices.}
+\end{itemize}
+
+\subsection{Hardware Requirements}
+\begin{itemize}
+\item{AMD/Intel Processor}
+\item{2GB RAM for application development}
+\item{Min. 16 GB Hard Disk}
+\\
+\item{Android Emulator for testing}
+\end{itemize}
+
+\subsection{Software Requirements}
+\begin{itemize}
+\item{HTML5}
+\item{Action Script}
+\item{Java}
+\item{XML}
+\item{GIMP and Photoshop}
+\end{itemize}
+
+\section{Summary}
+\hspace*{0.5in}In this chapter we were made aware of the various advantages of the framework and also the limitations of the project. We also saw the hardware and software requirements of the project.
+
+
+%***************************Chapter 10**************
+
+\chapter {Future Scope}
+
+\hspace{0.5in}The project M-Learning Framework for Multiple Platforms is useful in this digital learning age and has a bright future. Although we tried to deliver a project that meets the present requirements of the M-Learning Application Developers but there are endless future possibilities. Some are listed below:
+\\
+\begin{itemize}
+\item{We visualize Maggie extension software where Teacher carries a tablet and it has a software plugin for streaming the tablet screen to a laptop or a computer which is connected to a projector. This extension is very useful as not all projectors have any connectors to share video display of tablet devices. And sharing tablet screen with large number of students is a real life need of teachers.}
+\item{We visualize Maggie to be extended on Symbian & BlackBerry platform to ensure wide spread coverage on wide variety of phone hardware.}
+\item{Future extension of Maggie is possible to include a compiler that could take one layer off the currently low level tie up and allow users to code in language of their choice. Pretty much like .Net being a platform and then developers can chose the language they want.}
+\item{Maggie will have a future where developers will be able to add their own plugins for the framework.}
+\item{We visualize Maggie to allow export various format content like slideshows, SCORM, Facebook app format where the M-Learning apps can be embedded on Facebook walls. Possibilities are endless.}
+\end{itemize}
+
+%*****************************Chapter 11**********
+
+
+\chapter{Conclusion}
+\hspace*{0.5in}M-Learning concept was tossed during the early 1990's but was never brought in the implementations. We analyzed the need of the M-Learning Framework and conducted rigorous studies and researches. We understood the requirements of the M-Learning Application Developers and decided to design a framework which will match their needs and will ease their task of developing the applications. We have developed a M-Learning Framework for multiple Android Platforms which includes Android 2.2 (Froyo), Android 2.3 (Gingerbread), Android 3.0 (Honeycomb) and 4.0 (Ice cream sandwich). We have successfully tested the M-Learning applications developed using the M-Learning Framework on the above mentioned Android platforms.\\
+\hspace*{0.5in}Identifying missing pieces in order to achieve a broader platform for M-Learning and developing those pieces into a pragmatic framework is the central theme for this project. A key objective of our project is to improve the knowledge level of individuals by developing learning process that is time efficient .The M-Learning framework is an abstract representation of the services and their interfaces that are used to construct an e-Learning system in its broadcast sense, focused on the support of distributed electronic learning systems.
+
+%**************************Appendix******************
+\appendix
+\cleardoublepage
+\addtocontents{toc}{\bigskip}
+\addcontentsline{toc}{part}{Appendix}
+
+\chapter{Glossary}
+\begin{itemize}
+\item{\textbf{Maggie:} We have code named our project M-Learning Framework for Multiple Platforms as Maggie.
+\item{\textbf{M-Learning:} The application of small, portable, and wireless computing and communication devices like Laptops with Wireless LAN technology, mobile phones, Personal Digital Assistants (PDAs) with Bluetooth or IRDA interfaces for communication and computing.}
+\item{\textbf {TOC:} The term stands for Table of Contents which is a collection of contents. It can be used by the user to view the collection of learning materials available in the application.}
+\item{\textbf {OEM:} The term stands for Original Equipment Manufacturer, it is used to generate a logo for a particular application. Once an OEM logo is generated all the responsibilities are upto the manufacturer i.e. if any problem arises the manufacturer has to look after it till the problem is solved.}
+\item{\textbf{SCORM:} The term stands for Sharable Content Object Reference model. It is industry standard for development and deployment of learning modules.}
+\item{\textbf{MLOB:} The term stands for M-Learning Object; it gives the facility of PowerPoint presentation with audio playback feature.}
+\item{\textbf{EULA:} The term stands for End User License Agreement . It provides the licensed version of the product to the user.}
+\item{\textbf{SNI:} The term stands for Social Networking Interface. It provides the user to share the bookmarks of the contents with their social networks.}
+\item{\textbf{iOS:} It ia an operating system used by Apple Computers for the smart-phones.}
+\item{\textbf{Android:} It is an operating system used by Google for the smart-phones.}
+\end{itemize}
+
+\chapter{Achievements}
+\begin{itemize}
+\item{\textbf{First prize at CSI's National Level Discover Thinking}\\
+\hspace*{0.5in}We had participated in \textbf{Computer Society of India's (CSI)} National Level Project Competition Discover Thinking sponsored by \textbf{Microsoft}. The contest had 3 rounds, 1st round at CSI chapter level held at particular colleges, 2nd round at CSI regional level held at Pune, and final round was at national level held at Coimbatore, Tamilnadu. Among 90 projects across the country our project was ranked at the first place after rigorous evaluation conducted by an eminent panel of judges from industry and educational background. }
+\item{\textbf{Published Research Paper in IJSER 2012}\\
+\hspace*{0.5in}We have published a research paper titled \textbf{M-Learning Framework for Multiple Platforms} in \textbf{International Journal of Scientific and Engineering Research (IJSER)}. Our paper is published in the May edition of IJSER 2012.}
+
+\vspace{5in}
+\newpage
+\addcontentsline{toc}{chapter}{Bibliography}
+\begin{thebibliography}{99}
+
+
+\bibitem{paper1}\emph{Individualized revision material for use on a handheld computer}; Bull S. &  Reid E., In J. Attewell, G. Da Bormida, M. Sharples and C. Savill-Smith (Eds.),mlearn, 2008.
+\bibitem{paper2}\emph{Mobile Learning in review: Opportunities and challenges for learners, teachers and institutions};Cobcraft, Rachel S and Towers,In Proceedings Online Learning and Teaching (OLT) conference, 2009.
+\bibitem{paper3}\emph{A Design Requirements Framework for Mobile Learning Environments};David Parsons, Hokyoung Ryu and Mark Cranshaw,In Journal of Computers, June 2009.
+\bibitem{paper4}\emph{Mobile learning in the 21st century: Benefit for learners};Geddes S.,In The knowledge tree, December 2010.
+\bibitem{paper5}\emph{Mobile learning: A handbook  for educators and trainers};Kukulska-Hulme, A., and Traxler, J.,In London: Routledge,2010.
+\bibitem{paper6}\emph{Moving mobile into the mainstream};Stead, G.,In Proceedings of mLearn,2010.
+\bibitem{paper7}\emph{Mobile learning anytime everywhere};Corlett and Sharples, In London: Learning and Skills Development Agency, 2010.
+\bibitem{paper8}\emph{Cooperative learning: Increasing college faculty instructional productivity};Johnson, In Washington  D.C.: School of Education and Human Development, 2011.
+\bibitem{paper9}\emph{Evolution towards M-Learning},Marela Andres, EdTechie, 2011.
+\bibitem{paper10}\emph{Managed M-Learning}, Greg Luckock, RPS, 2011.
+
+%And how you would refer to the paper in the text - example
+%Your text in other tex files \cite{short_paper_name} contd explaining
+%If you have to display links, do it via  adding \\ (newline) otherwise it goes off the margins. Don't know how to fix this yet
+%\bibitem{short_link_name}Link Name \\ \url{http://url link here}
+%\url{Your url of reference}
+\end{thebibliography}
+\end{document}
+
+
