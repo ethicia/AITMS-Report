@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.12.28)  29 DEC 2021 01:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.12.28)  29 DEC 2021 03:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -629,7 +629,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./metbkc-eps-converted-to.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./metbkc-eps-converted-to.pdf, id=274, 973.6375pt x 112.42pt>
+<./metbkc-eps-converted-to.pdf, id=282, 973.6375pt x 112.42pt>
 File: ./metbkc-eps-converted-to.pdf Graphic file (type pdf)
 <use ./metbkc-eps-converted-to.pdf>
 Package pdftex.def Info: ./metbkc-eps-converted-to.pdf  used on input line 91.
@@ -824,107 +824,126 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+ []
+
 [5
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+
+ []
+
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[6]
 Chapter 4.
-Excluding 'comment' comment. [6
+Excluding 'comment' comment. [7
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 232.
+(Font)              <12> on input line 249.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 232.
+(Font)              <8> on input line 249.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 232.
+(Font)              <6> on input line 249.
 
-Overfull \hbox (0.62624pt too wide) in paragraph at lines 233--233
+Overfull \hbox (0.62624pt too wide) in paragraph at lines 250--250
 []|\OT1/cmr/bx/n/12 Phase| 
  []
 
 
-Underfull \hbox (badness 4954) in paragraph at lines 233--233
+Underfull \hbox (badness 4954) in paragraph at lines 250--250
 []|\OT1/cmr/bx/n/12 Group Mem-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 []|\OT1/cmr/m/n/12 Functional Re-quire-ment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 []|\OT1/cmr/m/n/12 Set The-ory and Math
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
 []|\OT1/cmr/m/n/12 Software Re-quire-ment
  []
 
 
-Overfull \hbox (14.74149pt too wide) in paragraph at lines 232--245
+Overfull \hbox (14.74149pt too wide) in paragraph at lines 249--262
  [][] 
  []
 
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 249.
+ine 266.
 Excluding 'comment' comment.
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
-[7pdfTeX warning (ext4): destination with the same identifier (name{table.4.1})
+[8pdfTeX warning (ext4): destination with the same identifier (name{table.4.1})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.288 \item{
+l.305 \item{
             Real-time Traffic Congestion Detection.}]
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
-[8]
+[9]
 Chapter 5.
-[9
+[10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 318--320
+Underfull \hbox (badness 10000) in paragraph at lines 335--337
 
  []
 
-
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[10]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-22.
- (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 322.
 
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [11]
-<./layered_architecture.png, id=472, 784.9325pt x 562.1pt>
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
+39.
+ (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 339.
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[12]
+<./layered_architecture.png, id=486, 784.9325pt x 562.1pt>
 File: ./layered_architecture.png Graphic file (type png)
 <use ./layered_architecture.png>
-Package pdftex.def Info: ./layered_architecture.png  used on input line 339.
+Package pdftex.def Info: ./layered_architecture.png  used on input line 356.
 (pdftex.def)             Requested size: 375.80515pt x 325.21199pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--341
+Underfull \hbox (badness 10000) in paragraph at lines 353--358
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
  []
 
@@ -932,34 +951,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 345--346
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
-[12pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.348 	\item{
+l.365 	\item{
              Collecting CCTV footage and other data from physical intersecti...
  <./layered_architecture.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 353--354
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
 
  []
 
-<./architecture.png, id=479, 1086.0575pt x 665.48625pt>
+<./architecture.png, id=493, 1086.0575pt x 665.48625pt>
 File: ./architecture.png Graphic file (type png)
 <use ./architecture.png>
-Package pdftex.def Info: ./architecture.png  used on input line 361.
+Package pdftex.def Info: ./architecture.png  used on input line 378.
 (pdftex.def)             Requested size: 469.76312pt x 397.48732pt.
 
-Overfull \hbox (18.07562pt too wide) in paragraph at lines 361--362
+Overfull \hbox (18.07562pt too wide) in paragraph at lines 378--379
  [][] 
  []
 
@@ -967,8 +986,8 @@ Overfull \hbox (18.07562pt too wide) in paragraph at lines 361--362
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
-[13]
-Overfull \hbox (6.776pt too wide) in paragraph at lines 371--372
+[14]
+Overfull \hbox (6.776pt too wide) in paragraph at lines 388--389
 []\OT1/cmr/bx/n/14.4 M-Learning Ap-pli-ca-tion: \OT1/cmr/m/n/12 The M-Learning 
 ap-pli-ca-tion will pro-vide a Graph-
  []
@@ -977,36 +996,36 @@ ap-pli-ca-tion will pro-vide a Graph-
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
-[14pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.372 \end{itemize}
+l.389 \end{itemize}
                     <./architecture.png>]
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
-[15]
+[16]
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
-[16]
-<./metbkc.png, id=498, 685.56125pt x 78.2925pt>
+[17]
+<./metbkc.png, id=512, 685.56125pt x 78.2925pt>
 File: ./metbkc.png Graphic file (type png)
 <use ./metbkc.png>
-Package pdftex.def Info: ./metbkc.png  used on input line 411.
+Package pdftex.def Info: ./metbkc.png  used on input line 428.
 (pdftex.def)             Requested size: 361.35817pt x 289.11977pt.
 
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
-[17pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.416 \newpage
+l.433 \newpage
                <./metbkc.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 439--444
+Underfull \hbox (badness 10000) in paragraph at lines 456--461
 
  []
 
@@ -1014,56 +1033,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--444
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
-[18pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}
+[19pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.444 \item{
+l.461 \item{
             \textbf{Failure to meet technical standards}\\]
-Underfull \hbox (badness 10000) in paragraph at lines 452--453
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
 
  []
 
 
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[19]
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [20]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[21]
 Chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--466
+Underfull \hbox (badness 10000) in paragraph at lines 481--483
 
  []
 
-[21
+[22
 
 ]
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
-[22]
+[23]
 File: ./metbkc.png Graphic file (type png)
 <use ./metbkc.png>
-Package pdftex.def Info: ./metbkc.png  used on input line 475.
+Package pdftex.def Info: ./metbkc.png  used on input line 492.
 (pdftex.def)             Requested size: 685.55957pt x 78.2923pt.
 
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
-[23pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.479 \newpage
+l.496 \newpage
               ]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[24]
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
@@ -1092,441 +1107,441 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [31]
-Chapter 7.
-
-Underfull \hbox (badness 10000) in paragraph at lines 540--541
-
- []
-
-[32
-
-]
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
-[33]
+[32]
+Chapter 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--558
+
+ []
+
+[33
+
+]
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [34]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[35]
 Chapter 8.
 
-Overfull \hbox (3.52203pt too wide) in paragraph at lines 582--582
+Overfull \hbox (3.52203pt too wide) in paragraph at lines 599--599
 []|\OT1/cmr/bx/n/14.4 Verdict| 
  []
 
 
-Underfull \hbox (badness 5802) in paragraph at lines 583--583
+Underfull \hbox (badness 5802) in paragraph at lines 600--600
 []|\OT1/cmr/m/n/12 When ap-pli-ca-tion starts,
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 583--583
+Underfull \hbox (badness 2460) in paragraph at lines 600--600
 []|\OT1/cmr/m/n/12 Tray opened suc-
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 585--585
+Underfull \hbox (badness 2189) in paragraph at lines 602--602
 []|\OT1/cmr/m/n/12 On click-ing the ABOUT
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--585
+Underfull \hbox (badness 10000) in paragraph at lines 602--602
 []|\OT1/cmr/m/n/12 The con-tents of
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 585--585
+Underfull \hbox (badness 2205) in paragraph at lines 602--602
 \OT1/cmr/m/n/12 ABOUT that are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 586--586
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 []|\OT1/cmr/m/n/12 Video Col-lec-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 586--586
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 []|\OT1/cmr/m/n/12 Video Thumb-nail
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 586--586
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 \OT1/cmr/m/n/12 suc-cess-fully.Video
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 586--586
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 \OT1/cmr/m/n/12 User al-lowed to
  []
 
 
-Underfull \hbox (badness 3965) in paragraph at lines 587--587
+Underfull \hbox (badness 3965) in paragraph at lines 604--604
 \OT1/cmr/m/n/12 and click-ing the HOME
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 587--587
+Underfull \hbox (badness 1675) in paragraph at lines 604--604
 \OT1/cmr/m/n/12 but-ton user must be re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--587
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
 \OT1/cmr/m/n/12 on ev-ery screen
  []
 
 
-Underfull \hbox (badness 5970) in paragraph at lines 587--587
+Underfull \hbox (badness 5970) in paragraph at lines 604--604
 \OT1/cmr/m/n/12 of the re-spec-tive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--587
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
 \OT1/cmr/m/n/12 learn-ing ap-pli-ca-
  []
 
 
-Underfull \hbox (badness 7631) in paragraph at lines 587--587
+Underfull \hbox (badness 7631) in paragraph at lines 604--604
 \OT1/cmr/m/n/12 tion. Per-forms
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--587
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
 \OT1/cmr/m/n/12 re-turn-ing to the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--587
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
 \OT1/cmr/m/n/12 pre-vi-ous screens
  []
 
 
-Underfull \hbox (badness 4569) in paragraph at lines 587--587
+Underfull \hbox (badness 4569) in paragraph at lines 604--604
 \OT1/cmr/m/n/12 and home screen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--588
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
 []|\OT1/cmr/m/n/12 Objective Test
  []
 
 
-Underfull \hbox (badness 4132) in paragraph at lines 588--588
+Underfull \hbox (badness 4132) in paragraph at lines 605--605
 []|\OT1/cmr/m/n/12 Test started suc-
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 588--588
+Underfull \hbox (badness 2460) in paragraph at lines 605--605
 \OT1/cmr/m/n/12 and their op-tions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--588
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
 \OT1/cmr/m/n/12 dis-played prop-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--588
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
 \OT1/cmr/m/n/12 erly and an-swer
  []
 
 
-Underfull \hbox (badness 6641) in paragraph at lines 589--589
+Underfull \hbox (badness 6641) in paragraph at lines 606--606
 []|\OT1/cmr/m/n/12 On Click-ing the EULA
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 590--590
+Underfull \hbox (badness 1997) in paragraph at lines 607--607
 []|\OT1/cmr/m/n/12 On Click-ing the Con-tact
  []
 
 
-Underfull \hbox (badness 7504) in paragraph at lines 590--590
+Underfull \hbox (badness 7504) in paragraph at lines 607--607
 \OT1/cmr/m/n/12 dis-played suc-cess-
  []
 
 
-Underfull \hbox (badness 7344) in paragraph at lines 591--591
+Underfull \hbox (badness 7344) in paragraph at lines 608--608
 []|\OT1/cmr/m/n/12 On Click-ing the HELP
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 591--591
+Underfull \hbox (badness 1546) in paragraph at lines 608--608
 []|\OT1/cmr/m/n/12 Help con-tents are
  []
 
 
-Underfull \hbox (badness 7504) in paragraph at lines 591--591
+Underfull \hbox (badness 7504) in paragraph at lines 608--608
 \OT1/cmr/m/n/12 dis-played suc-cess-
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 592--592
+Underfull \hbox (badness 1895) in paragraph at lines 609--609
 \OT1/cmr/m/n/12 as Ob-jects must be dis-
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 592--592
+Underfull \hbox (badness 1205) in paragraph at lines 609--609
 \OT1/cmr/m/n/12 played. On click-ing the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 592--592
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
 []|\OT1/cmr/m/n/12 Objects are dis-
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 592--592
+Underfull \hbox (badness 1552) in paragraph at lines 609--609
 \OT1/cmr/m/n/12 played as grid of
  []
 
 
-Underfull \hbox (badness 2903) in paragraph at lines 592--592
+Underfull \hbox (badness 2903) in paragraph at lines 609--609
 \OT1/cmr/m/n/12 items and ap-pro-
  []
 
 
-Underfull \hbox (badness 6758) in paragraph at lines 592--592
+Underfull \hbox (badness 6758) in paragraph at lines 609--609
 \OT1/cmr/m/n/12 pri-ate con-tent is
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 592--592
+Underfull \hbox (badness 1253) in paragraph at lines 609--609
 \OT1/cmr/m/n/12 shown on click-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--593
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
 []|\OT1/cmr/m/n/12 On click-ing the Solved
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--593
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
 \OT1/cmr/m/n/12 Prob-lem thumb-nail the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--593
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
 \OT1/cmr/m/n/12 menu must be shown.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--593
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
 \OT1/cmr/m/n/12 Print-able and An-i-mated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--593
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
 []|\OT1/cmr/m/n/12 Solved Prob-lems
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--593
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
 \OT1/cmr/m/n/12 thumb-nail dis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--594
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
 []|\OT1/cmr/m/n/12 Search com-pleted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--594
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
 \OT1/cmr/m/n/12 suc-cess-fully if
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--594
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
 \OT1/cmr/m/n/12 re-quired con-tent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--594
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
 \OT1/cmr/m/n/12 found else no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--595
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
 []|\OT1/cmr/m/n/12 On click-ing the Solved
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--595
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
 \OT1/cmr/m/n/12 Prob-lem thumb-nail the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--595
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
 \OT1/cmr/m/n/12 menu must be shown.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--595
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
 \OT1/cmr/m/n/12 Print-able and An-i-mated
  []
 
 
-Underfull \hbox (badness 7047) in paragraph at lines 595--595
+Underfull \hbox (badness 7047) in paragraph at lines 612--612
 \OT1/cmr/m/n/12 op-tion Print-able in the
  []
 
 
-Underfull \hbox (badness 4279) in paragraph at lines 595--595
+Underfull \hbox (badness 4279) in paragraph at lines 612--612
 \OT1/cmr/m/n/12 as Thumb-nail Tile List.
  []
 
 
-Underfull \hbox (badness 6893) in paragraph at lines 595--595
+Underfull \hbox (badness 6893) in paragraph at lines 612--612
 \OT1/cmr/m/n/12 Click-ing on any par-tic-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--595
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
 \OT1/cmr/m/n/12 u-lar So-lu-tion opens it
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--595
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
 []|\OT1/cmr/m/n/12 Printable op-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--595
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
 \OT1/cmr/m/n/12 the So-lu-tions as
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--595
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
 \OT1/cmr/m/n/12 Thumb-nail Tile
  []
 
 
-Underfull \hbox (badness 7273) in paragraph at lines 595--595
+Underfull \hbox (badness 7273) in paragraph at lines 612--612
 \OT1/cmr/m/n/12 open on click-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--596
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
 []|\OT1/cmr/m/n/12 On click-ing the Solved
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--596
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
 \OT1/cmr/m/n/12 Prob-lem thumb-nail the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--596
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
 \OT1/cmr/m/n/12 menu must be shown.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--596
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
 \OT1/cmr/m/n/12 Print-able and An-i-mated
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 596--596
+Underfull \hbox (badness 4673) in paragraph at lines 613--613
 \OT1/cmr/m/n/12 op-tion An-i-mated in the
  []
 
 
-Underfull \hbox (badness 4279) in paragraph at lines 596--596
+Underfull \hbox (badness 4279) in paragraph at lines 613--613
 \OT1/cmr/m/n/12 as Thumb-nail Tile List.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--596
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
 []|\OT1/cmr/m/n/12 Animation op-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--596
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
 \OT1/cmr/m/n/12 the So-lu-tions as
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--596
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
 \OT1/cmr/m/n/12 Thumb-nail Tile
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 596--596
+Underfull \hbox (badness 1881) in paragraph at lines 613--613
 \OT1/cmr/m/n/12 and An-i-ma-tion is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 614--614
 []|\OT1/cmr/m/n/12 Audio Recorded
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 598--598
+Underfull \hbox (badness 1546) in paragraph at lines 615--615
 []|\OT1/cmr/m/n/12 Subject Ti-tle dis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--599
+Underfull \hbox (badness 10000) in paragraph at lines 616--616
 []|\OT1/cmr/m/n/12 The con-tents
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--599
+Underfull \hbox (badness 10000) in paragraph at lines 616--616
 \OT1/cmr/m/n/12 are dis-played as
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 600--600
+Underfull \hbox (badness 10000) in paragraph at lines 617--617
 []|\OT1/cmr/m/n/12 The con-tents
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 600--600
+Underfull \hbox (badness 10000) in paragraph at lines 617--617
 \OT1/cmr/m/n/12 are dis-played as
  []
 
 
-Underfull \hbox (badness 3536) in paragraph at lines 600--600
+Underfull \hbox (badness 3536) in paragraph at lines 617--617
 \OT1/cmr/m/n/12 Scrol-lable List of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 618--618
 \OT1/cmr/m/n/12 List can-not be
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 618--618
 \OT1/cmr/m/n/12 scrolled up or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--602
+Underfull \hbox (badness 10000) in paragraph at lines 619--619
 []|\OT1/cmr/m/n/12 Bookmark Man-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--602
+Underfull \hbox (badness 10000) in paragraph at lines 619--619
 []|\OT1/cmr/m/n/12 Content can be
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--602
+Underfull \hbox (badness 10000) in paragraph at lines 619--619
 \OT1/cmr/m/n/12 book-marked and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--603
+Underfull \hbox (badness 10000) in paragraph at lines 620--620
 []|\OT1/cmr/m/n/12 Audio can be
  []
 
-[35
+[36
 
 ]
-Overfull \vbox (2.49998pt too high) has occurred while \output is active []
-
-
-[36]
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
@@ -1543,20 +1558,11 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 610--611
-
- []
-
-
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [41]
-Chapter 9.
-[42
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 642--644
+Underfull \hbox (badness 10000) in paragraph at lines 627--628
 
  []
 
@@ -1564,39 +1570,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 642--644
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
-[43]
+[42]
+Chapter 9.
+[43
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 659--661
+
+ []
+
+
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [44]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[45]
 Chapter 10.
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--663
+Underfull \hbox (badness 10000) in paragraph at lines 678--680
 
  []
 
 
-Overfull \hbox (2.39807pt too wide) in paragraph at lines 668--669
+Overfull \hbox (2.39807pt too wide) in paragraph at lines 685--686
 []\OT1/cmr/m/n/12 We vi-su-al-ize Mag-gie to al-low ex-port var-i-ous for-mat c
 on-tent like slideshows, SCORM,
  []
 
-[45
-
-]
-Chapter 11.
 [46
 
 ]
-Appendix A.
+Chapter 11.
 [47
+
+]
+Appendix A.
+[48
 
 
 ]
 Appendix B.
-[48
+[49
 
-] AED: lastpage setting LastPage [49
+] AED: lastpage setting LastPage [50
 
 ] (./Group-2 AITMS Report.aux)
 
@@ -1604,13 +1623,13 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `"Group-2 AITMS Report".out' has not changed.
 
-(rerunfilecheck)             Checksum: 1E7D997B8CF3F03D618A436BE342B91D;11066.
+(rerunfilecheck)             Checksum: 19B5900CDE5FDE0CD2B46CC55D8AB5DC;11592.
  ) 
 Here is how much of TeX's memory you used:
- 20014 strings out of 478353
- 377364 string characters out of 5854634
+ 20019 strings out of 478353
+ 377419 string characters out of 5854634
  686043 words of memory out of 5000000
- 37650 multiletter control sequences out of 15000+600000
+ 37652 multiletter control sequences out of 15000+600000
  410946 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,94p,1884b,867s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1621,10 +1640,10 @@ lic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf
 -dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on "Group-2 AITMS Report.pdf" (58 pages, 470171 bytes).
+Output written on "Group-2 AITMS Report.pdf" (59 pages, 472319 bytes).
 PDF statistics:
- 706 PDF objects out of 1000 (max. 8388607)
- 617 compressed objects within 7 object streams
- 140 named destinations out of 1000 (max. 500000)
- 569 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 720 PDF objects out of 1000 (max. 8388607)
+ 630 compressed objects within 7 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 585 words of extra memory for PDF output out of 10000 (max. 10000000)
 
