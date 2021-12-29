@@ -170,9 +170,19 @@ Modern approaches to deal with this issue range from complicated software handli
 %*****************************Chapter1 *****************************
 
 \chapter{Introduction}
-\hspace*{0.5in}This chapter describes the term M-Learning and introduces the concept of Artificially Intelligent Traffic Management System. It also gives the overview of the Artificially Intelligent Traffic Management System which describes the deliverables of the project. We have code named our project as Maggie.\\
-\section{Objective}
-\hspace*{0.5in} Project Objective. 
+\hspace*{0.5in}This chapter briefly explains the need for an adaptive traffic management system and an overview of our implementation.\\
+
+\section{Overview}
+\hspace*{0.5in}Traffic congestion is becoming one of the critical issues in cities with increasing population and number of vehicles. They not only cause problems like delays and stress to drivers but also cause secondary problems like increasing fuel consumption, transportation costs and pollution.
+
+The causes of congestion can be divided into two categories, recurring and non recurring congestion. Recurring congestion can be expected to occur at the same time every weekday as a result of high volumes of commuter traffic traveling on roadways that are at or near their carrying capacity. Non-recurring congestion occurs as a result of an unexpected or non-typical event. Some causes of non-recurring congestion include: vehicular crashes, vehicle breakdowns, roadway construction, inclimate weather, and additional traffic resulting from special events. While non-recurring congestion can be unpredictable and difficult to treat, recurring congestion can be reduced by increasing road capacity or with the help of adaptive traffic control systems.
+
+There are several existing standardized solutions for adaptive traffic control such as SCOOT, SCAT, etc. which have been implemented in many major metropolitan cities. However, most suburban and urban areas use conventional traffic control systems such as manual traffic control or non adaptive automated traffic control. Manual control consists of an on-site traffic official guiding vehicles. Non adaptive automated traffic control refers to the use of fixed timers in traffic signals. Wide implementation of standardized adaptive traffic control is not possible due to lack of feasibility since it requires manual labor and installation of new sensors. Therefore a more feasible solution which reuses existing infrastructure is required.
+
+We propose an Artificially Intelligent Traffic Management System which uses existing CCTV feed and API data if needed to optimize traffic control over small to medium scale road networks. We use an artificially intelligent agent or model to handle the complexity of day to day traffic in real-time. Furthermore, simulations will be performed to demonstrate and test the model.\\
+
+\section{Summary}
+\hspace*{0.5in}In this chapter we have discussed the need for an intelligent traffic management system and also discussed a brief overview of our project.\\
 %*************************Chapter 2************************
 \chapter{Literature Survey}
 
@@ -353,7 +363,7 @@ computer with graphic card, gets to monitor intersections and rest of the system
 \hspace*{0.5in}Our overall architecture can be viewed in the form of a  3 layer architecture consisting of physical intersection, intersection node and the optimizer.\\
 \begin{figure}[H]
 \centering
-\includegraphics[width=5.2in,height=4.5in]{./diagrams/png/layered_architecture}
+\includegraphics[width=5.2in,height=4.5in]{./Diagrams/PNG/layered_architecture}
 \caption{Layered form of System Architecture}
 \end{figure}
 
@@ -375,7 +385,7 @@ computer with graphic card, gets to monitor intersections and rest of the system
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=6.5in,height=5.5in]{./diagrams/png/architecture}
+	\includegraphics[width=6.5in,height=5.5in]{./Diagrams/PNG/architecture}
 	\caption{System Architecture Illustration}
 \end{figure}
 
@@ -488,7 +498,7 @@ Quality assurance should be built into the project management process. However, 
 \end{itemize}
 \begin{figure}[H]
 \centering
-\includegraphics[height=6in]{./diagrams/png/uml}
+\includegraphics[height=6in]{./Diagrams/PNG/uml}
 \caption{Use Case Diagram}
 \end{figure}
 
