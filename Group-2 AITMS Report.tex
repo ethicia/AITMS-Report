@@ -384,8 +384,7 @@ computer with graphic card, gets to monitor intersections and rest of the system
 \subsection{User Interfaces}
 
 \begin{itemize}
-\item{\textbf{Desktop Application:}  Using the desktop application the end user will be able to provide the M-Learning content for the application to be developed using the Artificially Intelligent Traffic Management System.}
-\item{\textbf{M-Learning Application:}  The M-Learning application will provide a Graphical User Interface which will consist of several screens which the end user will be able to navigate to consume learning.}
+\item{\textbf{Desktop Simulation Application:}  Using the desktop application the end user will be able to get the statistics and monitoring of traffic flow for the application to be developed using Unity.}
 \end{itemize}
 
 \subsection{Hardware Interfaces}
@@ -491,17 +490,25 @@ Quality assurance should be built into the project management process. However, 
 \caption{Use Case Diagram}
 \end{figure}
 
+\begin{comment}
 \newpage
 \section{Class Diagram}
 \hspace*{0.5in}The class diagram shows the building blocks of any object oriented system. Class diagram depicts a static view of the model or part of the model, describing what attributes and behavior it has rather that the detailing the methods of achieving operations. Class diagrams are most useful in illustrating relationships between classes and interfaces. Generalizations, aggregations, and associations are all valuable in reflecting interface, composition or usage and connections receptively.\\
 \hspace*{0.5in}The Figure 6.2 illustrates aggregation relationships between classes. The lighter aggregation indicates that the class ObjectExplorer used ThumbNail, but does not necessarily contain an instance of it.The strong, composite aggregations by the other connectors indicate ownership or containment of the source classes by the target. Class, for example VideoPlayer  values will be contained in TableOfContents.
-
+\end{comment}
 \newpage
 \section{Activity Diagram}
 \hspace*{0.5in}Use cases show what your system should do. Activity diagrams allow you to specify how your system will accomplish its goals. Activity diagrams show high-level actions chained together to represent a process occurring in your system. An activity diagram is essentially a flowchart, showing flow of control from activity to activity. Unlike a traditional flowchart, an activity diagram shows concurrency as well as branches of control. Activity diagrams focus on the dynamic flow of a system.\\
-\hspace*{0.5in}An activity is the process being modeled, such as using the M-Learning application. An action is a step in the overall activity, such as select subject, select topic. The flow of the activity is shown using arrowed lines called edges or paths. The arrowhead on an activity edge shows the direction of flow from one action to the next. A line going into a node is called as an incoming edge, and a line exiting a node is called an outgoing edge. Fork Node is used to show the parallel or concurrent actions. Fork has single incoming flows and multiple outgoing flows. The join means that all incoming actions must finish before the flow can proceed past the join. Join has multiple incoming flows and single outgoing flow.
+\begin{comment}\hspace*{0.5in}An activity is the process being modeled, such as using the M-Learning application. An action is a step in the overall activity, such as select subject, select topic. The flow of the activity is shown using arrowed lines called edges or paths. The arrowhead on an activity edge shows the direction of flow from one action to the next. A line going into a node is called as an incoming edge, and a line exiting a node is called an outgoing edge. Fork Node is used to show the parallel or concurrent actions. Fork has single incoming flows and multiple outgoing flows. The join means that all incoming actions must finish before the flow can proceed past the join. Join has multiple incoming flows and single outgoing flow.
+\end{comment}
+\begin{figure}[H]
+\centering
+\includegraphics[height=5in]{./diagrams/png/flow}
+\caption{Use Case Diagram}
+\end{figure}
 \newpage
 
+\begin{comment}
 \section{Sequence Diagram}
 \hspace*{0.5in}The sequence diagram is used primarily to show the interactions between objects in the sequential order that those interactions occur. Developers typically think sequence diagrams were meant exclusively for them. However, an organization's business staff can find sequence diagrams useful to communicate how the business currently works by showing how various business objects interact.Sequence diagrams illustrate how objects interact with each other. They focus on message sequences, that is, how messages are sent and received between a number of objects. The main purpose of sequence diagram is to show the order of events between the parts of system that are involved in particular interaction.\\
 \hspace*{0.5in}The basic element of sequence diagram is collection of participants, that is, the parts of the system that interact with each other during the sequence. The participants are arranged horizontally with no two participants overlapping each other. in Figure 6.4 developer, framework, applications are some examples of participants. A message is communication between objects that conveys information with the expectation that action will be taken. An event is any point in an interaction where something occurs. Message can flow in whatever direction makes sense for the required interaction from left to right, right to left, or even back to the Message Caller itself.
@@ -543,6 +550,7 @@ Quality assurance should be built into the project management process. However, 
 \newpage
 \section{Deployment Diagram}
 \hspace*{0.5in}he deployment diagram depicts the runtime architecture of devices, execution environments and artifacts that reside in this architecture. It is the ultimate physical description of the system topology, describing the structure of the hardware units and the software taht executes on each unit. The deployment diagram shows how a system will be physically deployed in the hardware environment. Its purpose is to show where the different components of the system will physically run and how they will communicate with each other.
+\end{comment}
 
 \section{Summary}
 \hspace*{0.5in}Thus we saw the various modeling techniques used for the design of Artificially Intelligent Traffic Management System.
