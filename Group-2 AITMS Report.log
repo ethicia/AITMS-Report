@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.21)  29 DEC 2021 16:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.21)  29 DEC 2021 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -630,8 +630,8 @@ ed-to.pdf ./metbkc.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./metbkc-eps-converted-to.pdf): PDF inclusion: f
-ound PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: pdflatex.exe (file ./metbkc-eps-converted-to.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
 <./metbkc-eps-converted-to.pdf, id=252, 973.6375pt x 112.42pt>
 File: ./metbkc-eps-converted-to.pdf Graphic file (type pdf)
 <use ./metbkc-eps-converted-to.pdf>
