@@ -43,436 +43,385 @@
 %*****************************Title Page**************************************************************
 
 \begin{document} % Begin document "environment".
-\lhead{}
-\chead{}
-\rhead{Artificially Intelligent Traffic Management System}
-\lfoot{ MET's Institute of Engineering}
-\setlength{\headrulewidth}{0.4pt}
-\setlength{\footrulewidth}{0.4pt}
-\fontsize{12}{15}
-\begin{titlepage}
-\begin{center}
-%\vspace{0.2in}
-{\bf A Project Report on} \\
-\vspace{0.3in}
-{\Large \bf ``Artificially Intelligent Traffic Management System''}\\
-\vspace{0.3in}
-SUBMITTED TO THE SAVITRIBAI PHULE UNIVERSITY, PUNE\\
-IN THE PARTIAL FULFILMENT OF THE REQUIREMENTS \\
-FOR THE AWARD OF THE DEGREE \\
-\vspace{0.2in}
-OF\\  
-\vspace{0.2in}
-BACHELOR OF ENGINEERING (COMPUTER ENGINEERING)\\
-(Academic Year: 2021-22)\\
-\vspace{0.2in}
-
-{\it SUBMITTED BY}\\
-
-\vspace{0.2in}
-
-{\bf Mr. Saquib Akhtar Aneesur Rahman}\hspace*{\fill}{\bf (Div - B Roll No. 03)}\\
-{\bf Mr. Giwil Gidwani }\hspace*{\fill}{\bf (Div - A Roll No. 24)}\\
-{\bf Mr. Vrushabh Nikam Dattatray     }\hspace*{\fill}{\bf (Div - B Roll No. 50)}\\
-{\bf Mr. Rutuja Rajesh Shinde    }\hspace*{\fill}{\bf (Div - B Roll No. 46)}\\
-
-\vspace{0.4in}
-
-{\it Under the guidance of}\\
-
-\vspace{0.1in}
-
-{\bf Mr. Ravindra Aher}\\
-\vspace{0.4in}
-
-
-{\small DEPARTMENT OF COMPUTER ENGINEERING}\\
-\begin{figure*}[h]
-\centerline{\psfig{figure=./metbkc.eps,width=4.1in,height=0.5in}}
-\label{atcres}
-\end{figure*}
-{\large MET's Institute of Engineering,}\\
-{\small Adgaon, Nashik-422003}\\
-SAVITRIBAI PHULE UNIVERSITY, PUNE\\
-\vspace{0.2in}
-{\small December, 2021}
-\end{center}
-\end{titlepage}
-
-%*****************************Certificate*************************************************************
-\fontsize{14}{16}
-\thispagestyle{empty}
-\begin{center}
-\begin{figure*}[h]
-\centerline{\psfig{figure=./metbkc.eps,width=7.2in,height=1.2in}}
-\label{atcres}
-\end{figure*}
-\vspace{0.1in}
-{\it \Huge  \textbf{Certificate}}
-\vspace{0.2in}
-{\it This is to Certify that the project report entitles}\\
-\vspace{0.2in}
-{\Large \bf ``Artificially Intelligent Traffic Management System''}\\
-\vspace{0.2in}
-
-{\bf Mr. Saquib Akhtar Aneesur Rahman}\hspace*{\fill}{\bf (Div - B Roll No. 03)}\\
-{\bf Mr. Giwil Gidwani  }\hspace*{\fill}{\bf (Div - A Roll No. 24)}\\
-{\bf Mr. Vrushabh Nikam Dattatray     }\hspace*{\fill}{\bf (Div - B Roll No. 50)}\\
-{\bf Ms. Rutuja Rajesh Shinde    }\hspace*{\fill}{\bf (Div - B Roll No. 46)}\\
-\end{center}
-\vspace{0.3in}
-{\it are bonafide students of this institute and the work has been carried out by them under
-the guidance of Mr. Vaibhav Dabhade and it is approved for the partial fulfillment of the
-requirement of Savitribai Phule Pune University for the award of the degree of Bachelor
-of Engineering (Computer Engineering).}\\
-\vspace{0.2in}
-\vspace{0.7in}
-\noindent
-
-\hspace{0.1in} Project Guide  \hspace{1.5in}H.O.D \hspace{0.9in} Principal  \\
-\hspace{4.6in} (Mr. Ravindra Aher) \hspace{0.6in}(Dr. M. U. Kharat)\hspace{0.4in}(Dr. V. P. Wani)\\
-\vspace{0.2in}
-
-Date: \hspace{0.2 in}/\hspace{0.3 in}/   \\
-\newpage \pagenumbering{Roman}
-%\vskip
-\chapter*{Acknowledgements}
-
-\hspace*{0.5 in}We have taken efforts in this project. However, it would not have been possible without the kind support and help of many individual and organizations. We would like to extend our sincere thanks to all of them. It gives us proud privilege to complete the project on \textbf{ ``Artificially Intelligent Traffic Management System''}. We are highly indebted to our internal guide \textbf{Mr. Ravindra Aher} for his guidance and constant supervision as well as for providing necessary information regarding the project and also for his support in completing the project.\\
-\hspace*{0.5 in}We are also extremely grateful to our respected H.O.D. (Computer Department) \textbf{Dr. M. U. Kharat}  and  \textbf{Prof. Ravindra Aher} (Project Co-ordinator) for providing all facilities and every help for smooth progress of project work.\\
-\\
-\hspace*{0.5 in}The project is sponsored by Cognifront Pvt. Ltd. We would like to express our special gratitude and thanks to \textbf{Mr. Suchit Tiwari, Cognifront Pvt. Ltd.} and his team for their kind co-operation and encouragement which helped us in completion of this project.\\
-\\
-\\
-\\
-\hspace*{3.5 in}Mr. Saquib Akhtar Aneesur Rahman\\
-\hspace*{3.5 in}Mr. Giwil Gidwani \\
-\hspace*{3.5 in}Mr. Vrushabh Nikam Dattatray\\
-\hspace*{3.5 in}Ms. Rutuja Rajesh Shinde
-
-%*****************************Abstract*************************************************************
-\chapter*{Abstract\markboth{Abstract}{Abstract}}
-\hspace*{0.5 in}Congestion of traffic in urban areas and smart cities is one of the major issues with increasing population in metropolitan areas. Traffic jams are not only a cause of delay and inconvenience in day to day life but also a major source of noise and air pollution.
-Modern approaches to deal with this issue range from complicated software handling dozens of traffic signals throughout an entire city to simpler single-intersection solutions. However these can be costly, difficult to implement and may require a lot of manual monitoring.\\
-\\
-\hspace*{0.5in}In this project, we propose a traffic management system which uses concepts from artificial intelligence and graph theory to control and optimize traffic flow. Our aim is to optimize traffic flow on a small to medium scale in a manner which adapts to the real time changes in traffic.\\
-
-\newpage
-\tableofcontents
-\listoffigures
-\listoftables
-\newpage	
-\pagenumbering{arabic}
-
-
-
-
-%*****************************Chapter1 *****************************
-
-\chapter{Introduction}
-\hspace*{0.5in}This chapter describes the term M-Learning and introduces the concept of Artificially Intelligent Traffic Management System. It also gives the overview of the Artificially Intelligent Traffic Management System which describes the deliverables of the project. We have code named our project as Maggie.\\
-\section{Objective}
-\hspace*{0.5in} Project Objective. 
-%*************************Chapter 2************************
-\chapter{Literature Survey}
-
-\hspace*{0.5in}In this chapter we will see the various studies and research conducted on key concepts which are essential to create and understand our proposed system.
-
-\section{You Only Look Once: Unified, Real-Time Object Detection, Joseph Redmon, et al. \cite{paper1}}
-\hspace*{0.5in}Object detection comprises locating specific types of objects in an image or video. The output of a typical object detection algorithm consists of bounding box coordinates and a label of the object. YOLO (You Only Look Once) model consists of an extremely fast unified architecture for object detection. It makes use of a single neural network for predicting bounding boxes and class probabilities from a full image in a single evaluation. Hence, making it ideal for object detection in real time applications.\\
-
-\section{Traffic Congestion Detection from Camera Images using Deep Convolution Neural Networks, Pranamesh Chakraborty, et al. \cite{paper2}}
-\hspace*{0.5in}Recent improvements in computer vision algorithms have led to closed-circuit television (CCTV) cameras emerging as an important data source for determining the state of traffic congestion. To detect congestion in a traffic CCTV footage YOLO, a state-of-the-art real-time object detection algorithm is used. In the above mentioned paper, several object detection techniques were tested for congestion detection out of which YOLO showed the most promising results.\\
-
-\section{Smart Control of Traffic Light Using Artificial Intelligence, Mihir M. Gandhi, et al. \cite{paper3}}
-\hspace*{0.5in}Traffic signal timing plays an important role in controlling flow and efficiency of traffic.
-The above system makes use of vehicle count obtained from CCTV footage and uses it to  optimize green signal timing for each lane to optimize traffic flow at a single intersection. Our aim is to create a similar system and extend the scope of optimization to multiple adjacent intersections.\\
-
-\section{Comparison of Current Practical Adaptive Traffic Control Systems, Hongyun Chen, et al. \cite{paper4}}
-\hspace*{0.5in}Existing Adaptive Traffic Control Systems (ACTS) such as SCOOT, SCAT, OPAC, RHODES, etc. are being adapted by major cities in developed and developing countries. They can cover up to hundreds (OPAC) to even thousands (SCOOT, SCAT) of intersections. However, their implementation includes installation of additional sensors and can lead to very heavy costs which isn't feasible for smaller cities. Additionally, these systems do not take into consideration challenges such as power failure, non lane following traffic and mixed traffic which are common in Indian roads.\\
-\hspace*{0.5in}The aforementioned systems provide key algorithmic insights for developing a more feasible ACTS model. Furthermore, usage of existing inputs such as CCTV needs to be emphasized over installation of new sensors in order to help reduce costs.\\
+	\lhead{}
+	\chead{}
+	\rhead{Artificially Intelligent Traffic Management System}
+	\lfoot{ MET's Institute of Engineering}
+	\setlength{\headrulewidth}{0.4pt}
+	\setlength{\footrulewidth}{0.4pt}
+	\fontsize{12}{15}
+	\begin{titlepage}
+		\begin{center}
+			%\vspace{0.2in}
+			{\bf A Project Report on} \\
+			\vspace{0.3in}
+			{\Large \bf ``Artificially Intelligent Traffic Management System''}\\
+			\vspace{0.3in}
+			SUBMITTED TO THE SAVITRIBAI PHULE UNIVERSITY, PUNE\\
+			IN THE PARTIAL FULFILMENT OF THE REQUIREMENTS \\
+			FOR THE AWARD OF THE DEGREE \\
+			\vspace{0.2in}
+			OF\\  
+			\vspace{0.2in}
+			BACHELOR OF ENGINEERING (COMPUTER ENGINEERING)\\
+			(Academic Year: 2021-22)\\
+			\vspace{0.2in}
+			
+			{\it SUBMITTED BY}\\
+			
+			\vspace{0.2in}
+			
+			{\bf Mr. Saquib Akhtar Aneesur Rahman}\hspace*{\fill}{\bf (Div - B Roll No. 03)}\\
+			{\bf Mr. Giwil Gidwani }\hspace*{\fill}{\bf (Div - A Roll No. 24)}\\
+			{\bf Mr. Vrushabh Nikam Dattatray     }\hspace*{\fill}{\bf (Div - B Roll No. 50)}\\
+			{\bf Mr. Rutuja Rajesh Shinde    }\hspace*{\fill}{\bf (Div - B Roll No. 46)}\\
+			
+			\vspace{0.4in}
+			
+			{\it Under the guidance of}\\
+			
+			\vspace{0.1in}
+			
+			{\bf Mr. Ravindra Aher}\\
+			\vspace{0.4in}
+			
+			
+			{\small DEPARTMENT OF COMPUTER ENGINEERING}\\
+			\begin{figure*}[h]
+				\centerline{\psfig{figure=./metbkc.eps,width=4.1in,height=0.5in}}
+				\label{atcres}
+			\end{figure*}
+			{\large MET's Institute of Engineering,}\\
+			{\small Adgaon, Nashik-422003}\\
+			SAVITRIBAI PHULE UNIVERSITY, PUNE\\
+			\vspace{0.2in}
+			{\small December, 2021}
+		\end{center}
+	\end{titlepage}
+	
+	%*****************************Certificate*************************************************************
+	\fontsize{14}{16}
+	\thispagestyle{empty}
+	\begin{center}
+		\begin{figure*}[h]
+			\centerline{\psfig{figure=./metbkc.eps,width=7.2in,height=1.2in}}
+			\label{atcres}
+		\end{figure*}
+		\vspace{0.1in}
+		{\it \Huge  \textbf{Certificate}}
+		\vspace{0.2in}
+		{\it This is to Certify that the project report entitles}\\
+		\vspace{0.2in}
+		{\Large \bf ``Artificially Intelligent Traffic Management System''}\\
+		\vspace{0.2in}
+		
+		{\bf Mr. Saquib Akhtar Aneesur Rahman}\hspace*{\fill}{\bf (Div - B Roll No. 03)}\\
+		{\bf Mr. Giwil Gidwani  }\hspace*{\fill}{\bf (Div - A Roll No. 24)}\\
+		{\bf Mr. Vrushabh Nikam Dattatray     }\hspace*{\fill}{\bf (Div - B Roll No. 50)}\\
+		{\bf Ms. Rutuja Rajesh Shinde    }\hspace*{\fill}{\bf (Div - B Roll No. 46)}\\
+	\end{center}
+	\vspace{0.3in}
+	{\it are bonafide students of this institute and the work has been carried out by them under
+		the guidance of Mr. Ravindra Aher and it is approved for the partial fulfillment of the
+		requirement of Savitribai Phule Pune University for the award of the degree of Bachelor
+		of Engineering (Computer Engineering).}\\
+	\vspace{0.2in}
+	\vspace{0.7in}
+	\noindent
+	
+	\hspace{0.1in} Project Guide  \hspace{1.5in}H.O.D \hspace{0.9in} Principal  \\
+	\hspace{4.6in} (Mr. Ravindra Aher) \hspace{0.6in}(Dr. M. U. Kharat)\hspace{0.4in}(Dr. V. P. Wani)\\
+	\vspace{0.2in}
+	
+	Date: \hspace{0.2 in}/\hspace{0.3 in}/   \\
+	\newpage \pagenumbering{Roman}
+	%\vskip
+	\chapter*{Acknowledgements}
+	
+	\hspace*{0.5 in}We have taken efforts in this project. However, it would not have been possible without the kind support and help of many individual and organizations. We would like to extend our sincere thanks to all of them. It gives us proud privilege to complete the project on \textbf{ ``Artificially Intelligent Traffic Management System''}. We are highly indebted to our internal guide \textbf{Mr. Ravindra Aher} for his guidance and constant supervision as well as for providing necessary information regarding the project and also for his support in completing the project.\\
+	
+	\hspace*{0.5 in}We are also extremely grateful to our respected H.O.D. (Computer Department) \textbf{Dr. M. U. Kharat} and \textbf{Prof. Dr. Priti Metange} (Project Co-ordinator) for providing all facilities and every help for smooth progress of project work.\\
+	\\
+	\hspace*{3.5 in}Mr. Saquib Akhtar Aneesur Rahman\\
+	\hspace*{3.5 in}Mr. Giwil Gidwani \\
+	\hspace*{3.5 in}Mr. Vrushabh Nikam Dattatray\\
+	\hspace*{3.5 in}Ms. Rutuja Rajesh Shinde
+	
+	%*****************************Abstract*************************************************************
+	\chapter*{Abstract\markboth{Abstract}{Abstract}}
+	\hspace*{0.5 in}Congestion of traffic in urban areas and smart cities is one of the major issues with increasing population in metropolitan areas. Traffic jams are not only a cause of delay and inconvenience in day to day life but also a major source of noise and air pollution.
+	Modern approaches to deal with this issue range from complicated software handling dozens of traffic signals throughout an entire city to simpler single-intersection solutions. However these can be costly, difficult to implement and may require a lot of manual monitoring.\\
+	\\
+	\hspace*{0.5in}In this project, we propose a traffic management system which uses concepts from artificial intelligence and graph theory to control and optimize traffic flow. Our aim is to optimize traffic flow on a small to medium scale in a manner which adapts to the real time changes in traffic.\\
+	
+	\newpage
+	\tableofcontents
+	\listoffigures
+	\listoftables
+	\newpage	
+	\pagenumbering{arabic}
+	
+	
+	
+	
+	%*****************************Chapter1 *****************************
+	
+	\chapter{Introduction}
+	\hspace*{0.5in}This chapter briefly explains the need for an adaptive traffic management system and an overview of our implementation.\\
+	
+	\section{Overview}
+	\hspace*{0.5in}Traffic congestion is becoming one of the critical issues in cities with increasing population and number of vehicles. They not only cause problems like delays and stress to drivers but also cause secondary problems like increasing fuel consumption, transportation costs and pollution.
+	
+	The causes of congestion can be divided into two categories, recurring and non recurring congestion. Recurring congestion can be expected to occur at the same time every weekday as a result of high volumes of commuter traffic traveling on roadways that are at or near their carrying capacity. Non-recurring congestion occurs as a result of an unexpected or non-typical event. Some causes of non-recurring congestion include: vehicular crashes, vehicle breakdowns, roadway construction, inclimate weather, and additional traffic resulting from special events. While non-recurring congestion can be unpredictable and difficult to treat, recurring congestion can be reduced by increasing road capacity or with the help of adaptive traffic control systems.
+	
+	There are several existing standardized solutions for adaptive traffic control such as SCOOT, SCAT, etc. which have been implemented in many major metropolitan cities. However, most suburban and urban areas use conventional traffic control systems such as manual traffic control or non adaptive automated traffic control. Manual control consists of an on-site traffic official guiding vehicles. Non adaptive automated traffic control refers to the use of fixed timers in traffic signals. Wide implementation of standardized adaptive traffic control is not possible due to lack of feasibility since it requires manual labor and installation of new sensors. Therefore a more feasible solution which reuses existing infrastructure is required.
+	
+	We propose an Artificially Intelligent Traffic Management System which uses existing CCTV feed and API data if needed to optimize traffic control over small to medium scale road networks. We use an artificially intelligent agent or model to handle the complexity of day to day traffic in real-time. Furthermore, simulations will be performed to demonstrate and test the model.\\
+	
+	\section{Summary}
+	\hspace*{0.5in}In this chapter we have discussed the need for an intelligent traffic management system and also discussed a brief overview of our project.\\
+	%*************************Chapter 2************************
+	\chapter{Literature Survey}
+	
+	\hspace*{0.5in}In this chapter we will see the various studies and research conducted on key concepts which are essential to create and understand our proposed system.
+	
+	\section{You Only Look Once: Unified, Real-Time Object Detection, Joseph Redmon, et al. \cite{paper1}}
+	\hspace*{0.5in}Object detection comprises locating specific types of objects in an image or video. The output of a typical object detection algorithm consists of bounding box coordinates and a label of the object. YOLO (You Only Look Once) model consists of an extremely fast unified architecture for object detection. It makes use of a single neural network for predicting bounding boxes and class probabilities from a full image in a single evaluation. Hence, making it ideal for object detection in real time applications.\\
+	
+	\section{Traffic Congestion Detection from Camera Images using Deep Convolution Neural Networks, Pranamesh Chakraborty, et al. \cite{paper2}}
+	\hspace*{0.5in}Recent improvements in computer vision algorithms have led to closed-circuit television (CCTV) cameras emerging as an important data source for determining the state of traffic congestion. To detect congestion in a traffic CCTV footage YOLO, a state-of-the-art real-time object detection algorithm is used. In the above mentioned paper, several object detection techniques were tested for congestion detection out of which YOLO showed the most promising results.\\
+	
+	\section{Smart Control of Traffic Light Using Artificial Intelligence, Mihir M. Gandhi, et al. \cite{paper3}}
+	\hspace*{0.5in}Traffic signal timing plays an important role in controlling flow and efficiency of traffic.
+	The above system makes use of vehicle count obtained from CCTV footage and uses it to  optimize green signal timing for each lane to optimize traffic flow at a single intersection. Our aim is to create a similar system and extend the scope of optimization to multiple adjacent intersections.\\
+	
+	\section{Comparison of Current Practical Adaptive Traffic Control Systems, Hongyun Chen, et al. \cite{paper4}}
+	\hspace*{0.5in}Existing Adaptive Traffic Control Systems (ACTS) such as SCOOT, SCAT, OPAC, RHODES, etc. are being adapted by major cities in developed and developing countries. They can cover up to hundreds (OPAC) to even thousands (SCOOT, SCAT) of intersections. However, their implementation includes installation of additional sensors and can lead to very heavy costs which isn't feasible for smaller cities. Additionally, these systems do not take into consideration challenges such as power failure, non lane following traffic and mixed traffic which are common in Indian roads.\\
+	\hspace*{0.5in}The aforementioned systems provide key algorithmic insights for developing a more feasible ACTS model. Furthermore, usage of existing inputs such as CCTV needs to be emphasized over installation of new sensors in order to help reduce costs.\\
+	
+	\section{Summary}
+	\hspace*{0.5in}In this chapter, we reviewed research done on key concepts such as object detection and implementation of artificial intelligence with traffic signals which are essential to our proposed system. We also studied existing solutions, their inner workings as well as their advantages and disadvantages.\\
+	
+	
+	%*************************Chapter 3 ************************
+	
+	\chapter{Problem Definition}
+	
+	\hspace*{0.5in}This chapter discusses the drawbacks of current systems implemented in suburban and urban areas and also defines the need and overall scope of an artificially intelligent traffic management system.\\
+	
+	\section{Need For Artificially Intelligent Traffic Management Systems}
+	\hspace*{0.5in}Traffic congestion is becoming a critical issue with increasing population and automobiles in cities. The conventional systems which were suitable at the time of their installation may not be suitable in the present time due to the rising number of vehicles. Furthermore, upgrading these systems to the standards used in major metropolitan cities is often not feasible due to several factors such as manual labor and installation of new sensors. Owing to these factors, the majority of intersections make use of either manual control which includes traffic police officials guiding vehicles or non adaptive automatic control, which includes the use of fixed timers. In most scenarios these solutions may not be at par with the unpredictable rate of traffic flow. Hence, an intelligent, adaptive and feasible solution is needed.\\
+	
+	\section{Additional Features}
+	\hspace*{0.5in}Additionally, the following points must be kept in mind while developing or optimizing an automated traffic controlling system:\\
+	
+	\begin{itemize}
+		\item{Ensuring necessary fall backs in case of disconnection or power cuts.}
+		\item{Ensuring signal times are between a maximum and minimum limit to avoid starvation.}
+		\item{Indian traffic is not lane following and has a high amount of mixed traffic. System must be able to withstand these challenges.}
+		\item{The system must make use of existing sensors and avoid installation of newer sensors in order to maintain feasibility.}
+		\item{The system must be scalable within budget and it should be able to handle an increasing number of vehicles.}
+		\item{Additional features such as incident detection, report generation and assistance for emergency or VIP vehicles are desirable.}
+	\end{itemize}
+	
+	
+	
+	\section{Summary}
+	\hspace*{0.5in}In this chapter we discussed the need of artificially intelligent traffic management systems and the various points which must be kept in mind while developing said system.\\
+	
+	%*****************************Chapter 4******************
+	
+	\chapter{Analysis}
+	\begin{comment}
+		\hspace*{0.5in}This chapter describes the project plan adopted and determines the requirement analysis. We have implemented the project on the basis of Rapid Application Development (RAD) model and Model View Controller (MVC) model. The stake holders who participated in the requirement analysis process were the developers of Cognifront who will be among the end users of the Artificially Intelligent Traffic Management System for building M- Applications.
+	\end{comment}
+	
+	\hspace*{0.5 in}This chapter describes the project plan adopted and determines the requirement analysis. We have implemented the project on the basis of Agile model and Model View view-model.
+	
+	
+	\section{Project Plan}
+	
+	\subsection{Project Plan for semester I}
+	
+	\hspace*{0.5 in}The following Table 4.1 describes the project plan for semester I. It describes the various activities and accountability of the developers for the respective modules. Following are the major activities carried out in this plan :
+	\begin{itemize}
+		\item{Identifying the functional requirements.}
+		\item{Designing of the Framework.}
+		\item{Studying the necessary development tools and technologies.}
+	\end{itemize}
+	
+	\newpage
+	\begin{table} [htb]
+		\centering
+		\begin{tabular}{| p{1.2 cm}| p{5 cm}| p{2.5 cm}| p{2.5 cm}| p{3 cm}| }\hline
+			\textbf{Phase}	&\textbf{Activity}	&\textbf{Start Date}	&\textbf{End Date} &\textbf{Group Members}\\\hline\hline
+			1 &Selection of Project Topic	&22-08-2021 	&25-08-2021 &Team \\\hline
+			1 &Functional Requirement Specification(FRS) &29-08-2021 &09-09-2021 &Team\\\hline
+			1 &Design Prototype &11-09-2021 &21-09-2021 &Team\\\hline
+			1 &Set Theory and Math Model &23-09-2021 &06-10-2021 & Saquib, Giwil\\\hline
+			1 &UML Diagram Prototype &23-09-2021 &03-10-2021 &Vrushabh, \newline Rutuja \\\hline
+			1 &Project Problem Statement using NP Complete &08-10-2021 &19-10-2021 &Saquib, Giwil\\\hline
+			1 &UML Diagram in StarUML &05-10-2021 &22-10-2021 &Team \\\hline
+			1 &Paper Presentation &05-11-2021 &05-11-2021 &Team \\\hline
+			1 &Software Requirement Specification &6-11-2021 &10-11-2021 &Team \\\hline
+			1 &Test Plan &11-11-2021 &15-11-2021 &Vrushabh, \newline Rutuja \\\hline
+		\end{tabular}
+		\caption{Planner and Progress Report I for AITMS}
+		\label{tab:nnwork}
+	\end{table}
+	\subsection{Project Plan for semester II}
+	\todo[inline]{TODO: Project Plan for semester II}
+	\begin{comment}
+		\hspace*{0.5 in}The following Table 4.2 describes the project plan for semester II. It describes the various activities and accountability of the developers for the respective modules. Following are the major activities carried out in this plan :
+		\begin{itemize}
+			\item{Define Programming Standards.}
+			\item{Development of project in 3 Milestones.}
+			\item{Formal Technical Review and Testing.}
+		\end{itemize}
+		\newpage
+		\begin{table} [htb]
+			%\centering
+			\begin{tabular}{| p{1.2 cm}| p{5 cm}| p{2.5 cm}| p{2.5 cm}| p{3 cm}| }\hline
+				\textbf{Phase}	&\textbf{Activity}	&\textbf{Start Date}	&\textbf{End Date} &\textbf{Group Members}\\\hline\hline
+				2 &Defining Programming Standards	&10-12-2021 	&15-12-2021 &Team \\\hline
+				2 &Development of Milestone No.1 &16-12-2021 &05-01-2012 &Team\\\hline
+				2 &Development of Milestone No.2 &7-01-2012 &02-02-2012 &Team\\\hline
+				2 &Development of Milestone No.3 &05-02-2012 &29-02-2012 & Team \\\hline
+				2 &Formal Technical Review &02-03-2012 &10-03-2012 &Team \\\hline
+				2 &Testing and Bug Fixing  &22-03-2012 &10-04-2012 &Team\\\hline
+				
+			\end{tabular}
+			\caption{Planner and Progress Report II for Maggie}
+			\label{tab:nnwork}
+		\end{table}
+	\end{comment}
+	
+	
+	\section{Requirement Analysis}
+	
+	\subsection{Necessary Functions}
+	\begin{itemize}
+		\item{Deliver a reusable piece of code.}
+		\item{Build an application and}
+		\item{Deployment of application built onto the Windows.}
+	\end{itemize}
+	
+	\subsection{Desirable  Functions}
+	\begin{itemize}
+		\item{Assistance to emergency and VIP vehicles.}	
+		\item{Traffic incident detection.}
+		\item{Real-time Traffic Congestion Detection.}
+		\item{Real-time Statistics.}
+		
+	\end{itemize}
+	
+	\section{Summary}
+	\hspace*{0.5in}In this chapter we described the implementation details of the project plan for Semester I and Semester II. We also studied the necessary functions and the desirable functions of Artificially Intelligent Traffic Management System.
+	%*****************************Chapter5***************
+	\chapter{Design}
+	\hspace*{0.5in}This chapter describes the Software Requirement Specification (SRS) to be implemented for Artificially Intelligent Traffic Management System. It also explains the architecture of the system and external interface requirements. We have also described the Risk assessment strategy and the Data Flow Diagram which explains the flow of the project.
+	\section{Software Requirement Specifications}
+	\hspace*{0.5in} The Software Requirement Specification describes the scope of the project, operating environment, user characteristics, design and constraints. It also elaborates the system architecture of the Artificially Intelligent Traffic Management System.
+	
+	\subsection{Project Scope}
+	
+	\hspace*{0.5in}The main purpose of developing the Artificially Intelligent Traffic Management System is for the welfare of the public and reduce the pollution caused by traffic congestion. The issue of transportation is one of the most problematic issues in the country, and in the world at large. In an age where a person has a private car, and especially in countries where there is a failing public transport system, traffic jams and the countless accidents that accompany road congestion harm the economic, political aspect and social in both the public and private sectors. the transportation systems used by transportation agencies around the world are not adapted to modern transportation - these are systems designed decades ago, when the amount of cars on the roads was much smaller than today, and the transportation nodes were relatively simple. today, innovative technologies for computerized transportation management are in use, but these turned out to be extremely expensive, and due to budget shortages and even many cuts in the transportation budget, transportation agencies are often forced to give up these systems and stick with the old systems.countries such as Australia, Singapore, and a number of U.S. states have adopted transportation management technologies on a massive scale (for example, GLIDE, SCATS - these are huge economic investments, but they are prove themselves as highly prudent and effective investments. The purpose of the software is to enable the optimization of transportation traffic through the optimization of node activity transportation, and adjusting their mode of operation in real time to the transportation traffic at any given moment. The software is intuitive and accessible as much as possible, while maintaining accuracy, maximum detail, level of performance And high efficiency.
+	\\The scope of Artificially Intelligent Traffic Management System can be considered as a collection of reusable piece of code, style-sheets and include files that can be used by the developer for developing more advanced systems and also considering the following points :
+	\begin{itemize}
+		\item{Warehousing of parametric data and reports to analyze periodic patterns and improve optimization using it (data science)}
+		\item{Making AITMS compatible with each other so that neighboring solutions can work together providing another layer of optimization with added scalability
+		}
+	\end{itemize}
+	
+	\subsection{Operating Environment}
+	\hspace*{0.5in}Our proposed system will require an operating environment with appropriate version of windows OS, python, tensorflow and sufficient computation power through GPUs.
+	
+	\subsection{Design and Implementation Constraints}
+	\hspace*{0.5in}
+	The key restriction here will be to verify the validity of the report,which is not always feasible.Security threats may be involved.\\
+	\begin{itemize}
+		\item{\textbf{Memory:} Minimum 16GB RAM}
+		\item{\textbf{CPU:} Intel Core i5 - 8300H or equivalent\textbackslash higher.}
+		\item{\textbf{GPU:} Nvidia GTX 1050ti or equivalent\textbackslash higher.}
+		\item{\textbf{LAN for CCTV:}  CCTV feed from intersections to the server room.}
+		\item{\textbf{Operating System:}  This application works on Windows.}
+	\end{itemize}
+	
+	\subsection{Assumptions and Dependencies}
+	\hspace*{0.5in}The Framework is capable of allowing the developer to develop the more advanced application for Traffic Congestion Clearance. The Admin has a
+	computer with graphic card, gets to monitor intersections and rest of the system is automated.
+	
+	
+	\newpage
+	\section{System Architecture}
+	
+	\hspace*{0.5in}Our overall architecture can be viewed in the form of a  3 layer architecture consisting of physical intersection, intersection node and the optimizer.\\
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=5.2in,height=4.5in]{./Diagrams/PNG/layered_architecture}
+		\caption{Layered form of System Architecture}
+	\end{figure}
+	
+	\hspace*{0.5in}The lowermost layer i.e. the physical intersection consists of the physical traffic signal controllers and CCTV cameras. This layer contains the pre-existing infrastructure used for controlling traffic. The traffic signal controller must provide an interface to obtain and control its state. Furthermore, real-time CCTV footage must be made available to our model.\\
+	
+	\hspace*{0.5in}The intermediate layer consists of intersection nodes (software). Each intersection node represents a single traffic intersection. Intersection nodes serve the following primary functions:\\
+	
+	\begin{itemize}
+		\item{Collecting CCTV footage and other data from physical intersection layer and APIs (if required by optimizer).}
+		\item{Obtaining optimizer parameters from the collected raw data. For example, obtaining vehicle count from CCTV footage using YOLO. The intersection node then forwards this data to the optimizer.}
+		\item{Intersection nodes also receive timing signals as outputs from the optimizer, their task is to then interface these signals onto the controller.}
+	\end{itemize}
+	
+	\hspace*{0.5in}Aside from the above functions, the intersection nodes can also be used to perform extra tasks such as incident detection and sending reports on traffic incidents and congestion to traffic officials. It must be noted that since intersection nodes are services in execution, they can be executed over cloud or locally depending on feasibility. Depending on availability of computation power and hardware setup, a single computing device can hold multiple intersection nodes as well.\\
+	
+	\hspace*{0.5in}The uppermost layer consists of the optimizer. The optimizer is the master node which receives the required data from all the intersection nodes and executes the optimization algorithm. The optimization algorithm gives the signal timing details as output in terms of green signal time which is broadcasted back to the respective intersection nodes.\\
+	
+	\hspace*{0.5in}We have shortlisted several optimization algorithms which can be applied depending on their performances on a simulation consisting of a specific map. It should also be noted that different optimization algorithms may be suited for different maps.\\
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=6.5in,height=5.5in]{./Diagrams/PNG/architecture}
+		\caption{System Architecture Illustration}
+	\end{figure}
+	
+	\begin{comment}
+		content...
+		
+		\section{External Interface Requirement}
+		
+		\subsection{User Interfaces}
+		
+		\begin{itemize}
+			\item{\textbf{Desktop Application:}  Using the desktop application the end user will be able to provide the M-Learning content for the application to be developed using the Artificially Intelligent Traffic Management System.}
+			\item{\textbf{M-Learning Application:}  The M-Learning application will provide a Graphical User Interface which will consist of several screens which the end user will be able to navigate to consume learning.}
+		\end{itemize}
+		
+		\subsection{Hardware Interfaces}
+		\begin{itemize}
+			\item{\textbf{Mobile Devices:} The M-Learning applications built using the framewok will be deployed on mobile devices like smart-phones and tablets supporting Android operating system version 2.2 and above.}
+			\item{\textbf{SD card:}  The M-Learning application will load the learning content stored on the SD card. End user will be able to write on the SD card as well.}
+		\end{itemize}
+		
+		\subsection{Communication Interfaces}
+		\hspace*{0.5in}The M-Learning application will be communicating through the internet via a Transmission Control Protocol of the TCP/IP suite for Social Networking Interface(SNI) and video streaming.
+		
+	\end{comment}
+	\section{Software System Attribute}
+	\begin{itemize}
+		
+		\item{\textbf{Reliability:} The traffic management system should be reliable with necessary fallbacks in case of technical failuers.}
+		
+		\item{\textbf{Maintainability:}  The Artificially Intelligent Traffic Management System shall be well documented and easy for developers to improve on}
+		
+	\end{itemize}
 
 \section{Summary}
-\hspace*{0.5in}In this chapter, we reviewed research done on key concepts such as object detection and implementation of artificial intelligence with traffic signals which are essential to our proposed system. We also studied existing solutions, their inner workings as well as their advantages and disadvantages.\\
-
-
-%*************************Chapter 3 ************************
-
-\chapter{Problem Definition}
-
-\hspace*{0.5in}This chapter discusses the drawbacks of current systems implemented in suburban and urban areas and also defines the need and overall scope of an artificially intelligent traffic management system.\\
-
-\section{Need For Artificially Intelligent Traffic Management Systems}
-\hspace*{0.5in}Traffic congestion is becoming a critical issue with increasing population and automobiles in cities. The conventional systems which were suitable at the time of their installation may not be suitable in the present time due to the rising number of vehicles. Furthermore, upgrading these systems to the standards used in major metropolitan cities is often not feasible due to several factors such as manual labor and installation of new sensors. Owing to these factors, the majority of intersections make use of either manual control which includes traffic police officials guiding vehicles or non adaptive automatic control, which includes the use of fixed timers. In most scenarios these solutions may not be at par with the unpredictable rate of traffic flow. Hence, an intelligent, adaptive and feasible solution is needed.\\
-
-\section{Additional Features}
-\hspace*{0.5in}Additionally, the following points must be kept in mind while developing or optimizing an automated traffic controlling system:\\
-
-\begin{itemize}
-	\item{Ensuring necessary fall backs in case of disconnection or power cuts.}
-	\item{Ensuring signal times are between a maximum and minimum limit to avoid starvation.}
-	\item{Indian traffic is not lane following and has a high amount of mixed traffic. System must be able to withstand these challenges.}
-	\item{The system must make use of existing sensors and avoid installation of newer sensors in order to maintain feasibility.}
-	\item{The system must be scalable within budget and it should be able to handle an increasing number of vehicles.}
-	\item{Additional features such as incident detection, report generation and assistance for emergency or VIP vehicles are desirable.}
-\end{itemize}
-
-
-
-\section{Summary}
-\hspace*{0.5in}In this chapter we discussed the need of artificially intelligent traffic management systems and the various points which must be kept in mind while developing said system.\\
-
-%*****************************Chapter 4******************
-
-\chapter{Analysis}
-\begin{comment}
-\hspace*{0.5in}This chapter describes the project plan adopted and determines the requirement analysis. We have implemented the project on the basis of Rapid Application Development (RAD) model and Model View Controller (MVC) model. The stake holders who participated in the requirement analysis process were the developers of Cognifront who will be among the end users of the Artificially Intelligent Traffic Management System for building M-Learning Applications.
-\end{comment}
-
-\hspace*{0.5 in}This chapter describes the project plan adopted and determines the requirement analysis. We have implemented the project on the basis of Agile model and Model View view-model.
-
-
-\section{Project Plan}
-
-\subsection{Project Plan for semester I}
-
-\hspace*{0.5 in}The following Table 4.1 describes the project plan for semester I. It describes the various activities and accountability of the developers for the respective modules. Following are the major activities carried out in this plan :
-\begin{itemize}
-\item{Identifying the functional requirements.}
-\item{Designing of the Framework.}
-\item{Studying the necessary development tools and technologies.}
-\end{itemize}
-
-\newpage
-\begin{table} [htb]
-\centering
-\begin{tabular}{| p{1.2 cm}| p{5 cm}| p{2.5 cm}| p{2.5 cm}| p{3 cm}| }\hline
-\textbf{Phase}	&\textbf{Activity}	&\textbf{Start Date}	&\textbf{End Date} &\textbf{Group Members}\\\hline\hline
-1 &Selection of Project Topic	&22-08-2021 	&25-08-2021 &Team \\\hline
-1 &Functional Requirement Specification(FRS) &29-08-2021 &09-09-2021 &Team\\\hline
-1 &Design Prototype &11-09-2021 &21-09-2021 &Team\\\hline
-1 &Set Theory and Math Model &23-09-2021 &06-10-2021 & Saquib, Giwil\\\hline
-1 &UML Diagram Prototype &23-09-2021 &03-10-2021 &Vrushabh, \newline Rutuja \\\hline
-1 &Project Problem Statement using NP Complete &08-10-2021 &19-10-2021 &Saquib, Giwil\\\hline
-1 &UML Diagram in StarUML &05-10-2021 &22-10-2021 &Team \\\hline
-1 &Paper Presentation &05-11-2021 &05-11-2021 &Team \\\hline
-1 &Software Requirement Specification &6-11-2021 &10-11-2021 &Team \\\hline
-1 &Test Plan &11-11-2021 &15-11-2021 &Vrushabh, \newline Rutuja \\\hline
-\end{tabular}
-\caption{Planner and Progress Report I for Maggie}
-\label{tab:nnwork}
-\end{table}
-\subsection{Project Plan for semester II}
-\todo[inline]{TODO: Project Plan for semester II}
-\begin{comment}
-\hspace*{0.5 in}The following Table 4.2 describes the project plan for semester II. It describes the various activities and accountability of the developers for the respective modules. Following are the major activities carried out in this plan :
-\begin{itemize}
-\item{Define Programming Standards.}
-\item{Development of project in 3 Milestones.}
-\item{Formal Technical Review and Testing.}
-\end{itemize}
-\newpage
-\begin{table} [htb]
-%\centering
-\begin{tabular}{| p{1.2 cm}| p{5 cm}| p{2.5 cm}| p{2.5 cm}| p{3 cm}| }\hline
-\textbf{Phase}	&\textbf{Activity}	&\textbf{Start Date}	&\textbf{End Date} &\textbf{Group Members}\\\hline\hline
-2 &Defining Programming Standards	&10-12-2021 	&15-12-2021 &Team \\\hline
-2 &Development of Milestone No.1 &16-12-2021 &05-01-2012 &Team\\\hline
-2 &Development of Milestone No.2 &7-01-2012 &02-02-2012 &Team\\\hline
-2 &Development of Milestone No.3 &05-02-2012 &29-02-2012 & Team \\\hline
-2 &Formal Technical Review &02-03-2012 &10-03-2012 &Team \\\hline
-2 &Testing and Bug Fixing  &22-03-2012 &10-04-2012 &Team\\\hline
-
-\end{tabular}
-\caption{Planner and Progress Report II for Maggie}
-\label{tab:nnwork}
-\end{table}
-\end{comment}
-
-
-\section{Requirement Analysis}
-
-\subsection{Necessary Functions}
-\begin{itemize}
-\item{Deliver a reusable piece of code.}
-\item{Build an application and}
-\item{Deployment of application built onto the Windows.}
-\end{itemize}
-
-\subsection{Desirable  Functions}
-\begin{itemize}
-\item{Social Networking Interface.}
-\item{Real-time Traffic Congestion Detection.}
-\item{Real-time Statistics.}
-
-\end{itemize}
-
-\section{Summary}
-\hspace*{0.5in}In this chapter we described the implementation details of the project plan for Semester I and Semester II. We also studied the necessary functions and the desirable functions of Artificially Intelligent Traffic Management System.
-%*****************************Chapter5***************
-\chapter{Design}
-\hspace*{0.5in}This chapter describes the Software Requirement Specification (SRS) to be implemented for Artificially Intelligent Traffic Management System. It also explains the architecture of the system and external interface requirements. We have also described the Risk assessment strategy and the Data Flow Diagram which explains the flow of the project.
-\section{Software Requirement Specifications}
-\hspace*{0.5in} The Software Requirement Specification describes the scope of the project, operating environment, user characteristics, design and constraints. It also elaborates the system architecture of the Artificially Intelligent Traffic Management System.
-
-\subsection{Project Scope}
-
-\hspace*{0.5in}The main purpose of developing the Artificially Intelligent Traffic Management System is for the welfare of the public and reduce the pollution caused by traffic congestion. The issue of transportation is one of the most problematic issues in the country, and in the world at large. In an age where a person has a private car, and especially in countries where there is a failing public transport system, traffic jams and the countless accidents that accompany road congestion harm the economic, political aspect and social in both the public and private sectors. the transportation systems used by transportation agencies around the world are not adapted to modern transportation - these are systems designed decades ago, when the amount of cars on the roads was much smaller than today, and the transportation nodes were relatively simple. today, innovative technologies for computerized transportation management are in use, but these turned out to be extremely expensive, and due to budget shortages and even many cuts in the transportation budget, transportation agencies are often forced to give up these systems and stick with the old systems.countries such as Australia, Singapore, and a number of U.S. states have adopted transportation management technologies on a massive scale (for example, GLIDE, SCATS - these are huge economic investments, but they are prove themselves as highly prudent and effective investments. The purpose of the software is to enable the optimization of transportation traffic through the optimization of node activity transportation, and adjusting their mode of operation in real time to the transportation traffic at any given moment. The software is intuitive and accessible as much as possible, while maintaining accuracy, maximum detail, level of performance And high efficiency.
-\\The scope of Artificially Intelligent Traffic Management System can be considered as a collection of reusable piece of code, style-sheets and include files that can be used by the developer for developing more advanced systems and also considering the following points :
-\begin{itemize}
-\item{Warehousing of parametric data and reports to analyze periodic patterns and improve optimization using it (data science)}
-\item{Making AITMS compatible with each other so that neighboring solutions can work together providing another layer of optimization with added scalability
-}
-\end{itemize}
-
-\subsection{Operating Environment}
-\hspace*{0.5in}We propose an Artificially Intelligent Traffic Management System for developers to develop learning application with ease of operations that will save the time for developing the application as the reusable piece of code will be provided in our framework.
-
-\subsection{User Classes and Characteristics}
-\hspace*{0.5in}The user who is going to operate the system should have the computer having windows as the base operating system.
-
-\subsection{Design and Implementation Constraints}
-\hspace*{0.5in}
-The key restriction here will be to verify the validity of the report,which is not always feasible.Security threats may be involved.\\
-\begin{itemize}
-\item{\textbf{Memory:} Minimum 16GB RAM}
-\item{\textbf{CPU:} Intel Core i5 - 8300H or equivalent\textbackslash higher.}
-\item{\textbf{GPU:} Nvidia GTX 1050ti or equivalent\textbackslash higher.}
-\item{\textbf{LAN for CCTV:}  CCTV feed from intersections to the server room.}
-\item{\textbf{Operating System:}  This application works on Windows.}
-\end{itemize}
-
-\subsection{Assumptions and Dependencies}
-\hspace*{0.5in}The Framework is capable of allowing the developer to develop the more advanced application for Traffic Congestion Clearance. The Admin has a
-computer with graphic card, gets to monitor intersections and rest of the system is automated.
-
-
-\newpage
-\section{System Architecture}
-
-\hspace*{0.5in}Our overall architecture can be viewed in the form of a  3 layer architecture consisting of physical intersection, intersection node and the optimizer.\\
-\begin{figure}[H]
-\centering
-\includegraphics[width=5.2in,height=4.5in]{./diagrams/png/layered_architecture}
-\caption{Layered form of System Architecture}
-\end{figure}
-
-\hspace*{0.5in}The lowermost layer i.e. the physical intersection consists of the physical traffic signal controllers and CCTV cameras. This layer contains the pre-existing infrastructure used for controlling traffic. The traffic signal controller must provide an interface to obtain and control its state. Furthermore, real-time CCTV footage must be made available to our model.\\
-
-\hspace*{0.5in}The intermediate layer consists of intersection nodes (software). Each intersection node represents a single traffic intersection. Intersection nodes serve the following primary functions:\\
-
-\begin{itemize}
-	\item{Collecting CCTV footage and other data from physical intersection layer and APIs (if required by optimizer).}
-	\item{Obtaining optimizer parameters from the collected raw data. For example, obtaining vehicle count from CCTV footage using YOLO. The intersection node then forwards this data to the optimizer.}
-	\item{Intersection nodes also receive timing signals as outputs from the optimizer, their task is to then interface these signals onto the controller.}
-\end{itemize}
-
-\hspace*{0.5in}Aside from the above functions, the intersection nodes can also be used to perform extra tasks such as incident detection and sending reports on traffic incidents and congestion to traffic officials. It must be noted that since intersection nodes are services in execution, they can be executed over cloud or locally depending on feasibility. Depending on availability of computation power and hardware setup, a single computing device can hold multiple intersection nodes as well.\\
-
-\hspace*{0.5in}The uppermost layer consists of the optimizer. The optimizer is the master node which receives the required data from all the intersection nodes and executes the optimization algorithm. The optimization algorithm gives the signal timing details as output in terms of green signal time which is broadcasted back to the respective intersection nodes.\\
-
-\hspace*{0.5in}We have shortlisted several optimization algorithms which can be applied depending on their performances on a simulation consisting of a specific map. It should also be noted that different optimization algorithms may be suited for different maps.\\
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=6.5in,height=5.5in]{./diagrams/png/architecture}
-	\caption{System Architecture Illustration}
-\end{figure}
-
-\section{External Interface Requirement}
-
-\subsection{User Interfaces}
-
-\begin{itemize}
-\item{\textbf{Desktop Simulation Application:}  Using the desktop application the end user will be able to get the statistics and monitoring of traffic flow for the application to be developed using Unity.}
-\end{itemize}
-
-\subsection{Hardware Interfaces}
-\begin{itemize}
-\item{\textbf{Mobile Devices:} The M-Learning applications built using the framewok will be deployed on mobile devices like smart-phones and tablets supporting Android operating system version 2.2 and above.}
-\item{\textbf{SD card:}  The M-Learning application will load the learning content stored on the SD card. End user will be able to write on the SD card as well.}
-\end{itemize}
-
-\subsection{Communication Interfaces}
-\hspace*{0.5in}The M-Learning application will be communicating through the internet via a Transmission Control Protocol of the TCP/IP suite for Social Networking Interface(SNI) and video streaming.
-
-\section{Software System Attribute}
-\begin{itemize}
-\item{\textbf{Reliability:} The M-Learning applications built using the framewok should ensure that the SD card is mounted on the device. Internet facility must be available for using the feature of Social Networking Interface and video streaming.}
-\item{\textbf{Availability:} The AITMS application shall be available and running in a stable state at all times.}
-\item{\textbf{Maintainability:}  The Artificially Intelligent Traffic Management System shall be available to the developers for developing theri own Advanced AITMS applications.}
-
-\end{itemize}
-
-\section{Nonfunctional Requirement}
-\hspace*{0.5in} M-learning systems represent a broad class of software systems with complex characteristics that tend to make evaluation difficult. The educational potential of mlearning contents, both as a learning and teaching tool, is widely acknowledged, and various initiatives undertaken encourage the integration of educational multimedia resources in school practice.\\
-\hspace*{0.5in}There  is a need to develop richer models for capturing and analysing NFRs in Software Engineering. However this not a simple enterprise.
-Mobile e-Learning is so new that we are only beginning to see the potential of mobile devices in training and performance support.\\
-\hspace*{0.5in}Following are the Non Functional Requirements of Artificially Intelligent Traffic Management System:
-\begin{itemize}
-\item{\textbf{Small screen size of mobile devices:} Mobile devices are small, portable and compact. They can often fit in a pocket or purse. Unlike laptop computers, which are expensive, heavy and power hungry, mobile devices are relatively low-cost, lightweight, and some work a very long time on a charge or a couple of standard disposable or rechargeable batteries.
-The small screen size of mobile devices  makes some people questions their worth as e-Learning delivery tools. The truth is, some of these devices also have good audio capability,allowing students to listen to a narrated
-lecture, rather than read material on a small screen.}
-\item{\textbf{Input capabilities:} Input capabilities  of some of these devices, questioning students’ ability to enter large amounts of text into a device to take notes or answer an essay-type question..}
-\item{\textbf{Extremely Adaptable:} Many of these devices, however, are extremely adaptable and can be attached to a full-size folding keyboard that makes entering large amounts of information every bit as fast as with a conventional computer.}
-\end{itemize}
-\hspace*{0.5in}As mobile devices evolve and people discover new ways in which mobile devices functionalities can be applied to training, mobile e-Learning will likely become something increasingly different from conventional e-Learning.
-
-\section{Risk Assessment}
-\hspace*{0.5in}The Figure 5.2 shows a very simple framework for assessing individual risks that have been identified.
-\newpage
-\begin{figure}[H]
-\centering
-\includegraphics[width=5in,height=4in]{./metbkc}
-\caption{Risk Assessment}
-\end{figure}
-\hspace*{0.5in}We have adopted this framework for the categorization of risk areas for Artificially Intelligent Traffic Management System. The two main axes represent potential impact and likelihood. There are only two values on each axis: high or low. This forces a simple binary judgment to be made about any risk. There is a third dimension, also binary, that measures whether the speed of onset of the risk is considered to be slow or fast. This third dimension is rarely alluded to in the guidance literature but it makes an important difference to how a risk is treated.\\
-\hspace*{0.5in}This framework identifies just eight possible outcomes. These consist of the four labeled areas of the diagram, A, B, C and D, together with an indication of whether the onset of the risk is slow (s) or fast (f).Determining where a risk fits on this model requires making simple but significant judgments about each risk. Often, the placing of a risk within this framework can be achieved by making a considered judgment about appropriate reactions. Assuming that a particular risk is to be treated (rather than tolerated, transferred or the associated activity terminated) there are natural responses to each category, as given in the following table:
-\newpage
-\begin{table} [htb]
-\centering
-\begin{tabular}{|p{3cm}|p{10cm}|}\hline
-\textbf{Category}	&\textbf{Response}\\\hline\hline
-Af &“All hands to the pump” – drop everything and deal with this\\\hline
-As &Major priority to take evasive action. Develop “worst case scenario” plan\\\hline
-Bf &Fire fighting: contain the crisis and implement a recovery plan\\\hline
-Bs &Develop a recovery plan. Monitor early warning signs carefully\\\hline
-Cf &Minor but regular problem: develop rapid response capability and put resources into determining causes \\\hline
-Cs &Minor but regular problem with early warning signs. Develop response capability and put resources into determining causes\\\hline
-D &Monitor to ensure it does not move in the direction of A, B or C \\\hline
-
-\end{tabular}
-\caption{Risk Assessment category}
-\label{tab:nnwork}
-\end{table}
-
-\hspace*{0.5in} Following is the list of risks identified:
-\begin{itemize}
-\item{\textbf{Insufficient or uncertain human resources }\\
-\textbf{Af:} High likelihood, high impact, fast onset. \\
-Significant anecdotal evidence exists that the human resources and time needed to create content is frequently underestimated. Even with ready-made material, creating content is extremely time-intensive. Also, projects cannot assume that after creation of a content infrastructure, subject experts will be able to create M-Learning content independently - they will require guidance and support, which is likely to increase demand for human resources both from the project team and from parent institutions.}
-\item{\textbf{Technical limitations of solutions reached or exceeded}\\
- \textbf{As:}High likelihood, high impact, slow onset.\\
-The technologies used by some of the projects are at the leading edge of development and may not always meet prior expectations.\\
-\\
-\hspace*{0.5in}Several of the projects depend on technology and systems development and implementation work and in a few cases a particular technology turned out not to be capable of providing the required solution at its current stage of development.}
-\item{\textbf{Failure to meet technical standards}\\
- \textbf{Bs:}Low likelihood, high impact, slow onset.\\
-The effect of failure to meet technical standards is only likely to be felt once the project is completed. Some concerns were expressed regarding the level of ‘maturity’ of potentially relevant emerging standards, and the uncertainties this brings for project.}
-\item{\textbf{Poor Quality Assurance}\\
-\textbf{D:} Low likelihood, low impact (but could become a problem if not attended to)\\
-Quality assurance should be built into the project management process. However, there may be specific quality issues associated, for example, with projects producing M-Learning materials. There is a particular issue with Learning Objects, their definition and reuse.}
-\end{itemize}
-\section{Data Flow Diagram}
-\hspace*{0.5in} The Data Flow Diagram of the M-Learning Application developed using the Artificially Intelligent Traffic Management System is as shown in Figure 5.3. The Data Flow Diagram explains the flow of information in the project that is it indicates from where information (data) is reseived (inputs) and where information is send (outputs).\\
-
-\section{Summary}
-\hspace*{0.5in} In this chapter we studied the operating environment and the user classes and characteristics which describes the scope of the project. We have also described the software system attributes and various nonfunctional requirements.
+\hspace*{0.5in} In this chapter we studied the system architecture, operating environment and the software attributes which describe the scope of the project.
 %*****************************Chapter 6******************
 
 \chapter{Modeling}
 
-\hspace*{0.5in} This chapter includes the various modeling techniques which describes the various users of the Artificially Intelligent Traffic Management System and M-Learning application. It also describes the functionality of the different features of the Artificially Intelligent Traffic Management System.
+\hspace*{0.5in} This chapter includes the various modeling techniques which describes the various users of the Artificially Intelligent Traffic Management System. It also describes the functionality of the different features of the Artificially Intelligent Traffic Management System.
 
 \section{Use Case Diagram}
 \hspace*{0.5in} A use case diagram is a type of behavioral diagram defined by the UML created from a use case analysis. Its purpose is to present a graphical overview of the functionality provided by a system in terms of actors, their goals represented as use case and any dependencies between those use cases.\\
@@ -486,7 +435,7 @@ Quality assurance should be built into the project management process. However, 
 \end{itemize}
 \begin{figure}[H]
 \centering
-\includegraphics[height=6in]{./diagrams/png/uml}
+\includegraphics[height=6in]{./Diagrams/PNG/uml}
 \caption{Use Case Diagram}
 \end{figure}
 
@@ -503,7 +452,7 @@ Quality assurance should be built into the project management process. However, 
 \end{comment}
 \begin{figure}[H]
 \centering
-\includegraphics[height=5in]{./diagrams/png/flow}
+\includegraphics[width=3.2in,height=6in]{./Diagrams/PNG/flow}
 \caption{Use Case Diagram}
 \end{figure}
 \newpage
@@ -555,6 +504,9 @@ Quality assurance should be built into the project management process. However, 
 \section{Summary}
 \hspace*{0.5in}Thus we saw the various modeling techniques used for the design of Artificially Intelligent Traffic Management System.
 
+\begin{comment}
+	content...
+
 %*****************************Chapter 7******************
 \chapter{Implementation and Results}
 \hspace*{0.5in}This chapter consists of the various implementation details and snapshots of the M-Learning Application developed using the Artificially Intelligent Traffic Management System.
@@ -582,6 +534,7 @@ Quality assurance should be built into the project management process. However, 
 
 \section{Summary}
 \hspace*{0.5in}In this chapter we discussed the implementation details of the Artificially Intelligent Traffic Management System and also the implementation of various features included in the application. We also saw the results in the form of snapshots of the M-Learning Application.
+
 %*****************************Chapter 8******************
 
 \chapter{Testing}
@@ -632,9 +585,14 @@ Video Player &When user starts the application, the application contents must be
 \section{Summary}
 \hspace{0.5in}In this chapter we have described the formal technical reviews and the outcome of those. We have described the Test Plan which was successfully carried out at regular development phases.\\
 
+\end{comment}
+
 %*******************t**********Chapter 9******************
 \chapter{Technical Specifications}
-\hspace*{0.5in}In this chapter we will discuss the advantages and limitations of the Artificially Intelligent Traffic Management System. We will also go through the applications of the framework and have a brief study about the technical requirements.
+\hspace*{0.5in}In this chapter discuss the hardware and software requirements of our proposed Artificially Intelligent Traffic Management System.
+
+\begin{comment}
+
 \section{Advantages}
 \hspace*{0.5in}A key benefit of M-Learning is its potential for increasing productivity by making learning available anywhere, anytime. Because mobile devices have the power to make learning even more widely available and accessible, mobile devices are a natural extension of eLearning. M-Learning is the power of learning that is truly “just-in-time” where you could actually access training at the precise place and time on the job that you need. Our project provides the reusable piece of code that will help the developers for developing multiple M-Learning applications easily; one can also prepare audio or textual notes on move. The greatest benefit of this delivery is the combination of true interactivity coupled with portability.
 \\Following are some more advantages of Artificially Intelligent Traffic Management System:
@@ -658,10 +616,10 @@ Video Player &When user starts the application, the application contents must be
 \item{The education application developer can use this framework for developing number of applications that can be imported on mobile devices.}
 \end{itemize}
 
+\end{comment}
 \subsection{Hardware Requirements}
 \begin{itemize}
 \item{Intel Core i5 8300H or equivalent/higher}
-\newpage
 \item{16GB RAM for application development}
 \item{Min. 16 GB Space in Hard Disk}
 \end{itemize}
@@ -677,26 +635,28 @@ Video Player &When user starts the application, the application contents must be
 \end{itemize}
 
 \section{Summary}
-\hspace*{0.5in}In this chapter we were made aware of the various advantages of the framework and also the limitations of the project. We also saw the hardware and software requirements of the project.
+\hspace*{0.5in}In this chapter we discussed the various hardware and software requirements of the project.
 %***************************Chapter 10**************
-\chapter {Future Scope if any}
+\chapter {Future Scope}
 
-\hspace{0.5in}The project Artificially Intelligent Traffic Management System is useful in this digital learning age and has a bright future. Although we tried to deliver a project that meets the present requirements of the M-Learning Application Developers but there are endless future possibilities. Some are listed below:
-\\
+\hspace{0.5in}Scalability is an essential feature for traffic management systems in current age. As the number of vehicles and roads increases for a particular locality, it's traffic management system must be able to handle the changes in maps and traffic flow. Keeping this in mind, our proposed system provides the following future possibilities:\\
+
 \begin{itemize}
-\item{We visualize Maggie extension software where Teacher carries a tablet and it has a software plugin for streaming the tablet screen to a laptop or a computer which is connected to a projector. This extension is very useful as not all projectors have any connectors to share video display of tablet devices. And sharing tablet screen with large number of students is a real life need of teachers.}
-\item{We visualize Maggie to be extended on Symbian \& BlackBerry platform to ensure wide spread coverage on wide variety of phone hardware.}
-\item{Future extension of Maggie is possible to include a compiler that could take one layer off the currently low level tie up and allow users to code in language of their choice. Pretty much like .Net being a platform and then developers can chose the language they want.}
-\item{Maggie will have a future where developers will be able to add their own plugins for the framework.}
-\item{We visualize Maggie to allow export various format content like slideshows, SCORM, Facebook app format where the M-Learning apps can be embedded on Facebook walls. Possibilities are endless.}
+\item{Warehousing of parametric data and reports to analyze periodic patterns and improve optimization using data collected over use. This gives the opportunity to use data science concepts to improve existing traffic management systems and even other roadway infrastructure.}
+\item{The ability to connect multiple AITMS will greatly improve scalabbility and optimization. If nieghboring solutions can work together, providing an additional layer of optimization using their combined data becomes possible.}
+\item{Improving on library of optimization algorithms. Since, different algorithms may suit different maps, having a variety of algorithms in our toolkit becomes helpful.}
+\item{Integration of additional functionalities such as incident detection, manual control, etc.}
 \end{itemize}
 
 %*****************************Chapter 11**********
 \chapter{Conclusion}
-\hspace*{0.5in}M-Learning concept was tossed during the early 1990's but was never brought in the implementations. We analyzed the need of the Artificially Intelligent Traffic Management System and conducted rigorous studies and researches. We understood the requirements of the M-Learning Application Developers and decided to design a framework which will match their needs and will ease their task of developing the applications. We have developed a Artificially Intelligent Traffic Management System for multiple Android Platforms which includes Android 2.2 (Froyo), Android 2.3 (Gingerbread), Android 3.0 (Honeycomb) and 4.0 (Ice cream sandwich). We have successfully tested the M-Learning applications developed using the Artificially Intelligent Traffic Management System on the above mentioned Android platforms.\\
-\hspace*{0.5in}Identifying missing pieces in order to achieve a broader platform for M-Learning and developing those pieces into a pragmatic framework is the central theme for this project. A key objective of our project is to improve the knowledge level of individuals by developing learning process that is time efficient .The Artificially Intelligent Traffic Management System is an abstract representation of the services and their interfaces that are used to construct an e-Learning system in its broadcast sense, focused on the support of distributed electronic learning systems.
+\hspace*{0.5in}Our proposed system will be able to minimize congestion and will be able to report various statistics regarding congestion and traffic incidents in real time. The system also provides sufficient scope for scalability and additional functionalities which will help cope with rising number of vehicles and roads. 
+Furthermore, our aim in the coming phases will be to perform simulations of various optimization algorithms in order to validate our system for real life implementation.
+
+\begin{comment}
 
 %**************************Appendix******************
+
 \appendix
 \cleardoublepage
 \addtocontents{toc}{\bigskip}
@@ -718,8 +678,13 @@ Video Player &When user starts the application, the application contents must be
 \hspace*{0.5in}We have published a research paper titled \textbf{Artificially Intelligent Traffic Management System} in \textbf{International Journal of Scientific and Engineering Research (IJSER)}. Our paper is published in the May edition of IJSER 2012.}
 \end{itemize}
 \vspace{5in}
+	content...
+
 \newpage
 \addcontentsline{toc}{chapter}{Bibliography}
+
+\end{comment}
+
 \begin{thebibliography}{99}
 
 \bibitem{paper1}\emph{You Only Look Once: Unified, Real-Time Object Detection}; Joseph Redmon, Santosh Divvala, Ross Girshick and Ali Farhadi, 2016.
