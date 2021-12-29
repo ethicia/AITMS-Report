@@ -14,10 +14,9 @@
 \contentsline {chapter}{\numberline {4}Analysis}{8}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Project Plan}{8}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Project Plan for semester I}{8}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Project Plan for semester II}{9}{subsection.4.1.2}%
 \contentsline {section}{\numberline {4.2}Requirement Analysis}{9}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Necessary Functions}{9}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Desirable Functions}{10}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Desirable Functions}{9}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4.3}Summary}{10}{section.4.3}%
 \contentsline {chapter}{\numberline {5}Design}{11}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Software Requirement Specifications}{11}{section.5.1}%
