@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.21)  29 DEC 2021 15:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.21)  29 DEC 2021 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -632,7 +632,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./metbkc-eps-converted-to.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<./metbkc-eps-converted-to.pdf, id=280, 973.6375pt x 112.42pt>
+<./metbkc-eps-converted-to.pdf, id=284, 973.6375pt x 112.42pt>
 File: ./metbkc-eps-converted-to.pdf Graphic file (type pdf)
 <use ./metbkc-eps-converted-to.pdf>
 Package pdftex.def Info: ./metbkc-eps-converted-to.pdf  used on input line 91.
@@ -710,13 +710,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 
-Overfull \hbox (8.60641pt too wide) in paragraph at lines 6--6
+Overfull \hbox (8.60641pt too wide) in paragraph at lines 7--7
  [][] [][]\OT1/cmr/m/n/12 Smart Con-trol of Traf-fic Light Us-ing Ar-ti-fi-cial
  In-tel-li-gence, Mi-hir M. Gandhi, 
  []
 
 
-Overfull \hbox (10.62721pt too wide) in paragraph at lines 7--7
+Overfull \hbox (10.62721pt too wide) in paragraph at lines 8--8
  [][] [][]\OT1/cmr/m/n/12 Comparison of Cur-rent Prac-ti-cal Adap-tive Traf-fic
  Con-trol Sys-tems, Hongyun 
  []
@@ -933,7 +933,7 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [12]
-<./diagrams/png/layered_architecture.png, id=482, 784.9325pt x 562.1pt>
+<./diagrams/png/layered_architecture.png, id=487, 784.9325pt x 562.1pt>
 File: ./diagrams/png/layered_architecture.png Graphic file (type png)
 <use ./diagrams/png/layered_architecture.png>
 Package pdftex.def Info: ./diagrams/png/layered_architecture.png  used on input
@@ -980,7 +980,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 374--375
 
  []
 
-<./diagrams/png/architecture.png, id=489, 1086.0575pt x 665.48625pt>
+<./diagrams/png/architecture.png, id=494, 1086.0575pt x 665.48625pt>
 File: ./diagrams/png/architecture.png Graphic file (type png)
 <use ./diagrams/png/architecture.png>
 Package pdftex.def Info: ./diagrams/png/architecture.png  used on input line 37
@@ -1020,7 +1020,7 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [17]
-<./metbkc.png, id=508, 685.56125pt x 78.2925pt>
+<./metbkc.png, id=513, 685.56125pt x 78.2925pt>
 File: ./metbkc.png Graphic file (type png)
 <use ./metbkc.png>
 Package pdftex.def Info: ./metbkc.png  used on input line 427.
@@ -1069,7 +1069,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 479--481
 [21
 
 ]
-<./diagrams/png/uml.png, id=526, 370.38374pt x 339.51843pt>
+<./diagrams/png/uml.png, id=531, 370.38374pt x 339.51843pt>
 File: ./diagrams/png/uml.png Graphic file (type png)
 <use ./diagrams/png/uml.png>
 Package pdftex.def Info: ./diagrams/png/uml.png  used on input line 490.
@@ -1627,28 +1627,37 @@ Appendix B.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `"Group-2 AITMS Report".out' has not changed.
 
-(rerunfilecheck)             Checksum: 19B5900CDE5FDE0CD2B46CC55D8AB5DC;11592.
+Package rerunfilecheck Warning: File `"Group-2 AITMS Report".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Group-2 AITMS Report".out':
+(rerunfilecheck)             Before: D5ED4AE8017E34ECD2E080BE275BE56B;11747
+(rerunfilecheck)             After:  19B5900CDE5FDE0CD2B46CC55D8AB5DC;11592.
  ) 
 Here is how much of TeX's memory you used:
- 20032 strings out of 478659
- 378869 string characters out of 2855773
+ 20034 strings out of 478659
+ 378893 string characters out of 2855773
  685615 words of memory out of 3000000
- 37643 multiletter control sequences out of 15000+600000
+ 37644 multiletter control sequences out of 15000+600000
  410946 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,94p,1886b,867s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\bright\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
-m1440.pk><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:
-/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><D:/Program F
-iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmti12.pfb>
-Output written on "Group-2 AITMS Report.pdf" (57 pages, 550415 bytes).
+ 99i,12n,94p,1886b,867s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist
+, replaced by a fixed one
+
+ <C:\Users\bright\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
+440.pk><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/P
+rogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><D:/Program Fil
+es/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmti12.pfb>
+Output written on "Group-2 AITMS Report.pdf" (57 pages, 550946 bytes).
 PDF statistics:
- 704 PDF objects out of 1000 (max. 8388607)
- 141 named destinations out of 1000 (max. 500000)
- 590 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 709 PDF objects out of 1000 (max. 8388607)
+ 142 named destinations out of 1000 (max. 500000)
+ 598 words of extra memory for PDF output out of 10000 (max. 10000000)
 
