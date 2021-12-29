@@ -200,11 +200,28 @@ The above system makes use of vehicle count obtained from CCTV footage and uses 
 
 \chapter{Problem Definition}
 
-\hspace*{0.5in}This chapter explains the need of Artificially Intelligent Traffic Management System and also describes the importance of high quality mobile education. It introduces the basic concept of the role of mobile devices in learning.\\
+\hspace*{0.5in}This chapter discusses the drawbacks of current systems implemented in suburban and urban areas and also defines the need and overall scope of an artificially intelligent traffic management system.\\
+
+\section{Need For Artificially Intelligent Traffic Management Systems}
+\hspace*{0.5in}Traffic congestion is becoming a critical issue with increasing population and automobiles in cities. The conventional systems which were suitable at the time of their installation may not be suitable in the present time due to the rising number of vehicles. Furthermore, upgrading these systems to the standards used in major metropolitan cities is often not feasible due to several factors such as manual labor and installation of new sensors. Owing to these factors, the majority of intersections make use of either manual control which includes traffic police officials guiding vehicles or non adaptive automatic control, which includes the use of fixed timers. In most scenarios these solutions may not be at par with the unpredictable rate of traffic flow. Hence, an intelligent, adaptive and feasible solution is needed.\\
+
+\section{Additional Features}
+\hspace*{0.5in}Additionally, the following points must be kept in mind while developing or optimizing an automated traffic controlling system:\\
+
+\begin{itemize}
+	\item{Ensuring necessary fall backs in case of disconnection or power cuts.}
+	\item{Ensuring signal times are between a maximum and minimum limit to avoid starvation.}
+	\item{Indian traffic is not lane following and has a high amount of mixed traffic. System must be able to withstand these challenges.}
+	\item{The system must make use of existing sensors and avoid installation of newer sensors in order to maintain feasibility.}
+	\item{The system must be scalable within budget and it should be able to handle an increasing number of vehicles.}
+	\item{Additional features such as incident detection, report generation and assistance for emergency or VIP vehicles are desirable.}
+\end{itemize}
+
 
 
 \section{Summary}
-\hspace*{0.5in}In this chapter we introduced
+\hspace*{0.5in}In this chapter we discussed the need of artificially intelligent traffic management systems and the various points which must be kept in mind while developing said system.\\
+
 %*****************************Chapter 4******************
 
 \chapter{Analysis}
@@ -333,16 +350,34 @@ computer with graphic card, gets to monitor intersections and rest of the system
 \newpage
 \section{System Architecture}
 
-\hspace*{0.5in}In the current scenario, there are the various hardware platforms available as shown above. Above these the Operating Systems reside. The application programming interfaces are above the Operating Systems and provide the interaction between the applications built on them and the underlying Operating System and the Hardware Platform. There layer above the API is occupied by the Artificially Intelligent Traffic Management System on which the applications are proposed to be built. Following is the detailed description of each layer.
-\\
+\hspace*{0.5in}Our overall architecture can be viewed in the form of a  3 layer architecture consisting of physical intersection, intersection node and the optimizer.\\
 \begin{figure}[H]
 \centering
-\includegraphics[width=6in,height=5in]{./metbkc}
-\caption{M-Learning System Architecture}
+\includegraphics[width=5.2in,height=4.5in]{./layered_architecture}
+\caption{Layered form of System Architecture}
 \end{figure}
 
-\hspace*{0.5in}An \textbf{operating system (OS)} is a set of programs that manages computer hardware resources, and provides common services for application software. The operating system is the most important type of system software in a computer system. Without an operating system, a user cannot run an application program on their computer, unless the application program is self booting. An \textbf{Application Programming Interface (API)} is a particular set of rules (code) and specifications that software programs can follow to communicate with each other.I t serves as an interface between different software programs and facilitates their interaction, similar to the way the user interface facilitates interaction between humans and computers. An API can be created for applications, libraries, operating systems, etc., as a way of defining their vocabularies and resources request conventions (e.g. function-calling conventions). It may include specifications for routines, data structures, object classes, and protocols used to communicate between the consumer program and the implementer program of the API.\\
-\hspace*{0.5in}An API consist of a core set of packages and classes. As shown in the Figure 4.1 the applications will be built using the Artificially Intelligent Traffic Management System. These applications will be built by importing the libraries, include files and the style sheets developed as a whole framework. The framework is developed considering the developer's point of view that is to be able to develop the applications by putting in less time and efforts. Thus the developer will access the API’s present in the framework and develop the applications by writing small amount of code.
+\hspace*{0.5in}The lowermost layer i.e. the physical intersection consists of the physical traffic signal controllers and CCTV cameras. This layer contains the pre-existing infrastructure used for controlling traffic. The traffic signal controller must provide an interface to obtain and control its state. Furthermore, real-time CCTV footage must be made available to our model.\\
+
+\hspace*{0.5in}The intermediate layer consists of intersection nodes (software). Each intersection node represents a single traffic intersection. Intersection nodes serve the following primary functions:\\
+
+\begin{itemize}
+	\item{Collecting CCTV footage and other data from physical intersection layer and APIs (if required by optimizer).}
+	\item{Obtaining optimizer parameters from the collected raw data. For example, obtaining vehicle count from CCTV footage using YOLO. The intersection node then forwards this data to the optimizer.}
+	\item{Intersection nodes also receive timing signals as outputs from the optimizer, their task is to then interface these signals onto the controller.}
+\end{itemize}
+
+\hspace*{0.5in}Aside from the above functions, the intersection nodes can also be used to perform extra tasks such as incident detection and sending reports on traffic incidents and congestion to traffic officials. It must be noted that since intersection nodes are services in execution, they can be executed over cloud or locally depending on feasibility. Depending on availability of computation power and hardware setup, a single computing device can hold multiple intersection nodes as well.\\
+
+\hspace*{0.5in}The uppermost layer consists of the optimizer. The optimizer is the master node which receives the required data from all the intersection nodes and executes the optimization algorithm. The optimization algorithm gives the signal timing details as output in terms of green signal time which is broadcasted back to the respective intersection nodes.\\
+
+\hspace*{0.5in}We have shortlisted several optimization algorithms which can be applied depending on their performances on a simulation consisting of a specific map. It should also be noted that different optimization algorithms may be suited for different maps.\\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=6.5in,height=5.5in]{./architecture}
+	\caption{System Architecture Illustration}
+\end{figure}
 
 \section{External Interface Requirement}
 
