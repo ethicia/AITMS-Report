@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.21)  29 DEC 2021 22:31
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.12.28)  30 DEC 2021 02:19
+>>>>>>> 7205158323cc9d369417b55ac49cc72de379927c
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -624,9 +628,15 @@ ed-to.pdf ./metbkc.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file ./metbkc-eps-converted-to.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
 <./metbkc-eps-converted-to.pdf, id=162, 973.6375pt x 112.42pt>
+=======
+pdfTeX warning: /usr/bin/pdflatex (file ./metbkc-eps-converted-to.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./metbkc-eps-converted-to.pdf, id=167, 973.6375pt x 112.42pt>
+>>>>>>> 7205158323cc9d369417b55ac49cc72de379927c
 File: ./metbkc-eps-converted-to.pdf Graphic file (type pdf)
 <use ./metbkc-eps-converted-to.pdf>
 Package pdftex.def Info: ./metbkc-eps-converted-to.pdf  used on input line 91.
@@ -934,7 +944,11 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [13]
+<<<<<<< HEAD
 <./Diagrams/PNG/layered_architecture.png, id=329, 784.9325pt x 562.1pt>
+=======
+<./Diagrams/PNG/layered_architecture.png, id=341, 784.9325pt x 562.1pt>
+>>>>>>> 7205158323cc9d369417b55ac49cc72de379927c
 File: ./Diagrams/PNG/layered_architecture.png Graphic file (type png)
 <use ./Diagrams/PNG/layered_architecture.png>
 Package pdftex.def Info: ./Diagrams/PNG/layered_architecture.png  used on input
@@ -981,7 +995,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 378--379
 
  []
 
+<<<<<<< HEAD
 <./Diagrams/PNG/architecture.png, id=336, 1086.0575pt x 665.48625pt>
+=======
+<./Diagrams/PNG/architecture.png, id=348, 1086.0575pt x 665.48625pt>
+>>>>>>> 7205158323cc9d369417b55ac49cc72de379927c
 File: ./Diagrams/PNG/architecture.png Graphic file (type png)
 <use ./Diagrams/PNG/architecture.png>
 Package pdftex.def Info: ./Diagrams/PNG/architecture.png  used on input line 38
@@ -997,6 +1015,11 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [15] Excluding 'comment' comment.
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
+
+ []
+
+
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
@@ -1005,21 +1028,53 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.421 	\chapter
-               {Modeling} <./Diagrams/PNG/architecture.png>]
+l.420 	
+        <./Diagrams/PNG/architecture.png>]
+<./Diagrams/PNG/dfd0.png, id=358, 903.375pt x 159.59625pt>
+File: ./Diagrams/PNG/dfd0.png Graphic file (type png)
+<use ./Diagrams/PNG/dfd0.png>
+Package pdftex.def Info: ./Diagrams/PNG/dfd0.png  used on input line 423.
+(pdftex.def)             Requested size: 491.44054pt x 108.40466pt.
+
+Overfull \hbox (39.75304pt too wide) in paragraph at lines 423--424
+ [][] 
+ []
+
+<./Diagrams/PNG/dfd1.png, id=359, 1048.91875pt x 448.67625pt>
+File: ./Diagrams/PNG/dfd1.png Graphic file (type png)
+<use ./Diagrams/PNG/dfd1.png>
+Package pdftex.def Info: ./Diagrams/PNG/dfd1.png  used on input line 429.
+(pdftex.def)             Requested size: 491.43938pt x 166.21985pt.
+
+Overfull \hbox (39.75188pt too wide) in paragraph at lines 429--430
+ [][] 
+ []
+
+
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
-[17]
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.438 	\chapter
+               {Modeling}pdfTeX warning (ext4): destination with the same ident
+ifier (name{figure.5.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.438 	\chapter
+               {Modeling} <./Diagrams/PNG/dfd0.png> <./Diagrams/PNG/dfd1.png>]
 Chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--428
+Underfull \hbox (badness 10000) in paragraph at lines 443--445
 
  []
 
 [18
 
 ]
+<<<<<<< HEAD
 <./Diagrams/PNG/uml2.jpg, id=355, 1369.115pt x 984.67876pt>
 File: ./Diagrams/PNG/uml2.jpg Graphic file (type jpg)
 <use ./Diagrams/PNG/uml2.jpg>
@@ -1027,6 +1082,15 @@ Package pdftex.def Info: ./Diagrams/PNG/uml2.jpg  used on input line 437.
 (pdftex.def)             Requested size: 542.025pt x 389.83783pt.
 
 Overfull \hbox (90.3375pt too wide) in paragraph at lines 437--438
+=======
+<./Diagrams/PNG/uml.png, id=369, 370.38374pt x 339.51843pt>
+File: ./Diagrams/PNG/uml.png Graphic file (type png)
+<use ./Diagrams/PNG/uml.png>
+Package pdftex.def Info: ./Diagrams/PNG/uml.png  used on input line 454.
+(pdftex.def)             Requested size: 473.06097pt x 433.62pt.
+
+Overfull \hbox (21.37347pt too wide) in paragraph at lines 454--455
+>>>>>>> 7205158323cc9d369417b55ac49cc72de379927c
  [][] 
  []
 
@@ -1039,15 +1103,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
+<<<<<<< HEAD
 l.447 	\newpage
                 <./Diagrams/PNG/uml2.jpg>] Excluding 'comment' comment.
 <./Diagrams/PNG/flow.png, id=360, 222.8325pt x 533.74406pt>
+=======
+l.464 	\newpage
+                <./Diagrams/PNG/UML.png>] Excluding 'comment' comment.
+<./Diagrams/PNG/flow.png, id=374, 222.8325pt x 533.74406pt>
+>>>>>>> 7205158323cc9d369417b55ac49cc72de379927c
 File: ./Diagrams/PNG/flow.png Graphic file (type png)
 <use ./Diagrams/PNG/flow.png>
-Package pdftex.def Info: ./Diagrams/PNG/flow.png  used on input line 454.
+Package pdftex.def Info: ./Diagrams/PNG/flow.png  used on input line 471.
 (pdftex.def)             Requested size: 231.26772pt x 433.6334pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--456
+Underfull \hbox (badness 10000) in paragraph at lines 466--473
 
  []
 
@@ -1060,7 +1130,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.457 	\newpage
+l.474 	\newpage
                 <./Diagrams/PNG/flow.png>] Excluding 'comment' comment.
 Excluding 'comment' comment.
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
@@ -1071,7 +1141,7 @@ Chapter 7.
 Excluding 'comment' comment.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 619.
+(hyperref)                than one, level fixed on input line 636.
 
 [22
 
@@ -1082,7 +1152,7 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 [23]
 Chapter 8.
 
-Underfull \hbox (badness 10000) in paragraph at lines 641--642
+Underfull \hbox (badness 10000) in paragraph at lines 658--659
 
  []
 
@@ -1101,9 +1171,10 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `"Group-2 AITMS Report".out' has not changed.
 
-(rerunfilecheck)             Checksum: 2D2F8EF8B6804E01DE4FBC806B6B2998;7337.
+(rerunfilecheck)             Checksum: 08597B45B4D2FED5772DDBF60EF7F2B0;7483.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  19886 strings out of 478659
  376424 string characters out of 2855773
  652455 words of memory out of 3000000
@@ -1123,4 +1194,26 @@ PDF statistics:
  442 PDF objects out of 1000 (max. 8388607)
  87 named destinations out of 1000 (max. 500000)
  350 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 19906 strings out of 478353
+ 376050 string characters out of 5854634
+ 652883 words of memory out of 5000000
+ 37587 multiletter control sequences out of 15000+600000
+ 410946 words of font info for 51 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 99i,11n,94p,1885b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf
+-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
+Output written on "Group-2 AITMS Report.pdf" (34 pages, 445199 bytes).
+PDF statistics:
+ 459 PDF objects out of 1000 (max. 8388607)
+ 395 compressed objects within 4 object streams
+ 90 named destinations out of 1000 (max. 500000)
+ 368 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 7205158323cc9d369417b55ac49cc72de379927c
 
