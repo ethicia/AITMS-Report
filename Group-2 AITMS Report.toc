@@ -33,8 +33,7 @@
 \contentsline {section}{\numberline {6.2}Activity Diagram}{20}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Summary}{21}{section.6.3}%
 \contentsline {chapter}{\numberline {7}Technical Specifications}{22}{chapter.7}%
-\contentsline {subsection}{\numberline {7.0.1}Hardware Requirements}{22}{subsection.7.0.1}%
-\contentsline {subsection}{\numberline {7.0.2}Software Requirements}{22}{subsection.7.0.2}%
-\contentsline {section}{\numberline {7.1}Summary}{23}{section.7.1}%
-\contentsline {chapter}{\numberline {8}Future Scope}{24}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Conclusion}{25}{chapter.9}%
+\contentsline {section}{\numberline {7.1}Hardware Requirements}{22}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Software Requirements}{22}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Summary}{23}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Conclusion}{24}{chapter.8}%

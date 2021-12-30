@@ -178,7 +178,7 @@
 	
 	The causes of congestion can be divided into two categories, recurring and non recurring congestion. Recurring congestion can be expected to occur at the same time every weekday as a result of high volumes of commuter traffic traveling on roadways that are at or near their carrying capacity. Non-recurring congestion occurs as a result of an unexpected or non-typical event. Some causes of non-recurring congestion include: vehicular crashes, vehicle breakdowns, roadway construction, inclimate weather, and additional traffic resulting from special events. While non-recurring congestion can be unpredictable and difficult to treat, recurring congestion can be reduced by increasing road capacity or with the help of adaptive traffic control systems.
 	
-	There are several existing standardized solutions for adaptive traffic control such as SCOOT, SCAT, etc. which have been implemented in many major metropolitan cities. However, most suburban and urban areas use conventional traffic control systems such as manual traffic control or non adaptive automated traffic control. Manual control consists of an on-site traffic official guiding vehicles. Non adaptive automated traffic control refers to the use of fixed timers in traffic signals. Wide implementation of standardized adaptive traffic control is not possible due to lack of feasibility since it requires manual labor and installation of new sensors. Therefore a more feasible solution which reuses existing infrastructure is required.
+	There are several existing standardized solutions for adaptive traffic control such as SCOOT\cite{paper5}, SCAT\cite{paper6}, etc. which have been implemented in many major metropolitan cities. However, most suburban and urban areas use conventional traffic control systems such as manual traffic control or non adaptive automated traffic control. Manual control consists of an on-site traffic official guiding vehicles. Non adaptive automated traffic control refers to the use of fixed timers in traffic signals. Wide implementation of standardized adaptive traffic control is not possible due to lack of feasibility since it requires manual labor and installation of new sensors. Therefore a more feasible solution which reuses existing infrastructure is required.
 	
 	This project proposes an Artificially Intelligent Traffic Management System which uses existing CCTV feed and API data if needed to optimize traffic control over small to medium scale road networks. It uses an artificially intelligent agent or model to handle the complexity of day to day traffic in real-time. Furthermore, simulations will be performed to demonstrate and test the model.\\
 	
@@ -259,16 +259,15 @@
 		\centering
 		\begin{tabular}{| p{1.2 cm}| p{5 cm}| p{2.5 cm}| p{2.5 cm}| p{3 cm}| }\hline
 			\textbf{Phase}	&\textbf{Activity}	&\textbf{Start Date}	&\textbf{End Date} &\textbf{Group Members}\\\hline\hline
-			1 &Selection of Project Topic	&22-08-2021 	&25-08-2021 &Team \\\hline
-			1 &Functional Requirement Specification(FRS) &29-08-2021 &09-09-2021 &Team\\\hline
-			1 &Design Prototype &11-09-2021 &21-09-2021 &Team\\\hline
-			1 &Set Theory and Math Model &23-09-2021 &06-10-2021 & Saquib, Giwil\\\hline
-			1 &UML Diagram Prototype &23-09-2021 &03-10-2021 &Vrushabh, \newline Rutuja \\\hline
-			1 &Project Problem Statement using NP Complete &08-10-2021 &19-10-2021 &Saquib, Giwil\\\hline
-			1 &UML Diagram in StarUML &05-10-2021 &22-10-2021 &Team \\\hline
-			1 &Paper Presentation &05-11-2021 &05-11-2021 &Team \\\hline
-			1 &Software Requirement Specification &6-11-2021 &10-11-2021 &Team \\\hline
-			1 &Test Plan &11-11-2021 &15-11-2021 &Vrushabh, \newline Rutuja \\\hline
+			1 &Selection of Project Topic	&03-09-2021 	&06-09-2021 &Team \\\hline
+			1 &Functional Requirement Specification(FRS) &19-09-2021 &03-10-2021 &Team\\\hline
+			1 &Design Prototype &11-10-2021 &21-10-2021 &Team\\\hline
+			1 &Graph Theory and Math Model &23-10-2021 &06-11-2021 & Saquib, Giwil\\\hline
+			1 &UML Diagram Prototype &23-10-2021 &03-11-2021 &Vrushabh, \newline Rutuja \\\hline
+			1 &Project Problem Statement using NP Complete &08-11-2021 &19-11-2021 &Saquib, Giwil\\\hline
+			1 &UML Diagram in StarUML &20-11-2021 &22-11-2021 &Team \\\hline
+			1 &Presentation &05-12-2021 &05-12-2021 &Team \\\hline
+			1 &Software Requirement Specification &6-12-2021 &10-12-2021 &Team \\\hline
 		\end{tabular}
 		\caption{Planner and Progress Report I for AITMS}
 		\label{tab:nnwork}
@@ -313,6 +312,7 @@
 	\begin{itemize}
 		\item{Assistance to emergency and VIP vehicles.}	
 		\item{Traffic incident detection.}
+		\\
 		\item{Real-time Traffic Congestion Detection.}
 		\item{Real-time Statistics.}
 		
@@ -358,7 +358,7 @@
 	\newpage
 	\section{System Architecture}
 	
-	\hspace*{0.5in}The overall architecture can be viewed in the form of a  3 layer architecture consisting of physical intersection, intersection node and the optimizer.\\
+	\hspace*{0.5in}The overall architecture can be viewed in the figure 5.1 in the form of a  3 layer architecture consisting of physical intersection, intersection node and the optimizer.\\
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=5.2in,height=4.5in]{./Diagrams/PNG/layered_architecture}
@@ -380,6 +380,7 @@
 	\hspace*{0.5in}The uppermost layer consists of the optimizer. The optimizer is the master node which receives the required data from all the intersection nodes and executes the optimization algorithm. The optimization algorithm gives the signal timing details as output in terms of green signal time which is broadcasted back to the respective intersection nodes.\\
 	
 	\hspace*{0.5in}Several optimization algorithms were selected which can be applied depending on their performances on a simulation consisting of a specific map. It should also be noted that different optimization algorithms may be suited for different maps.\\
+	\hspace*{0.5in}The following figure 5.2 illustrates the system architecture for 3 intersections.
 	
 	\begin{figure}[H]
 		\centering
@@ -420,7 +421,7 @@
 	
 	\section{Data Flow Diagram}
 	
-	\hspace*{0.5in}The Data Flow Diagram explains the flow of information in the project, i.e. it indicates from where data or information is received (input) and to where it is sent (output). The Data Flow Diagrams for the project are given below:\\
+	\hspace*{0.5in}The Data Flow Diagram explains the flow of information in the project, i.e. it indicates from where data or information is received (input) and to where it is sent (output). The Data Flow Diagrams for the project are given idn figure 5.3 and figure 5.4:\\
 	
 	\begin{figure}[H]
 		\centering
@@ -453,6 +454,7 @@
 		\item{\textbf{The include relationship:} It is analogous to a call between objects. One use case requires some type of behavior which is fully defined in  another use case.}
 		\item{\textbf{The extend relationship:} It is intended for adding parts to existing use cases as well as for modeling optional system services}
 	\end{itemize}
+	The usecase diagram for proposed system is given in the figure 6.1.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=7.5 in]{./Diagrams/PNG/uml2}
@@ -470,6 +472,7 @@
 	\hspace*{0.5in}Use cases show what your system should do. Activity diagrams allow you to specify how your system will accomplish its goals. Activity diagrams show high-level actions chained together to represent a process occurring in your system. An activity diagram is essentially a flowchart, showing flow of control from activity to activity. Unlike a traditional flowchart, an activity diagram shows concurrency as well as branches of control. Activity diagrams focus on the dynamic flow of a system.\\
 	\begin{comment}\hspace*{0.5in}An activity is the process being modeled, such as using the M-Learning application. An action is a step in the overall activity, such as select subject, select topic. The flow of the activity is shown using arrowed lines called edges or paths. The arrowhead on an activity edge shows the direction of flow from one action to the next. A line going into a node is called as an incoming edge, and a line exiting a node is called an outgoing edge. Fork Node is used to show the parallel or concurrent actions. Fork has single incoming flows and multiple outgoing flows. The join means that all incoming actions must finish before the flow can proceed past the join. Join has multiple incoming flows and single outgoing flow.
 	\end{comment}
+	The activity diagram for proposed system is given in the figure 6.2.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=3.2in,height=6in]{./Diagrams/PNG/flow}
@@ -637,14 +640,14 @@
 		\end{itemize}
 		
 	\end{comment}
-	\subsection{Hardware Requirements}
+	\section{Hardware Requirements}
 	\begin{itemize}
 		\item{Intel Core i5 8300H or equivalent/higher}
 		\item{16GB RAM for application development}
 		\item{Min. 16 GB Space in Hard Disk}
 	\end{itemize}
 	
-	\subsection{Software Requirements}
+	\section{Software Requirements}
 	\begin{itemize}
 		\item{Visual Studio 2019}
 		\item{Unity 2020.3}
@@ -657,6 +660,7 @@
 	\section{Summary}
 	\hspace*{0.5in}This chapter discusses the various hardware and software requirements of the project.
 	%***************************Chapter 10**************
+\begin{comment}	
 	\chapter {Future Scope}
 	
 	\hspace{0.5in}Scalability is an essential feature for traffic management systems in current age. As the number of vehicles and roads increases for a particular locality, it's traffic management system must be able to handle the changes in maps and traffic flow. Keeping this in mind, the proposed system provides the following future possibilities:\\
@@ -667,7 +671,7 @@
 		\item{Improving on library of optimization algorithms. Since, different algorithms may suit different maps, having a variety of algorithms in the toolkit becomes helpful.}
 		\item{Integration of additional functionalities such as incident detection, manual control, etc.}
 	\end{itemize}
-	
+	\end{comment}
 	%*****************************Chapter 11**********
 	\chapter{Conclusion}
 	\hspace*{0.5in}The proposed system will be able to minimize congestion and will be able to report various statistics regarding congestion and traffic incidents in real time. The system also provides sufficient scope for scalability and additional functionalities which will help cope with rising number of vehicles and roads. 
@@ -715,6 +719,9 @@
 		
 		\bibitem{paper4}\emph{Comparison of Current Practical Adaptive Traffic Control Systems.}; Hongyun Chen \& Jian Lu. (2010). 1611-1619. 10.1061/41127(382)176. 
 		
+		\bibitem{paper5}\emph{Optimizing Networks of Traffic Signals in Real Time - The SCOOT Method.};D I Robertson and R D Bretherton. IEEE Transactions on Vehicular Technology, 1991.
+		
+		\bibitem{paper6}\emph{The sydney coordinated adaptive traffic (scat) system philosophy and benefits,};A G Sims and K W Dobinson. 1980.
 		
 		%\url{Your url of reference}
 	\end{thebibliography}
