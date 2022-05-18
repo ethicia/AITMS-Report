@@ -535,9 +535,24 @@
 		
 		\begin{itemize}
 			
-			\item{\textbf{Simulation:}} The Simulation is one of the most important features provided by the framework. The framework provides support for the Hindi language along with English; which is a primary language. The framework can provide support for more languages if required. This is implemented using the language packs of the respective language. Using the Language button on the transparent bar the user can switch between the languages. The user input is recorded in a text file and depending upon the user language selection the typeface of the content titles is changed. The content like theory animations also can be changed to respective language if recorded in that language.
+			\item{\textbf{Simulation} The Simulation is one of the most important features provided by the AITMS. Simulation provides creation of maps of traffic system, Simulation also helps in generating real-time traffic and visualising traffic densities. Simulation is implemented in Unity3D. Simulation is further divide into many smaller modules below. \begin{itemize}
+			\item{\textbf{NavMesh Module:} The NavMesh represents the area where the center of the agent can move. 
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=3 in]{./Diagrams/PNG/NavMeshModule}
+				\caption{NavMesh Components}
+			\end{figure}
+			Conceptually, it doesn’t matter whether you regard the agent as a point on a shrunken NavMesh or a circle on a full-size NavMesh since the two are equivalent.NavMesh module help in baking the path for agents to run on the guided path which makes it easier to simulate real-time traffic.}
 			
-			\item{\textbf{RL Algorithm}} The SNI consists of Twitter and Facebook. This implementation requires the supporting archives and libraries for both Twitter and Facebook. The Twitter and Facebook provides the app interface to facilitate the interaction and related activities. The authentication is done using these app interfaces.The library Twitter 4J is required for the Twitter SNI Support. The OAuth Authentication is used for the authentication. This requires signing up for the Twitter App which provides with the consumer key, secret key and callback url. Using this authentication is done. When the framework app user first uses the Twitter, it asks for the authorization to the Twitter App and then after the authentication the user is directed to his/her account. Then the user can publish the posts. 
+			\item{\textbf{Agent Module:} In this module, Agents(Different vehicles such as cars, buses, trucks etc) prefabs are available. These agents prefabs are used to simulate vehicles in the real-time traffic system.}
+			\item{\textbf{NavSection Module:} In this module, NavSection prefabs are available which helps in designing realistic maps. It includes many predefined NavSection prefabs for single lane, double lane, bridges, highway roads etc. }
+			\item{\textbf{Junction Observables Module:} This module observes the current state and environment of the juntions and passes it to RL Agent. This module is used only when the model is training. It outputs current phase, phase count, phase timing  to RL Agent.}
+\end{itemize}			 }
+			
+			
+			
+			\item{\textbf{Reinforcement Learning}} The model is trained using MLAgents toolkit in Unity. Training is set up by adding the JunctionRLAgent script to the Junction object which is to be trained. JunctionRLAgent consists of the reward mechanism which penalizes (i.e. negative reward) the model based on halt duration of vehicles that pass through the junction and the number of vehicles remaining in a lane after its phase. The aim of training would be to minimize these parameters, hence model must be able to reduce the overall waiting time of vehicles and at the same time provide optimal green time for all waiting vehicles of the current phase to pass through. The input of the model is obtained from the Junction Observables Module explained above.
+			
 			
 			
 			
@@ -555,8 +570,7 @@
 		\chapter{Testing}
 		\hspace*{0.5in}This chapter includes the details of Formal Technical Review meetings and describes the process carried during the review process. It also includes the Test Plan adopted for testing the Artificially Intelligent Traffic Management System and Application.
 		\section{Formal Technical Review}
-		\hspace*{0.5in}Formal Technical Reviews and Inspections of documents or software are performed to identify and
-		remove defects. The Formal Technical Review of our project was carried at regular intervals in the form of stand-up meetings and brainstorming sessions conducted in presence of the director of Cognifront  Mr. Suchit Tiwari. The process included verification of the checklist which was developed for the review process ,the code review  checklist template is as follows:
+		\hspace*{0.5in}Formal Technical Reviews and Inspections of documents or software are performed to identify and remove defects. The Formal Technical Review of our project was carried at regular intervals in the form of stand-up meetings and brainstorming sessions conducted. The process included verification of the checklist which was developed for the review process ,the code review  checklist template is as follows:
 		
 		\begin{itemize}
 			\item{\textbf{Does the code conform to Hungarian Notations?}}
@@ -568,31 +582,97 @@
 			
 		\end{itemize}
 		
+		\newcounter{num}
+		
 		\section{Test Plan}
-		\begin{longtable}{|p{3.5cm}|p{5cm}|p{3.5cm}|p{1.7cm}|} \hline
-			\textbf{Module being Tested}	&\textbf{Expected Result}	&\textbf{Actual Result}	&\textbf{Verdict} \\\hline\hline
-			Tray Control	&When application starts, the tray should be closed. When we click on the closed tray, the tray must open up in sliding manner. And it must close, when we close the application or remove the focus from it. 	 &Tray opened successfully and closed upon removing focus. &PASS\\\hline
-			Tool Tip &On a single click over a particular content a tip must appear on the screen in a fade-in and fade-out manner. &Tool Tip displayed Successfully on single clicking over the content. &PASS \\\hline
-			About Cognifront &On clicking the ABOUT thumbnail the EULA, Contact and Help must be displayed. &The contents of ABOUT that are EULA,Contact and Help are shown. &PASS \\\hline
-			Video Collection Page &On starting the application, video thumbnails must appear as list and the video title must be shown on the thumbnail. On clicking the video thumbnail, the video should be played. The user must be able to play,pause and stop the video. &Video Thumbnail and title displayed successfully.Video played successfully. User allowed to pause and stop the video. &PASS \\\hline
-			Navigation Bar &The Navigation Bar must appear on every screen of the respective learning application. It must consist of PREVIOUS and HOME screen buttons. On Clicking the previous button, previous screen must be shown and clicking the HOME button user must be returned to home screen of the application. &Navigation Bar displayed successfully on every screen of the respective learning application. Performs returning to the previous screens and home screen successfully. &PASS \\\hline
-			Objective Test Taking &When the test starts user should answer the question by selecting the appropriate option and submit it by clicking it on SUBMIT button.  On clicking the NEXT button next question must appear. To end the test user must click END TEST button and the result must be shown. &Test started successfully, questions and their options displayed properly and answer submitted successfully. Test result displayed. &PASS \\\hline
-			EULA &On Clicking the EULA thumbnail the End User's License Agreement must be displayed. &EULA contents are displayed. &PASS \\\hline
-			Contact &On Clicking the Contact thumbnail the Contact details of the respective authority must be displayed. &Contact details are displayed successfully. &PASS \\\hline
-			Help &On Clicking the HELP thumbnail the HELP contents of the respective application must be displayed. &Help contents are displayed successfully. &PASS \\\hline
-			Object Explorer &On clicking the Object Explorer thumbnail in the application menu the content as Objects must be displayed. On clicking the Object thumbnail the appropriate content must be shown. &Objects are displayed as grid of items and appropriate content is shown on clicking it.  &PASS \\\hline
-			Solved Problems &On clicking the Solved Problem thumbnail the menu must be shown. The menu must consist of Printable and Animated options. &Solved Problems thumbnail displays the menu on clicking it. &PASS \\\hline
-			Search &When user enters the content to be searched, the relevant results must be displayed if content is found otherwise no results should be displayed. &Search completed  successfully if required content found else no results displayed. &PASS \\\hline
-			Printable &On clicking the Solved Problem thumbnail the menu must be shown. The menu must consist of Printable and Animated options. Clicking on the option Printable in the menu opens the Solutions as Thumbnail Tile List. Clicking on any particular Solution opens it and provides the printing facility. &Printable option opens and displays the Solutions as Thumbnail Tile List and Solutions open on clicking them providing the printing facility. &PASS \\\hline
-			Animated &On clicking the Solved Problem thumbnail the menu must be shown. The menu must consist of Printable and Animated options. Clicking on the option Animated in the menu opens the Solutions as Thumbnail Tile List. Clicking on any particular Solution opens it and the Animation is played. &Animation option opens and displays the Solutions as Thumbnail Tile List and Solutions open on clicking it and Animation is played. &PASS \\\hline
-			Audio Recorded Notes &On clicking the Record button user must be able to Record the notes in his voice and save them. &Notes recorded and Saved properly. &PASS \\\hline
-			Subject Title &When user  starts the Subject Application Subject Title must be displayed. &Subject Title  displayed. &PASS \\\hline
-			Thumbnail &When user starts the application, the application contents must be displayed as Thumbnails. &The  contents are displayed  as Thumbnails. &PASS \\\hline
-			Title List &When user starts the application, the application contents must be displayed as Scrollable List of Thumbnails. User must be able to flick or scroll the list of thumbnails up and down. &The contents are displayed as Scrollable List of  Thumbnails. The List can be Scrolled up and down. &PASS \\\hline
-			Table of Content &When user starts the application, the application contents must be displayed as Table of Contents. User must not be able to flick or scroll Table of Contents up and down if enough Contents are not present in the Table. &Table Of Contents is  displayed. The List cannot be scrolled up or down. &PASS \\\hline
-			Bookmark Manager &User must be able to select the content to be bookmarked. The User must be able to Save the bookmark. &Content can be bookmarked and saved. &PASS \\\hline
-			Audio Player &User must be able to play the audio by clicking on the respective content. &Audio can be played. &PASS \\\hline
-			Video Player &When user starts the application, the application contents must be displayed as Scrollable List of Table of Contents. User must be able to flick or scroll the list of Table of Contents up and down. User must be able to select the Content by tapping it. The respective content must be played in the Video Player. &Table Of Contents is  displayed. The List can be scrolled up or down. The Content can be selected. The Content is played in the Video Player upon tapping it. &PASS \\\hline
+		%\begin{longtable}{|p{3.5cm}|p{5cm}|p{3.5cm}|p{1.7cm}|} \hline
+		\begin{longtable}{|p{0.6cm}|p{3.5cm}|p{5cm}|p{3.5cm}|p{1.7cm}|} \hline		
+			\textbf{Sr.\newline no.} &\textbf{Module being Tested}	&\textbf{Expected Result}	&\textbf{Actual Result}	&\textbf{Verdict} \\\hline\hline
+
+			\addtocounter{num}{1}
+			\thenum&	
+			Road assets designing&
+			3D assets of road in Digital Asset Exchange(.dae) file format&
+			3D assets were created using blender in .dae file format&
+			PASS\\\hline
+			
+			\addtocounter{num}{1}
+			\thenum&
+			Core Traffic System&
+			3D assets of road in Digital Asset Exchange(.dae) file format&
+			3D assets were created using blender in .dae file format&
+			PASS\\\hline
+			
+			\addtocounter{num}{1}
+			\thenum&
+			NavMesh Environtment Setup and Testing&
+			Test if NavMesh package is working properly&
+			NavMesh package working properly&
+			PASS\\\hline			
+			
+			\addtocounter{num}{1}
+			\thenum&
+			NavConnection implementation to guide vehicle on road&
+			If NavConnection module used to guide vehicle along road and intersections is working as per expectations&
+			NavConnection module working properly and tested&
+			PASS\\\hline
+			
+			\addtocounter{num}{1}
+			\thenum&
+			NavSection prefabs&
+			NavSection prefabs which can be used to create maps in sumulation is working properly and aligning to the grid perfectly&
+			NavSections preafabs for common road and intersections working as per expectations&
+			PASS\\\hline
+			
+			\addtocounter{num}{1}
+			\thenum&
+			Vehicle(NavAgent) prefabs&
+			NavAgents/Vehicles have realistic physics&
+			NavAgents/Vehicles have physics as per expectations&
+			PASS\\\hline
+			
+			\addtocounter{num}{1}
+			\thenum&
+			Road and Juntion Scripts&
+			road and juntion scripts are followed by NavAgent&
+			NavAgents following road and junction scripts as per expectations&
+			PASS\\\hline
+			
+			\addtocounter{num}{1}
+			\thenum&
+			Simple Timed Traffic System&
+			Implement a simple timed traffic system core model to navigate traffic, also to bake the NavMesh on runtime/pre-runtime and to manage vehicle pool&
+			Implemented a simple traffic system using scripting and attached it to the relevant object in scene&
+			PASS\\\hline
+			
+			\addtocounter{num}{1}
+			\thenum&
+			Map for simulation&
+			If map can be created as per the need of traffic system&
+			Map can be created using NavSection prefabs and is following traffic rules defined in traffic system&
+			PASS\\\hline
+			
+			\addtocounter{num}{1}
+			\thenum&
+			Camera Module&
+			Camera Module is working properly&
+			Camera Module is working as per expectations&
+			PASS\\\hline
+			
+			\addtocounter{num}{1}
+			\thenum&
+			Junction Observable Module&
+			Junction Observable Module observing junctions properly and collecting data to forward to RL Agents&
+			Junction Observable Module observing junction properly and environment as per expectations and ready to forward data to RL Agents&
+			PASS\\\hline
+			
+			\addtocounter{num}{1}
+			\thenum&
+			RL Agents&
+			Test if RL Agents interface is connected with Junction Observable module&
+			RL Agents interface is linked properly with Junction Observable module and is ready to train RL models&
+			PASS\\\hline
+			
 			\caption{Test Plan for Artificially Intelligent Traffic Management System}
 			\label{tab:nnwork}
 		\end{longtable}
@@ -607,19 +687,39 @@
 	
 	
 		\section{Advantages}
-		\hspace*{0.5in}A key benefit of M-Learning is its potential for increasing productivity by making learning available anywhere, anytime. Because mobile devices have the power to make learning even more widely available and accessible, mobile devices are a natural extension of eLearning. M-Learning is the power of learning that is truly “just-in-time” where you could actually access training at the precise place and time on the job that you need. Our project provides the reusable piece of code that will help the developers for developing multiple M-Learning applications easily; one can also prepare audio or textual notes on move. The greatest benefit of this delivery is the combination of true interactivity coupled with portability.
-		\\Following are some more advantages of Artificially Intelligent Traffic Management System:
+		Following are some more advantages of Artificially Intelligent Traffic Management System:
 		\begin{itemize}
-			\item{\textbf{Just in time learning:}Learning at the point of need.}
-			\item{\textbf{Ability to access learning (almost) everywhere:}This means down time can be leveraged for learning.}
-			\item{\textbf{Potential to be two way and multi-media:}Video, powerpoint, podcasts, and quizes are all potential outputs to iPhone devices. This provides a great deal of flexibility for mobile development.}
-			\item{\textbf{Potential for location based learning:}This means the phone can alert the person when they are near a potential learning experience based in the context in which the learning will be used–which potentially can help retention and return on investment.}
+			\item{Using defined prefabs, roadmaps can be easily be recreated in simulation.}
+			\item{Different reward mechanisms can be experimented with in order to train smart signals.}
+			\item{Simulation and training processes combined extends the use of AITMS to that of a generalized platform for traffic simulation and smart signal training.}
+			\item{ML Agents library supports the training the model using different types of reinforcement learning trainers such as PPO and SAC. It also includes the option to create recurrent neural networks. }
+			\item{Underlying technology stack is platform-independent, hence AITMS software (simulation and models) is platform-independent.}	
 		\end{itemize}
 		
+%Advantages: 
+%- Using defined prefabs, roadmaps can be easily be recreated in simulation.
+%- DIfferent reward mechanisms can be experimented with in order to train smart signals.
+%- Simulation and training processes combined extends the use of AITMS to that of a generalized platform for traffic simulation and smart signal training.
+%- MLAgents library supports the training the model using different types of reinforcement learning trainers such as PPO and SAC. It also includes the option to create recurrent neural networks. 
+%- Underlying technology stack is platform-independent, hence AITMS software (simulation and models) is platform-ndependent.
+
+%Limitations
+%- Smart signals can take a long time to train depending on the size of the map, variations in vehicle flow and the type of reward mechanism.
+%- Larger maps or spawning too many vehicles require more computational power and can cause lag. Hence larger maps with high vehicle density are not feasible to simulate on low-end devices.
+%- Roads in real life can have shapes that are not included in the set of prefabs (presets). In order, to simulate such roads, their prefabs would have to be created separately.
+%- Inherent randomness in the movement of vehicles often causes them to crash, this is often seen when phase time is given an insufficiently small value. Traffic jams caused by this are handled by deleting vehicles that have been stationary beyond a certain threshold duration.
+		\newpage
 		\section{Limitations}
-		\hspace*{0.5in}To participate in mobile learning one must have a tablet or mobile devices with android as its base operating system,these can have high ranges of cost, due to this reason it cannot be affordable by everybody in todays world.
-		\\
-		\hspace*{0.5in}Another aspect to be considered is the size of the device, this is only a challenge if one incorrectly plans mobile learning content to be nothing more than compressed eLearning. If your users are already using their mobile device that you plan to push learning to, your strategy should be what content do they need in the context of using the device. Add to that, the greatly improved displays, such as the OLED display on the DROID Incredible, and size isn't a detriment any more, but an advantage.
+		%\hspace*{0.5in}To participate in mobile learning one must have a tablet or mobile devices with android as its base operating system,these can have high ranges of cost, due to this reason it cannot be affordable by everybody in todays world.
+		%\\
+		%\hspace*{0.5in}Another aspect to be considered is the size of the device, this is only a challenge if one incorrectly plans mobile learning content to be nothing more than compressed eLearning. If your users are already using their mobile device that you plan to push learning to, your strategy should be what content do they need in the context of using the device. Add to that, the greatly improved displays, such as the OLED display on the DROID Incredible, and size isn't a detriment any more, but an advantage.
+		\begin{itemize}
+			\item{Smart signals can take a long time to train depending on the size of the map, variations in vehicle flow and the type of reward mechanism.}
+			\item{Larger maps or spawning too many vehicles require more computational power and can cause lag. Hence larger maps with high vehicle density are not feasible to simulate on low-end devices.}
+			\item{Roads in real life can have shapes that are not included in the set of prefabs (presets). In order, to simulate such roads, their prefabs would have to be created separately.}
+			\item{Inherent randomness in the movement of vehicles often causes them to crash, this is often seen when phase time is given an insufficiently small value. Traffic jams caused by this are handled by deleting vehicles that have been stationary beyond a certain threshold duration.}
+		\end{itemize}				
+		
 		
 		\section{Applications}
 		\hspace*{0.5in}The Artificially Intelligent Traffic Management System can be used in following areas:
@@ -629,7 +729,7 @@
 			\item{The education application developer can use this framework for developing number of applications that can be imported on mobile devices.}
 		\end{itemize}
 		
-	
+	\newpage
 	\section{Hardware Requirements}
 	\begin{itemize}
 		\item{Intel Core i5 8300H or equivalent/higher}

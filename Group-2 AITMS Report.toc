@@ -36,17 +36,17 @@
 \contentsline {chapter}{\numberline {7}Implementation and Results}{23}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Implementation Details}{23}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Results}{24}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Summary}{24}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Testing}{25}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Formal Technical Review}{25}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Test Plan}{26}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Summary}{31}{section.8.3}%
-\contentsline {chapter}{\numberline {9}Technical Specifications}{32}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Advantages}{32}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Limitations}{33}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Applications}{33}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Hardware Requirements}{33}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Software Requirements}{34}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Summary}{34}{section.9.6}%
-\contentsline {chapter}{\numberline {10}Future Scope}{35}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Conclusion}{36}{chapter.11}%
+\contentsline {section}{\numberline {7.3}Summary}{25}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Testing}{26}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Formal Technical Review}{26}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Test Plan}{27}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Summary}{29}{section.8.3}%
+\contentsline {chapter}{\numberline {9}Technical Specifications}{30}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Advantages}{30}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Limitations}{31}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Applications}{31}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Hardware Requirements}{32}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Software Requirements}{32}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Summary}{32}{section.9.6}%
+\contentsline {chapter}{\numberline {10}Future Scope}{33}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Conclusion}{34}{chapter.11}%
