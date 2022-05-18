@@ -6,7 +6,9 @@
 \contentsline {section}{\numberline {2.2}Traffic Congestion Detection from Camera Images using Deep Convolution Neural Networks, Pranamesh Chakraborty, et al. \cite {paper2}}{3}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Smart Control of Traffic Light Using Artificial Intelligence, Mihir M. Gandhi, et al. \cite {paper3}}{4}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Comparison of Current Practical Adaptive Traffic Control Systems, Hongyun Chen, et al. \cite {paper4}}{4}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Summary}{5}{section.2.5}%
+\contentsline {section}{\numberline {2.5}Comparison of PPO and SAC Algorithms Towards Decision Making Strategies for Collision Avoidance Among Multiple Autonomous Vehicles, Abu Jafar Md Muzahid, et al.\cite {paper7}}{5}{section.2.5}%
+\contentsline {section}{\numberline {2.6}A Deep Reinforcement Learning Approach for Traffic Signal Control Optimization, Zhenning Li, et al. \cite {paper8}}{5}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Summary}{5}{section.2.7}%
 \contentsline {chapter}{\numberline {3}Problem Definition}{6}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Need For Artificially Intelligent Traffic Management Systems}{6}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Additional Features}{7}{section.3.2}%
@@ -24,29 +26,34 @@
 \contentsline {subsection}{\numberline {5.1.1}Project Scope}{12}{subsection.5.1.1}%
 \contentsline {subsection}{\numberline {5.1.2}Operating Environment}{13}{subsection.5.1.2}%
 \contentsline {subsection}{\numberline {5.1.3}Design and Implementation Constraints}{13}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}Assumptions and Dependencies}{14}{subsection.5.1.4}%
-\contentsline {section}{\numberline {5.2}System Architecture}{15}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Software System Attribute}{17}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Data Flow Diagram}{18}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Summary}{18}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Modeling}{19}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Use Case Diagram}{19}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Activity Diagram}{21}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Summary}{22}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Implementation and Results}{23}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Implementation Details}{23}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Results}{24}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Summary}{25}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Testing}{26}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Formal Technical Review}{26}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Test Plan}{27}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Summary}{29}{section.8.3}%
-\contentsline {chapter}{\numberline {9}Technical Specifications}{30}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Advantages}{30}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Limitations}{31}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Applications}{31}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Hardware Requirements}{32}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Software Requirements}{32}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Summary}{32}{section.9.6}%
-\contentsline {chapter}{\numberline {10}Future Scope}{33}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Conclusion}{34}{chapter.11}%
+\contentsline {subsection}{\numberline {5.1.4}Assumptions}{14}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Dependencies}{14}{subsection.5.1.5}%
+\contentsline {section}{\numberline {5.2}System Architecture}{16}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Software System Attribute}{18}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Data Flow Diagram}{19}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Summary}{19}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Modeling}{20}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Use Case Diagram}{20}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Activity Diagram}{22}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Summary}{23}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Implementation and Results}{24}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Implementation Details}{24}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Steps for Training a Smart Traffic Signal}{26}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Training Configuration}{26}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Reward Mechanism}{27}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Model Architectures}{27}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Results}{27}{section.7.6}%
+\contentsline {section}{\numberline {7.7}Summary}{28}{section.7.7}%
+\contentsline {chapter}{\numberline {8}Testing}{29}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Formal Technical Review}{29}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Test Plan}{30}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Summary}{32}{section.8.3}%
+\contentsline {chapter}{\numberline {9}Technical Specifications}{33}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Advantages}{33}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Limitations}{34}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Applications}{34}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Hardware Requirements}{35}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Software Requirements}{35}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Summary}{35}{section.9.6}%
+\contentsline {chapter}{\numberline {10}Future Scope}{36}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Conclusion}{37}{chapter.11}%

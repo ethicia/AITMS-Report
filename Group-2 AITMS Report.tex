@@ -199,6 +199,12 @@
 	\hspace*{0.5in}Existing Adaptive Traffic Control Systems (ACTS) such as SCOOT, SCAT, OPAC, RHODES, etc. are being adapted by major cities in developed and developing countries. They can cover up to hundreds (OPAC) to even thousands (SCOOT, SCAT) of intersections. However, their implementation includes installation of additional sensors and can lead to very heavy costs which isn't feasible for smaller cities. Additionally, these systems do not take into consideration challenges such as power failure, non lane following traffic and mixed traffic which are common in Indian roads.\\
 	\hspace*{0.5in}The aforementioned systems provide key algorithmic insights for developing a more feasible ACTS model. Furthermore, usage of existing inputs such as CCTV needs to be emphasized over installation of new sensors in order to help reduce costs.\\
 	
+	\section{Comparison of PPO and SAC Algorithms Towards Decision Making Strategies for Collision Avoidance Among Multiple Autonomous Vehicles, Abu Jafar Md Muzahid, et al.\cite{paper7}}
+	\hspace*{0.5 in}Commonly used reinforcement learning algorithms, namely  PPO (Proximal Policy Optimization) and SAC (Soft Actor-Critic) were trained, evaluated and compared using Unity3D and ML-Agents.
+	
+	\section{A Deep Reinforcement Learning Approach for Traffic Signal Control Optimization, Zhenning Li, et al. \cite{paper8}}
+	\hspace*{0.5 in} This paper demonstrates optimization of traffic signal control using reinforcement learning. Training a deep neural network using reinforcement learning can help improve adaptability od the signal.
+	
 	\section{Summary}
 	\hspace*{0.5in}This chapter reviews research done on key concepts such as object detection and implementation of artificial intelligence with traffic signals which are essential to the proposed system. Existing solutions, their inner workings as well as their advantages and disadvantages were studied.\\
 	
@@ -309,7 +315,6 @@
 	\begin{itemize}
 		\item{Assistance to emergency and VIP vehicles.}	
 		\item{Traffic incident detection.}
-		\\
 		\item{Real-time Traffic Congestion Detection.}
 		\item{Real-time Statistics.}
 		
@@ -326,30 +331,49 @@
 	
 	\subsection{Project Scope}
 	
-	\hspace*{0.5in}The main purpose of developing the Artificially Intelligent Traffic Management System is for the welfare of the public and reduce the pollution caused by traffic congestion. The issue of transportation is one of the most problematic issues in the country, and in the world at large. In an age where a person has a private car, and especially in countries where there is a failing public transport system, traffic jams and the countless accidents that accompany road congestion harm the economic, political aspect and social in both the public and private sectors. the transportation systems used by transportation agencies around the world are not adapted to modern transportation - these are systems designed decades ago, when the amount of cars on the roads was much smaller than today, and the transportation nodes were relatively simple. today, innovative technologies for computerized transportation management are in use, but these turned out to be extremely expensive, and due to budget shortages and even many cuts in the transportation budget, transportation agencies are often forced to give up these systems and stick with the old systems.countries such as Australia, Singapore, and a number of U.S. states have adopted transportation management technologies on a massive scale (for example, GLIDE, SCATS\cite{paper6} - these are huge economic investments, but they are prove themselves as highly prudent and effective investments. The purpose of the software is to enable the optimization of transportation traffic through the optimization of node activity transportation, and adjusting their mode of operation in real time to the transportation traffic at any given moment. The software is intuitive and accessible as much as possible, while maintaining accuracy, maximum detail, level of performance And high efficiency.
-	\\The scope of Artificially Intelligent Traffic Management System can be considered as a collection of reusable piece of code, style-sheets and include files that can be used by the developer for developing more advanced systems and also considering the following points :
+	\hspace*{0.5in}The main purpose of developing the Artificially Intelligent Traffic Management System is for the welfare of the public and to reduce the pollution caused by traffic congestion. The issue of transportation is one of the most problematic issues in the country, and in the world at large. In an age where a person has a private car, and especially in countries where there is a failing public transport system, traffic jams and the countless accidents that accompany road congestion harm the economic, political and social aspects in both the public and private sectors. the transportation systems used by transportation agencies around the world are not adapted to modern transportation - these are systems designed decades ago, when the amount of cars on the roads was much smaller than today, and the transportation nodes were relatively simple. today, innovative technologies for computerized transportation management are in use, but these turned out to be extremely expensive, and due to budget shortages and even many cuts in the transportation budget, transportation agencies are often forced to give up these systems and stick with the old systems. Countries such as Australia, Singapore, and a number of U.S. states have adopted transportation management technologies on a massive scale (for example, GLIDE, SCATS\cite{paper6} - these are huge economic investments, these are proving themselves as highly prudent and effective investments. The purpose of the software is to enable the optimization of traffic signals through implementation of machine learning on data collected at traffic signals, making them more adaptive to real time changes in traffic flow. The software is made to be intuitive and accessible as much as possible, while maintaining accuracy, maximum detail, level of performance And high efficiency.
+	\\The scope of Artificially Intelligent Traffic Management System can be considered as a collection of reusable piece of code, 3D roadway components, trained models and include files that can be used by the developer for developing more advanced systems and also considering the following points :
 	\begin{itemize}
 		\item{Warehousing of parametric data and reports to analyze periodic patterns and improve optimization using it (data science)}
 		\item{Making AITMS compatible with each other so that neighboring solutions can work together providing another layer of optimization with added scalability}
+		\item{Providing a platform for simulating roadmaps and training smart signals; allowing the user maximum flexibility in design of maps and smart signal models}
 	\end{itemize}
 	
 	\subsection{Operating Environment}
-	\hspace*{0.5in}The proposed system will require an operating environment with appropriate version of windows OS, python, tensorflow and sufficient computation power through GPUs.
+	\hspace*{0.5in}The proposed system will require an operating environment with appropriate version of Windows or Linux OS, Python, Unity3D and sufficient computation power through GPUs.
 	
 	\subsection{Design and Implementation Constraints}
-	\hspace*{0.5in}
-	The key restriction here will be to verify the validity of the report,which is not always feasible.Security threats may be involved.\\
+	\hspace*{0.5in}The key restriction here will be to verify the validity of the report, which is not always feasible.Security threats may be involved.\\
 	\begin{itemize}
 		\item{\textbf{Memory:} Minimum 16GB RAM}
-		\item{\textbf{CPU:} Intel Core i5 - 8300H or equivalent\textbackslash higher.}\\
+		\item{\textbf{CPU:} Intel Core i5 - 8300H or equivalent\textbackslash higher.}
 		\item{\textbf{GPU:} Nvidia GTX 1050ti or equivalent\textbackslash higher.}
 		\item{\textbf{LAN for CCTV:}  CCTV feed from intersections to the server room.}
-		\item{\textbf{Operating System:}  This application works on Windows.}
+		\item{\textbf{Operating System:}  This application works on Windows and Linux.}
 	\end{itemize}
 	
-	\subsection{Assumptions and Dependencies}
-	\hspace*{0.5in}The Framework is capable of allowing the developer to develop the more advanced application for Traffic Congestion Clearance. The Admin has a
-	computer with graphic card, gets to monitor intersections and rest of the system is automated.
+	\subsection{Assumptions}
+	\hspace*{0.5in}AITMS functions based on the following assumptions.
+	\begin{itemize}
+		\item{Inputs such as vehicle count, phase intervals and current phase are obtainable from the junction in real time.}
+		\item{It is possible to interface traffic signals with AITMS in a way which allows AITMS to set phase intervals and traffic signal state for each lane.}
+		\item{The Admin has a
+			computer with graphic card, gets to monitor intersections and rest of the system is automated.}
+	\end{itemize}
+
+	\subsection{Dependencies}
+	\hspace*{0.5in}AITMS requires the following software dependencies to be fulfilled for proper functioning.
+	\begin{itemize}
+		\item{\textbf{Python v3.7.13}\\
+			Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected. }
+		\item{\textbf{Unity3D v2020.3.32f}\\
+			Unity is a game development platform. Unity is used to build high-quality 3D and 2D games and simulations, deploy them across mobile, desktop, VR/AR, consoles or the Web, and connect with loyal and enthusiastic players and customers.}\\
+		\item{\textbf{Unity ML-Agents v1.0.8}\\
+			The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents using deep reinforcement learning and imitation learning.}
+		\item{\textbf{PyTorch v1.8.1}\\
+			PyTorch is an open source machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing, primarily developed by Facebook's AI Research lab. It is free and open-source software released under the Modified BSD license.}
+		
+	\end{itemize}
 	
 	
 	\newpage
@@ -535,7 +559,7 @@
 		
 		\begin{itemize}
 			
-			\item{\textbf{Simulation} The Simulation is one of the most important features provided by the AITMS. Simulation provides creation of maps of traffic system, Simulation also helps in generating real-time traffic and visualising traffic densities. Simulation is implemented in Unity3D. Simulation is further divide into many smaller modules below. \begin{itemize}
+			\item{\textbf{Simulation} The Simulation is one of the most important features provided by AITMS. Simulation provides creation of maps of traffic system, it also helps in generating real-time traffic and visualizing traffic densities. It is implemented in Unity3D. Simulation is further divide into many smaller modules below. \begin{itemize}
 			\item{\textbf{NavMesh Module:} The NavMesh represents the area where the center of the agent can move. 
 			\begin{figure}[H]
 				\centering
@@ -547,15 +571,48 @@
 			\item{\textbf{Agent Module:} In this module, Agents(Different vehicles such as cars, buses, trucks etc) prefabs are available. These agents prefabs are used to simulate vehicles in the real-time traffic system.}
 			\item{\textbf{NavSection Module:} In this module, NavSection prefabs are available which helps in designing realistic maps. It includes many predefined NavSection prefabs for single lane, double lane, bridges, highway roads etc. }
 			\item{\textbf{Junction Observables Module:} This module observes the current state and environment of the juntions and passes it to RL Agent. This module is used only when the model is training. It outputs current phase, phase count, phase timing  to RL Agent.}
-\end{itemize}			 }
+			\end{itemize}			 
+			}
 			
 			
 			
-			\item{\textbf{Reinforcement Learning}} The model is trained using MLAgents toolkit in Unity. Training is set up by adding the JunctionRLAgent script to the Junction object which is to be trained. JunctionRLAgent consists of the reward mechanism which penalizes (i.e. negative reward) the model based on halt duration of vehicles that pass through the junction and the number of vehicles remaining in a lane after its phase. The aim of training would be to minimize these parameters, hence model must be able to reduce the overall waiting time of vehicles and at the same time provide optimal green time for all waiting vehicles of the current phase to pass through. The input of the model is obtained from the Junction Observables Module explained above.
+			\item{\textbf{Reinforcement Learning}}\\
+			\hspace*{0.5in}It is an area of machine learning concerned with how intelligent agents ought to take actions in an environment in order to maximize the notion of cumulative reward.\\
+			\hspace*{0.5in}The model is trained using MLAgents toolkit in Unity. Training is set up by adding the JunctionRLAgent script to the Junction object which is to be trained. JunctionRLAgent consists of the reward mechanism which penalizes (i.e. negative reward) the model based on halt duration of vehicles that pass through the junction and the number of vehicles remaining in a lane after its phase. \\
+			\hspace*{0.5in}The aim of training would be to minimize these parameters, hence model must be able to reduce the overall waiting time of vehicles and at the same time provide optimal green time for all waiting vehicles of the current phase to pass through. The input of the model is obtained from the Junction Observables Module explained above.
 			
-			
-			
-			
+		\end{itemize}
+	
+		\newpage
+		\section{Steps for Training a Smart Traffic Signal}
+		\hspace*{0.5 in}Following steps are to be followed to train a smart signal from scratch using AITMS.
+		\begin{itemize}
+			\item{Create a new scene in Unity3D; Create a road map consisting junctions by simply dragging and dropping NavSection prefabs. Finally click bake to complete map creation.}
+			\item{Tune generalized parameters (speed limits, connections, etc.) of placed NavSection components and vehicle prefabs as desired.}
+			\item{Add JunctionRLAgent script to junctions which are to be trained. Optionally, pass GlobalObservables if inference from other junctions is required. If a custom reward mechanism is desired, it can be implemented in the Junction script.}
+			\item{Edit training configuration file as desired.}
+			\item{Start an instance of MLAgents using the configuration file and hit play in Unity.}
+			\item{Let model train for atleast a couple thousand steps, this step takes the longest time depending on size of map, complexity of reward mechanism and training configuration. Training can be visualized as it happens using tensorboard.}
+			\item{Attach trained model (".onnx" file) to Junction in scene and evaluate by enabling log option in AITMS object.}
+		\end{itemize}
+	
+		\section{Training Configuration}
+		\hspace*{0.5 in}MLAgents models are trained based on a configuration file having a ".yaml" extension. Properties for each model such as trainer type, number of layers, etc. are defined in this file. 
+		It allows tuning hyperparameters and environment settings. For more details check out the MLAgents documentation page.
+		
+		\newpage
+		\section{Reward Mechanism}
+		\hspace*{0.5 in}Reward mechanism plays a key role in training reinforcement learning models. The aim of reinforcement learning is to maximize rewards obtained through each decision made. The default reward function of AITMS is given as follows\\ 
+		\hspace*{1 in}$\mathbf{Reward = - (\ AvgHaltTime \times LaneCount )\ }$\\
+		where, AvgHaltTime is the average of waiting time of all the vehicles that have passed through the junction in current phase and LaneCount is the amount of vehicles (value is scaled using maxmin scaling) remaining after end of current phase. Reward is calculated at the end of each phase.\\
+		\hspace*{0.5 in} Since reward is negative, the model tries to minimize the magnitude during training. Hence, through training, the model should be able to reduce average waiting time of the vehicle as well as set optimal phase time such that maximum waiting vehicles pass through during every phase.\\
+		
+		\section{Model Architectures}
+		\hspace*{0.5 in} AITMS models can be trained in the following possible structures.
+		\begin{itemize}
+			\item{The same model is attached to multiple junctions. Hence junctions share a generalized model.}
+			\item{Different model is attached to each junction. Hence each model is specialized to optimize its own junction.}
+			\item{Hybrid, i.e. a combination of the above two structures.}
 		\end{itemize}
 		
 		\section{Results}
@@ -740,10 +797,11 @@
 	\section{Software Requirements}
 	\begin{itemize}
 		\item{Visual Studio 2019}
-		\item{Unity 2020.3}
+		\item{Unity 2020.3.32f}
 		\item{Python 3.7 or higher}
 		\item{YOLO 3.0 or higher}
 		\item{TensorFlow 2.0 or higher}
+		\item{PyTorch 1.8.1 or higher}
 		\item{GIMP and Photoshop}
 	\end{itemize}
 	
@@ -811,6 +869,11 @@
 		\bibitem{paper5}\emph{Optimizing Networks of Traffic Signals in Real Time - The SCOOT Method.};D I Robertson and R D Bretherton. IEEE Transactions on Vehicular Technology, 1991.
 		
 		\bibitem{paper6}\emph{The sydney coordinated adaptive traffic (scat) system philosophy and benefits,};A G Sims and K W Dobinson. 1980.
+		
+		\bibitem{paper7}\emph{Comparison of PPO and SAC Algorithms Towards Decision Making Strategies for Collision Avoidance Among Multiple Autonomous Vehicles}A. J. M. Muzahid, S. F. Kamarulzaman and M. A. Rahman, 2021 International Conference on Software Engineering \& Computer Systems and 4th International Conference on Computational Science and Information Management (ICSECS-ICOCSIM), 2021, pp. 200-205, doi: 10.1109/ICSECS52883.2021.00043.
+		
+		\bibitem{paper8}\emph{Li, Zhenning \& Xu, Cheng-Zhong \& Zhang, Guohui. (2021). A Deep Reinforcement Learning Approach for Traffic Signal Control Optimization. }
+		
 		
 		%\url{Your url of reference}
 	\end{thebibliography}
