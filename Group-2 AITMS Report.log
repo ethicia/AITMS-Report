@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  20 MAY 2022 00:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.4.29)  20 MAY 2022 01:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"./Group-2 AITMS Report.tex"
-(Group-2 AITMS Report.tex
+**"Group-2 AITMS Report.tex"
+(./Group-2 AITMS Report.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+L3 programming layer <2022-04-10>
+(/usr/share/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+(/usr/share/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -24,43 +24,43 @@ File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
-cfg
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
-f
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.st
-y
+(/usr/share/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2021/06/04 v1.1.5 Todonotes source and documentation.
 Package: todonotes 2021/06/04
- (C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks16
 \XKV@tempa@toks=\toks17
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\keyval.tex))
+
+(/usr/share/texmf-dist/tex/generic/xkeyval/keyval.tex))
 \XKV@depth=\count194
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+))
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
@@ -74,52 +74,39 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz
-.sty
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.s
-ty
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
-l-common.tex
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks18
 \pgfutil@tempdima=\dimen139
 \pgfutil@tempdimb=\dimen140
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
-l-common-lists.tex))
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
-l-latex.def
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box50
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs
-.code.tex
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex
-)
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
 Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore
-.sty
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys
-.sty
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
-ys.code.tex
+(/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
-s.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks19
 \pgfkeys@temptoks=\toks20
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
-sfiltered.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks21
 ))
 \pgf@x=\dimen143
@@ -143,42 +130,32 @@ sfiltered.code.tex
 \t@pgf@tokc=\toks24
 \pgf@sys@id@count=\count199
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.
-cfg
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
-ys-pdftex.def
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
-ys-common-pdf.def
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )))
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
-yssoftpath.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfsyssoftpath@smallbuffer@items=\count266
 \pgfsyssoftpath@bigbuffer@items=\count267
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
-ysprotocol.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-re.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.cod
-e.tex
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc
-.code.tex
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil
-.code.tex)
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpars
-er.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen153
 \pgfmath@count=\count268
 \pgfmath@box=\box51
@@ -186,32 +163,20 @@ er.code.tex
 \pgfmath@stack@operand=\toks26
 \pgfmath@stack@operation=\toks27
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
-tions.code.tex
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
-tions.basic.code.tex)
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
-tions.trigonometric.code.tex)
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
-tions.random.code.tex)
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
-tions.comparison.code.tex)
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
-tions.base.code.tex)
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
-tions.round.code.tex)
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
-tions.misc.code.tex)
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
-tions.integerarithmetics.code.tex)))
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloa
-t.code.tex
-\c@pgfmathroundto@lastzeros=\count269
-))
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code
 .tex)
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-repoints.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
+.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count269
+)) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@picminx=\dimen154
 \pgf@picmaxx=\dimen155
@@ -228,132 +193,103 @@ File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@zx=\dimen166
 \pgf@zy=\dimen167
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-repathconstruct.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@path@lastx=\dimen168
 \pgf@path@lasty=\dimen169
-)
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-repathusage.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@shorten@end@additional=\dimen170
 \pgf@shorten@start@additional=\dimen171
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-rescopes.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box52
 \pgf@hbox=\box53
 \pgf@layerbox@main=\box54
 \pgf@picture@serial@count=\count270
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-regraphicstate.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgflinewidth=\dimen172
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-retransformations.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
+ex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@pt@x=\dimen173
 \pgf@pt@y=\dimen174
 \pgf@pt@temp=\dimen175
-)
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-requick.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-reobjects.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-repathprocessing.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
+x
 File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-rearrows.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfarrowsep=\dimen176
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-reshade.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen177
 \pgf@sys@shading@range@num=\count271
 \pgf@shadingcount=\count272
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-reimage.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-reexternal.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfexternal@startupbox=\box55
 ))
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-relayers.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-retransparency.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-repatterns.code.tex
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
-rerdf.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
-eshapes.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfnodeparttextbox=\box56
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
-eplot.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
-omp-version-0-65.sty
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@nodesepstart=\dimen178
 \pgf@nodesepend=\dimen179
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
-omp-version-1-18.sty
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 ))
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.s
-ty
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.
-sty
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
-s.code.tex))
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.cod
-e.tex))
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor
-.code.tex
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.cod
-e.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen180
 \pgffor@skip=\dimen181
 \pgffor@stack=\toks28
 \pgffor@toks=\toks29
 ))
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
-kz\tikz.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
-raryplothandlers.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
+x
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@plot@mark@count=\count273
 \pgfplotmarksize=\dimen182
@@ -374,9 +310,7 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikznumberofchildren=\count275
 \tikznumberofcurrentchild=\count276
 \tikz@fig@count=\count277
-
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
-ematrix.code.tex
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfmatrixcurrentrow=\count278
 \pgfmatrixcurrentcolumn=\count279
@@ -384,15 +318,14 @@ File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 \tikz@expandcount=\count281
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
-kz/libraries\tikzlibrarytopaths.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+topaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
-kz/libraries\tikzlibrarypositioning.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+positioning.code.tex
 File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+) (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count282
 \calc@Bcount=\count283
@@ -407,74 +340,69 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 \c@@todonotes@numberoftodonotes=\count285
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+(/usr/share/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write4
 
 Excluding comment 'comment')
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+)
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
-s.sty
+(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
-sty
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.
-sty
+(/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefin
-ekeys.sty
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.
-sty
+(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacr
-o.sty
+(/usr/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+(/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
-y
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen193
 \Hy@linkcounter=\count286
 \Hy@pagecounter=\count287
- (C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.st
-y
+(/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count288
- (C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+
+(/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -487,18 +415,18 @@ Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4390.
 \c@Hy@tempcnt=\count289
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+
+(/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4749.
 \XeTeXLinkMargin=\dimen194
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcal
-c.sty
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -515,7 +443,7 @@ Package hyperref Info: PDF/A mode OFF on input line 6057.
 LaTeX Info: Redefining \ref on input line 6097.
 LaTeX Info: Redefining \pageref on input line 6101.
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+(/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -524,10 +452,11 @@ package with kernel methods
 \c@Hfootnote=\count293
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+
+(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+(/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
@@ -535,34 +464,33 @@ with kernel methods
 \Fld@listcount=\count294
 \c@bookmark@seq@number=\count295
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfi
-lecheck.sty
+(/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\unique
-counter.sty
+(/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip52
-) (lastpage.sty
+)
+(./lastpage.sty
 Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
  (JPG)
-) (fancyheadings.sty
+) (./fancyheadings.sty
 \headrulewidth=\dimen197
 \footrulewidth=\dimen198
 \plainheadrulewidth=\dimen199
 \plainfootrulewidth=\dimen256
 \headwidth=\dimen257
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig.sty
+(/usr/share/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 \epsfxsize=\dimen258
 \epsfysize=\dimen259
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+(/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count296
 \float@exts=\toks30
@@ -570,7 +498,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks31
 \@floatcapt=\box62
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen260
 \ar@mcellbox=\box63
@@ -580,7 +508,7 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \backup@length=\skip54
 \ar@cellbox=\box64
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+(/usr/share/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTleft=\skip55
 \LTright=\skip56
@@ -599,12 +527,12 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \c@LT@chunks=\count301
 \LT@p@ftn=\toks33
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
-ftex.def
-File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count302
 \l__pdf_internal_box=\box70
-) (Group-2 AITMS Report.aux
+)
+(./Group-2 AITMS Report.aux
 
 LaTeX Warning: Label `atcres' multiply defined.
 
@@ -635,9 +563,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
-
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
-kii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count303
 \scratchdimen=\dimen263
@@ -650,16 +576,14 @@ kii
 \MPnumerator=\count307
 \makeMPintoPDFobject=\count308
 \everyMPtoPDFconversion=\toks35
-)
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
-base.sty
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.
-cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
@@ -668,14 +592,13 @@ an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to
 loading the todonotes package. on input line 45.
 
 Package hyperref Info: Link coloring OFF on input line 45.
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\getti
-tlestring.sty
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count309
@@ -683,41 +606,42 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 45.
 LaTeX Info: Redefining \pageref on input line 45.
 LaTeX Info: Redefining \nameref on input line 45.
- (Group-2 AITMS Report.out) (Group-2 AITMS Report.out)
+
+(./Group-2 AITMS Report.out) (./Group-2 AITMS Report.out)
 \@outlinefile=\write5
 \openout5 = `"Group-2 AITMS Report.out"'.
 
 Package epstopdf Info: Source file: <./metbkc.eps>
-(epstopdf)                    date: 2022-05-16 16:11:21
-(epstopdf)                    size: 5284753 bytes
+(epstopdf)                    date: 2021-12-29 19:31:57
+(epstopdf)                    size: 5284079 bytes
 (epstopdf)             Output file: <./metbkc-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-05-16 16:11:21
+(epstopdf)                    date: 2021-12-29 19:31:57
 (epstopdf)                    size: 96212 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./metbkc-eps-convert
-ed-to.pdf ./metbkc.eps>
+(epstopdf)             Command: <repstopdf --outfile=./metbkc-eps-converted-to.
+pdf ./metbkc.eps>
 (epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./metbkc-eps-converted-to.pdf): PDF inclusion: f
-ound PDF version <1.7>, but at most version <1.5> allowed
-<./metbkc-eps-converted-to.pdf, id=261, 973.6375pt x 112.42pt>
+pdfTeX warning: /usr/bin/pdflatex (file ./metbkc-eps-converted-to.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./metbkc-eps-converted-to.pdf, id=263, 973.6375pt x 112.42pt>
 File: ./metbkc-eps-converted-to.pdf Graphic file (type pdf)
 <use ./metbkc-eps-converted-to.pdf>
 Package pdftex.def Info: ./metbkc-eps-converted-to.pdf  used on input line 91.
 (pdftex.def)             Requested size: 296.29788pt x 36.13466pt.
 [1
 
-{C:/Users/bright/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./metbkc-ep
-s-converted-to.pdf>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./metbkc-eps-converted-to.
+pdf>]
 Package epstopdf Info: Source file: <./metbkc.eps>
-(epstopdf)                    date: 2022-05-16 16:11:21
-(epstopdf)                    size: 5284753 bytes
+(epstopdf)                    date: 2021-12-29 19:31:57
+(epstopdf)                    size: 5284079 bytes
 (epstopdf)             Output file: <./metbkc-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-05-16 16:11:21
+(epstopdf)                    date: 2021-12-29 19:31:57
 (epstopdf)                    size: 96212 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./metbkc-eps-convert
-ed-to.pdf ./metbkc.eps>
+(epstopdf)             Command: <repstopdf --outfile=./metbkc-eps-converted-to.
+pdf ./metbkc.eps>
 (epstopdf)             \includegraphics on input line 107.
 Package epstopdf Info: Output file is already uptodate.
 File: ./metbkc-eps-converted-to.pdf Graphic file (type pdf)
@@ -760,7 +684,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--156
 
 [2
 
-] (Group-2 AITMS Report.toc
+] (./Group-2 AITMS Report.toc
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14> on input line 2.
@@ -800,13 +724,13 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
-[5] (Group-2 AITMS Report.lof)
+[5] (./Group-2 AITMS Report.lof)
 \tf@lof=\write7
 \openout7 = `"Group-2 AITMS Report.lof"'.
 
  [6
 
-] (Group-2 AITMS Report.lot)
+] (./Group-2 AITMS Report.lot)
 \tf@lot=\write8
 \openout8 = `"Group-2 AITMS Report.lot"'.
 
@@ -929,8 +853,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
 [6
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+] Excluding 'comment' comment.
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
 
@@ -944,38 +868,38 @@ Excluding 'comment' comment. [8
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 261.
+(Font)              <12> on input line 263.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 261.
+(Font)              <8> on input line 263.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 261.
+(Font)              <6> on input line 263.
 
-Overfull \hbox (0.62624pt too wide) in paragraph at lines 262--262
+Overfull \hbox (0.62624pt too wide) in paragraph at lines 264--264
 []|\OT1/cmr/bx/n/12 Phase| 
  []
 
 
-Underfull \hbox (badness 4954) in paragraph at lines 262--262
+Underfull \hbox (badness 4954) in paragraph at lines 264--264
 []|\OT1/cmr/bx/n/12 Group Mem-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
 []|\OT1/cmr/m/n/12 Functional Re-quire-ment
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 266--266
+Underfull \hbox (badness 1424) in paragraph at lines 268--268
 []|\OT1/cmr/m/n/12 Graph The-ory and Math
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--271
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
 []|\OT1/cmr/m/n/12 Software Re-quire-ment
  []
 
 
-Overfull \hbox (14.74149pt too wide) in paragraph at lines 261--273
+Overfull \hbox (14.74149pt too wide) in paragraph at lines 263--275
  [][] 
  []
 
@@ -988,39 +912,39 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.281 	\newpage
+l.283 	\newpage
                ]
-Overfull \hbox (0.62624pt too wide) in paragraph at lines 294--294
+Overfull \hbox (0.62624pt too wide) in paragraph at lines 296--296
 []|\OT1/cmr/bx/n/12 Phase| 
  []
 
 
-Underfull \hbox (badness 4954) in paragraph at lines 294--294
+Underfull \hbox (badness 4954) in paragraph at lines 296--296
 []|\OT1/cmr/bx/n/12 Group Mem-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 []|\OT1/cmr/m/n/12 Defining Pro-gram-ming
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 300--301
+Underfull \hbox (badness 1163) in paragraph at lines 302--303
 []|\OT1/cmr/m/n/12 Development of Mile-stone
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 304--305
+Underfull \hbox (badness 1163) in paragraph at lines 306--307
 []|\OT1/cmr/m/n/12 Development of Mile-stone
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 308--309
+Underfull \hbox (badness 1163) in paragraph at lines 310--311
 []|\OT1/cmr/m/n/12 Development of Mile-stone
  []
 
 
-Overfull \hbox (14.74149pt too wide) in paragraph at lines 293--321
+Overfull \hbox (14.74149pt too wide) in paragraph at lines 295--323
 [][]
  []
 
@@ -1033,22 +957,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.330 	\newpage
-               ]
+l.332 	\newpage
+               ] Excluding 'comment' comment.
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [11]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--357
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
 
  []
 
 [12
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
 
  []
 
@@ -1058,14 +982,14 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 [13]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-78.
- (C:\Users\bright\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+82.
+ (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 378.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 382.
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--400
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
 
  []
 
@@ -1078,24 +1002,24 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [15]
-<./Diagrams/PNG/layered_architecture.png, id=512, 784.9325pt x 562.1pt>
+<./Diagrams/PNG/layered_architecture.png, id=516, 784.9325pt x 562.1pt>
 File: ./Diagrams/PNG/layered_architecture.png Graphic file (type png)
 <use ./Diagrams/PNG/layered_architecture.png>
 Package pdftex.def Info: ./Diagrams/PNG/layered_architecture.png  used on input
- line 414.
+ line 418.
 (pdftex.def)             Requested size: 375.80515pt x 325.21199pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--416
+Underfull \hbox (badness 10000) in paragraph at lines 415--420
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--419
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--421
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
 
  []
 
@@ -1108,26 +1032,26 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.423 		\item{
+l.427 		\item{
               Collecting CCTV footage and other data from physical intersect...
  <./Diagrams/PNG/layered_architecture.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
 
  []
 
-<./Diagrams/PNG/architecture.png, id=520, 1086.0575pt x 665.48625pt>
+<./Diagrams/PNG/architecture.png, id=524, 1086.0575pt x 665.48625pt>
 File: ./Diagrams/PNG/architecture.png Graphic file (type png)
 <use ./Diagrams/PNG/architecture.png>
-Package pdftex.def Info: ./Diagrams/PNG/architecture.png  used on input line 43
-7.
+Package pdftex.def Info: ./Diagrams/PNG/architecture.png  used on input line 44
+1.
 (pdftex.def)             Requested size: 469.76312pt x 397.48732pt.
 
-Overfull \hbox (18.07562pt too wide) in paragraph at lines 437--438
+Overfull \hbox (18.07562pt too wide) in paragraph at lines 441--442
  [][] 
  []
 
@@ -1136,7 +1060,7 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [17] Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 474--475
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
 
  []
 
@@ -1149,20 +1073,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.475 	
+l.479 	
         <./Diagrams/PNG/architecture.png>]
-<./Diagrams/PNG/dataflow.png, id=530, 2008.50375pt x 2007.5pt>
+<./Diagrams/PNG/dataflow.png, id=534, 2008.50375pt x 2007.5pt>
 File: ./Diagrams/PNG/dataflow.png Graphic file (type png)
 <use ./Diagrams/PNG/dataflow.png>
-Package pdftex.def Info: ./Diagrams/PNG/dataflow.png  used on input line 478.
+Package pdftex.def Info: ./Diagrams/PNG/dataflow.png  used on input line 482.
 (pdftex.def)             Requested size: 238.58891pt x 238.49121pt.
-<./Diagrams/PNG/dfd1.png, id=531, 786.68906pt x 336.50719pt>
+<./Diagrams/PNG/dfd1.png, id=535, 786.68906pt x 336.50719pt>
 File: ./Diagrams/PNG/dfd1.png Graphic file (type png)
 <use ./Diagrams/PNG/dfd1.png>
-Package pdftex.def Info: ./Diagrams/PNG/dfd1.png  used on input line 484.
+Package pdftex.def Info: ./Diagrams/PNG/dfd1.png  used on input line 488.
 (pdftex.def)             Requested size: 491.45137pt x 166.21983pt.
 
-Overfull \hbox (39.76387pt too wide) in paragraph at lines 484--485
+Overfull \hbox (39.76387pt too wide) in paragraph at lines 488--489
  [][] 
  []
 
@@ -1175,13 +1099,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.493 	\chapter
+l.497 	\chapter
                {Modeling}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.493 	\chapter
+l.497 	\chapter
                {Modeling} <./Diagrams/PNG/dataflow.png> <./Diagrams/PNG/dfd1.pn
 g>]
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
@@ -1190,17 +1114,17 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 [20]
 Chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--500
+Underfull \hbox (badness 10000) in paragraph at lines 502--504
 
  []
 
 [21
 
 ]
-<./Diagrams/PNG/uml.jpg, id=545, 1369.115pt x 984.67876pt>
+<./Diagrams/PNG/uml.jpg, id=549, 1369.115pt x 984.67876pt>
 File: ./Diagrams/PNG/uml.jpg Graphic file (type jpg)
 <use ./Diagrams/PNG/uml.jpg>
-Package pdftex.def Info: ./Diagrams/PNG/uml.jpg  used on input line 510.
+Package pdftex.def Info: ./Diagrams/PNG/uml.jpg  used on input line 514.
 (pdftex.def)             Requested size: 397.48499pt x 285.86505pt.
  Excluding 'comment' comment.
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
@@ -1211,12 +1135,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.520 	\newpage
+l.524 	\newpage
                 <./Diagrams/PNG/uml.jpg>] Excluding 'comment' comment.
-<./Diagrams/PNG/flow.png, id=551, 2007.5pt x 2007.5pt>
+<./Diagrams/PNG/flow.png, id=555, 2007.5pt x 2007.5pt>
 File: ./Diagrams/PNG/flow.png Graphic file (type png)
 <use ./Diagrams/PNG/flow.png>
-Package pdftex.def Info: ./Diagrams/PNG/flow.png  used on input line 528.
+Package pdftex.def Info: ./Diagrams/PNG/flow.png  used on input line 532.
 (pdftex.def)             Requested size: 361.33441pt x 361.34999pt.
 
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
@@ -1227,12 +1151,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.531 	\newpage
+l.535 	\newpage
                 <./Diagrams/PNG/flow.png>] Excluding 'comment' comment.
-<./Diagrams/PNG/cc.png, id=557, 2668.97125pt x 1204.5pt>
+<./Diagrams/PNG/cc.png, id=561, 2668.97125pt x 1204.5pt>
 File: ./Diagrams/PNG/cc.png Graphic file (type png)
 <use ./Diagrams/PNG/cc.png>
-Package pdftex.def Info: ./Diagrams/PNG/cc.png  used on input line 574.
+Package pdftex.def Info: ./Diagrams/PNG/cc.png  used on input line 578.
 (pdftex.def)             Requested size: 404.71243pt x 182.63377pt.
 
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
@@ -1243,18 +1167,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.577 		\newpage
+l.581 		\newpage
                  <./Diagrams/PNG/cc.png>] Excluding 'comment' comment.
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [25]
 Chapter 7.
-<./Diagrams/PNG/NavMeshModule.png, id=567, 853.1875pt x 515.9275pt>
+<./Diagrams/PNG/NavMeshModule.png, id=571, 853.1875pt x 515.9275pt>
 File: ./Diagrams/PNG/NavMeshModule.png Graphic file (type png)
 <use ./Diagrams/PNG/NavMeshModule.png>
 Package pdftex.def Info: ./Diagrams/PNG/NavMeshModule.png  used on input line 6
-02.
+06.
 (pdftex.def)             Requested size: 216.81pt x 131.1071pt.
 [26
 
@@ -1263,7 +1187,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.7.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.606 			
+l.610 			
           <./Diagrams/PNG/NavMeshModule.png>]
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
@@ -1273,7 +1197,7 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 641--645
+Underfull \hbox (badness 10000) in paragraph at lines 645--649
 
  []
 
@@ -1282,19 +1206,19 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [29]
-Underfull \hbox (badness 10000) in paragraph at lines 655--656
+Underfull \hbox (badness 10000) in paragraph at lines 659--660
 
  []
 
-<./Diagrams/PNG/scene.png, id=586, 1445.4pt x 813.0375pt>
+<./Diagrams/PNG/scene.png, id=591, 1445.4pt x 813.0375pt>
 File: ./Diagrams/PNG/scene.png Graphic file (type png)
 <use ./Diagrams/PNG/scene.png>
-Package pdftex.def Info: ./Diagrams/PNG/scene.png  used on input line 663.
+Package pdftex.def Info: ./Diagrams/PNG/scene.png  used on input line 667.
 (pdftex.def)             Requested size: 433.62pt x 243.91313pt.
-<./Diagrams/PNG/cross.png, id=587, 883.80188pt x 533.74406pt>
+<./Diagrams/PNG/cross.png, id=592, 883.80188pt x 533.74406pt>
 File: ./Diagrams/PNG/cross.png Graphic file (type png)
 <use ./Diagrams/PNG/cross.png>
-Package pdftex.def Info: ./Diagrams/PNG/cross.png  used on input line 669.
+Package pdftex.def Info: ./Diagrams/PNG/cross.png  used on input line 673.
 (pdftex.def)             Requested size: 433.62pt x 261.87079pt.
 
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
@@ -1305,18 +1229,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.7.2})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.672 		
+l.676 		
          <./Diagrams/PNG/scene.png>]
-<./Diagrams/PNG/licescene2.png, id=593, 998.22937pt x 435.12563pt>
+<./Diagrams/PNG/licescene2.png, id=598, 998.22937pt x 435.12563pt>
 File: ./Diagrams/PNG/licescene2.png Graphic file (type png)
 <use ./Diagrams/PNG/licescene2.png>
-Package pdftex.def Info: ./Diagrams/PNG/licescene2.png  used on input line 675.
+Package pdftex.def Info: ./Diagrams/PNG/licescene2.png  used on input line 679.
 
 (pdftex.def)             Requested size: 433.62pt x 189.01253pt.
-<./Diagrams/PNG/livescene.png, id=594, 995.97093pt x 432.86719pt>
+<./Diagrams/PNG/livescene.png, id=599, 995.97093pt x 432.86719pt>
 File: ./Diagrams/PNG/livescene.png Graphic file (type png)
 <use ./Diagrams/PNG/livescene.png>
-Package pdftex.def Info: ./Diagrams/PNG/livescene.png  used on input line 681.
+Package pdftex.def Info: ./Diagrams/PNG/livescene.png  used on input line 685.
 (pdftex.def)             Requested size: 433.62pt x 188.46082pt.
 
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
@@ -1327,23 +1251,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.7.3})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.684 		
+l.688 		
         
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.684 		
+l.688 		
          <./Diagrams/PNG/cross.png> <./Diagrams/PNG/licescene2.png>]
-<./Diagrams/PNG/scene2.png, id=601, 1445.4pt x 813.0375pt>
+<./Diagrams/PNG/scene2.png, id=606, 1445.4pt x 813.0375pt>
 File: ./Diagrams/PNG/scene2.png Graphic file (type png)
 <use ./Diagrams/PNG/scene2.png>
-Package pdftex.def Info: ./Diagrams/PNG/scene2.png  used on input line 687.
+Package pdftex.def Info: ./Diagrams/PNG/scene2.png  used on input line 691.
 (pdftex.def)             Requested size: 433.62pt x 243.91313pt.
-<./Diagrams/PNG/fulllive.png, id=602, 1445.4pt x 813.0375pt>
+<./Diagrams/PNG/fulllive.png, id=607, 1445.4pt x 813.0375pt>
 File: ./Diagrams/PNG/fulllive.png Graphic file (type png)
 <use ./Diagrams/PNG/fulllive.png>
-Package pdftex.def Info: ./Diagrams/PNG/fulllive.png  used on input line 693.
+Package pdftex.def Info: ./Diagrams/PNG/fulllive.png  used on input line 697.
 (pdftex.def)             Requested size: 433.62pt x 243.91313pt.
 
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
@@ -1354,23 +1278,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.7.5})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.696 		
+l.700 		
         
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.696 		
+l.700 		
          <./Diagrams/PNG/livescene.png> <./Diagrams/PNG/scene2.png>]
-<./Diagrams/PNG/prefabs.png, id=609, 1445.4pt x 813.0375pt>
+<./Diagrams/PNG/prefabs.png, id=614, 1445.4pt x 813.0375pt>
 File: ./Diagrams/PNG/prefabs.png Graphic file (type png)
 <use ./Diagrams/PNG/prefabs.png>
-Package pdftex.def Info: ./Diagrams/PNG/prefabs.png  used on input line 699.
+Package pdftex.def Info: ./Diagrams/PNG/prefabs.png  used on input line 703.
 (pdftex.def)             Requested size: 433.62pt x 243.91313pt.
-<./Diagrams/PNG/agent.png, id=610, 731.73375pt x 420.82219pt>
+<./Diagrams/PNG/agent.png, id=615, 731.73375pt x 420.82219pt>
 File: ./Diagrams/PNG/agent.png Graphic file (type png)
 <use ./Diagrams/PNG/agent.png>
-Package pdftex.def Info: ./Diagrams/PNG/agent.png  used on input line 705.
+Package pdftex.def Info: ./Diagrams/PNG/agent.png  used on input line 709.
 (pdftex.def)             Requested size: 433.62pt x 249.37454pt.
 
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
@@ -1381,23 +1305,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.7.7})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.708 		
+l.712 		
         
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.708 		
+l.712 		
          <./Diagrams/PNG/fulllive.png> <./Diagrams/PNG/prefabs.png>]
-<./Diagrams/PNG/graph.png, id=617, 1531.7225pt x 451.6875pt>
+<./Diagrams/PNG/graph.png, id=622, 1531.7225pt x 451.6875pt>
 File: ./Diagrams/PNG/graph.png Graphic file (type png)
 <use ./Diagrams/PNG/graph.png>
-Package pdftex.def Info: ./Diagrams/PNG/graph.png  used on input line 711.
+Package pdftex.def Info: ./Diagrams/PNG/graph.png  used on input line 715.
 (pdftex.def)             Requested size: 433.62pt x 127.86385pt.
-<./Diagrams/PNG/result.png, id=618, 705.38531pt x 424.58624pt>
+<./Diagrams/PNG/result.png, id=623, 705.38531pt x 424.58624pt>
 File: ./Diagrams/PNG/result.png Graphic file (type png)
 <use ./Diagrams/PNG/result.png>
-Package pdftex.def Info: ./Diagrams/PNG/result.png  used on input line 717.
+Package pdftex.def Info: ./Diagrams/PNG/result.png  used on input line 721.
 (pdftex.def)             Requested size: 433.62pt x 261.00562pt.
 
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
@@ -1408,13 +1332,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.7.9})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.720 		
+l.724 		
         
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7.10})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.720 		
+l.724 		
          <./Diagrams/PNG/agent.png> <./Diagrams/PNG/graph.png (PNG copy)>]
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
@@ -1424,252 +1348,252 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.7.11})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.727 		\chapter
+l.731 		\chapter
                 {Testing} <./Diagrams/PNG/result.png>]
 Chapter 8.
 \c@num=\count310
 
-Overfull \hbox (3.04482pt too wide) in paragraph at lines 747--747
+Overfull \hbox (3.04482pt too wide) in paragraph at lines 751--751
 []|\OT1/cmr/bx/n/14.4 Sr. 
  []
 
 
-Overfull \hbox (4.52814pt too wide) in paragraph at lines 747--747
+Overfull \hbox (4.52814pt too wide) in paragraph at lines 751--751
 \OT1/cmr/bx/n/14.4 no.| 
  []
 
 
-Overfull \hbox (3.52203pt too wide) in paragraph at lines 747--747
+Overfull \hbox (3.52203pt too wide) in paragraph at lines 751--751
 []|\OT1/cmr/bx/n/14.4 Verdict| 
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 752--752
+Underfull \hbox (badness 1888) in paragraph at lines 756--756
 \OT1/cmr/m/n/12 i-tal As-set Ex-change(.dae)
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 759--759
+Underfull \hbox (badness 1888) in paragraph at lines 763--763
 \OT1/cmr/m/n/12 i-tal As-set Ex-change(.dae)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 765--765
+Underfull \hbox (badness 10000) in paragraph at lines 769--769
 []|\OT1/cmr/m/n/12 NavMesh En-vi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 765--765
+Underfull \hbox (badness 10000) in paragraph at lines 769--769
 \OT1/cmr/m/n/12 ront-ment Setup
  []
 
 
-Underfull \hbox (badness 7168) in paragraph at lines 767--767
+Underfull \hbox (badness 7168) in paragraph at lines 771--771
 []|\OT1/cmr/m/n/12 NavMesh pack-age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 772--772
+Underfull \hbox (badness 10000) in paragraph at lines 776--776
 []|\OT1/cmr/m/n/12 NavConnection
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 772--772
+Underfull \hbox (badness 1931) in paragraph at lines 776--776
 \OT1/cmr/m/n/12 im-ple-men-ta-tion to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 772--772
+Underfull \hbox (badness 10000) in paragraph at lines 776--776
 \OT1/cmr/m/n/12 guide ve-hi-cle on
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 773--773
+Underfull \hbox (badness 1874) in paragraph at lines 777--777
 []|\OT1/cmr/m/n/12 If Nav-Con-nec-tion mod-ule
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 773--773
+Underfull \hbox (badness 2443) in paragraph at lines 777--777
 \OT1/cmr/m/n/12 road and in-ter-sec-tions is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 774--774
+Underfull \hbox (badness 10000) in paragraph at lines 778--778
 []|\OT1/cmr/m/n/12 NavConnection
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 774--774
+Underfull \hbox (badness 10000) in paragraph at lines 778--778
 \OT1/cmr/m/n/12 mod-ule work-ing
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 780--780
+Underfull \hbox (badness 1668) in paragraph at lines 784--784
 []|\OT1/cmr/m/n/12 NavSection pre-fabs which
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 780--780
+Underfull \hbox (badness 1946) in paragraph at lines 784--784
 \OT1/cmr/m/n/12 in sumu-la-tion is work-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--781
+Underfull \hbox (badness 10000) in paragraph at lines 785--785
 []|\OT1/cmr/m/n/12 NavSections
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--781
+Underfull \hbox (badness 10000) in paragraph at lines 785--785
 \OT1/cmr/m/n/12 preafabs for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--781
+Underfull \hbox (badness 10000) in paragraph at lines 785--785
 \OT1/cmr/m/n/12 com-mon road
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--781
+Underfull \hbox (badness 10000) in paragraph at lines 785--785
 \OT1/cmr/m/n/12 and in-ter-sec-tions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--781
+Underfull \hbox (badness 10000) in paragraph at lines 785--785
 \OT1/cmr/m/n/12 work-ing as per
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 786--786
+Underfull \hbox (badness 10000) in paragraph at lines 790--790
 []|\OT1/cmr/m/n/12 Vehicle(NavAgent)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 787--787
+Underfull \hbox (badness 10000) in paragraph at lines 791--791
 []|\OT1/cmr/m/n/12 NavAgents/Vehicles have
  []
 
 
-Overfull \hbox (3.34485pt too wide) in paragraph at lines 788--788
+Overfull \hbox (3.34485pt too wide) in paragraph at lines 792--792
 []|\OT1/cmr/m/n/12 NavAgents/Vehicles
  []
 
 
-Underfull \hbox (badness 2662) in paragraph at lines 795--795
+Underfull \hbox (badness 2662) in paragraph at lines 799--799
 []|\OT1/cmr/m/n/12 NavAgents fol-low-
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 801--801
+Underfull \hbox (badness 1221) in paragraph at lines 805--805
 \OT1/cmr/m/n/12 traf-fic sys-tem core model
  []
 
 
-Underfull \hbox (badness 5388) in paragraph at lines 801--801
+Underfull \hbox (badness 5388) in paragraph at lines 805--805
 \OT1/cmr/m/n/12 to nav-i-gate traf-fic, also
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 802--802
+Underfull \hbox (badness 2626) in paragraph at lines 806--806
 \OT1/cmr/m/n/12 ple traf-fic sys-tem
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 802--802
+Underfull \hbox (badness 1577) in paragraph at lines 806--806
 \OT1/cmr/m/n/12 rel-e-vant ob-ject in
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 809--809
+Underfull \hbox (badness 2027) in paragraph at lines 813--813
 []|\OT1/cmr/m/n/12 Map can be cre-
  []
 
 
-Underfull \hbox (badness 6348) in paragraph at lines 809--809
+Underfull \hbox (badness 6348) in paragraph at lines 813--813
 \OT1/cmr/m/n/12 tion pre-fabs and
  []
 
 
-Underfull \hbox (badness 6348) in paragraph at lines 809--809
+Underfull \hbox (badness 6348) in paragraph at lines 813--813
 \OT1/cmr/m/n/12 is fol-low-ing traf-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 821--821
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
 []|\OT1/cmr/m/n/12 Junction Ob-serv-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--822
+Underfull \hbox (badness 10000) in paragraph at lines 826--826
 \OT1/cmr/m/n/12 ule ob-serv-ing junc-tions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--822
+Underfull \hbox (badness 10000) in paragraph at lines 826--826
 \OT1/cmr/m/n/12 prop-erly and col-lect-ing
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 822--822
+Underfull \hbox (badness 4416) in paragraph at lines 826--826
 \OT1/cmr/m/n/12 data to for-ward to RL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 823--823
+Underfull \hbox (badness 10000) in paragraph at lines 827--827
 []|\OT1/cmr/m/n/12 Junction Ob-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 823--823
+Underfull \hbox (badness 10000) in paragraph at lines 827--827
 \OT1/cmr/m/n/12 serv-able Mod-ule
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 823--823
+Underfull \hbox (badness 1533) in paragraph at lines 827--827
 \OT1/cmr/m/n/12 ob-serv-ing junc-tion
  []
 
 
-Underfull \hbox (badness 4634) in paragraph at lines 823--823
+Underfull \hbox (badness 4634) in paragraph at lines 827--827
 \OT1/cmr/m/n/12 prop-erly and en-
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 823--823
+Underfull \hbox (badness 3148) in paragraph at lines 827--827
 \OT1/cmr/m/n/12 vi-ron-ment as per
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 823--823
+Underfull \hbox (badness 10000) in paragraph at lines 827--827
 \OT1/cmr/m/n/12 ex-pec-ta-tions and
  []
 
 
-Underfull \hbox (badness 4316) in paragraph at lines 823--823
+Underfull \hbox (badness 4316) in paragraph at lines 827--827
 \OT1/cmr/m/n/12 ready to for-ward
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 830--830
+Underfull \hbox (badness 3417) in paragraph at lines 834--834
 []|\OT1/cmr/m/n/12 RL Agents in-ter-
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 830--830
+Underfull \hbox (badness 5359) in paragraph at lines 834--834
 \OT1/cmr/m/n/12 and is ready to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 843--843
+Underfull \hbox (badness 10000) in paragraph at lines 847--847
 []|\OT1/cmr/m/n/12 In sumu-la-tion ve-hi-cle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 843--843
+Underfull \hbox (badness 10000) in paragraph at lines 847--847
 \OT1/cmr/m/n/12 should not crash into
  []
 
 
-Overfull \hbox (17.58693pt too wide) in alignment at lines 746--851
+Overfull \hbox (17.58693pt too wide) in alignment at lines 750--855
  [] [] [] [] [] 
  []
 
@@ -1684,7 +1608,7 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [38]
-Underfull \hbox (badness 10000) in paragraph at lines 854--855
+Underfull \hbox (badness 10000) in paragraph at lines 858--859
 
  []
 
@@ -1707,7 +1631,7 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 [42]
 Chapter 10.
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--931
+Underfull \hbox (badness 10000) in paragraph at lines 934--935
 
  []
 
@@ -1728,33 +1652,33 @@ Excluding 'comment' comment. [45
 Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
-[47] (Group-2 AITMS Report.aux)
+[47] (./Group-2 AITMS Report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `"Group-2 AITMS Report".out' has not changed.
 
-(rerunfilecheck)             Checksum: 0318ED415DF1A97BE9A6D9680EAA3E44;12025.
+(rerunfilecheck)             Checksum: 45685C29B080030A8A80A5BD1D5378C4;12025.
  ) 
 Here is how much of TeX's memory you used:
- 20101 strings out of 478582
- 387776 string characters out of 2843872
- 660672 words of memory out of 3000000
- 37767 multiletter control sequences out of 15000+600000
+ 20120 strings out of 478238
+ 381053 string characters out of 5850456
+ 662038 words of memory out of 5000000
+ 37839 multiletter control sequences out of 15000+600000
  477393 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,94p,1893b,470s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\bright\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
-m1440.pk><C:/Users/bright/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb><C:/Users/bright/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmbxti10.pfb><C:/Users/bright/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/bright/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bright/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/bright/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Group-2 AITMS Report.pdf" (56 pages, 3468478 bytes).
+ 99i,11n,94p,1891b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf
+-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
+Output written on "Group-2 AITMS Report.pdf" (56 pages, 3401219 bytes).
 PDF statistics:
- 747 PDF objects out of 1000 (max. 8388607)
+ 756 PDF objects out of 1000 (max. 8388607)
+ 642 compressed objects within 7 object streams
  153 named destinations out of 1000 (max. 500000)
  620 words of extra memory for PDF output out of 10000 (max. 10000000)
 

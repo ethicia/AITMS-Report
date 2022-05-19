@@ -219,14 +219,16 @@
 	\hspace*{0.5in}Traffic congestion is becoming a critical issue with increasing population and automobiles in cities. The conventional systems which were suitable at the time of their installation may not be suitable in the present time due to the rising number of vehicles. Furthermore, upgrading these systems to the standards used in major metropolitan cities is often not feasible due to several factors such as manual labor and installation of new sensors. Owing to these factors, the majority of intersections make use of either manual control which includes traffic police officials guiding vehicles or non adaptive automatic control, which includes the use of fixed timers. In most scenarios these solutions may not be at par with the unpredictable rate of traffic flow. Hence, an intelligent, adaptive and feasible solution is needed.\\
 	
 	\section{Additional Features}
-	\hspace*{0.5in}Additionally, the following points must be kept in mind while developing or optimizing an automated traffic controlling system:\\
+	\hspace*{0.5in}Additionally, the following points were kept in mind while developing and optimizing an automated traffic controlling system:\\
 	
 	\begin{itemize}
 		\item{Ensuring signal times are between a maximum and minimum limit to avoid starvation.}
 		\item{Indian traffic is not lane following and has a high amount of mixed traffic. System must be able to withstand these challenges.}
 		\item{The system will be able to use the existing sensors and avoid installation of newer sensors in order to maintain feasibility.}
-		\item{The system will be scalable within budget and it should be able to handle an increasing number of vehicles.}
-		\item{Additional features such as incident detection, report generation and assistance for emergency or VIP vehicles can be added.}
+		\item{The system will be scalable within budget and able to handle an increasing number of vehicles.}
+		\begin{comment}
+			\item{Additional features such as incident detection, report generation and assistance for emergency or VIP vehicles can be added.}
+		\end{comment}
 	\end{itemize}
 	
 	
@@ -275,11 +277,11 @@
 	\end{table}
 
 	\subsection{Summary for semester I}
-	\hspace*{0.5 in}In this chapter we described the implementation details of the project plan for
-Semester I. We also studied the functional requirement specification, design prototype, and project problem statement using NP completeness of AITMS.
+	\hspace*{0.5 in}This chapter describes the implementation details of the project plan for
+Semester I. It briefly discusses functional requirement specification, design prototype, and project problem statement of AITMS.
 
 	\newpage
-	\subsection{Project Plan for semester II}
+	\subsection{Project Plan for Semester II}
 	
 		\hspace*{0.5 in}The following Table 4.2 describes the project plan for semester II. It describes the various activities and accountability of the developers for the respective modules. Following are the major activities carried out in this plan :
 		\begin{itemize}
@@ -323,9 +325,9 @@ Semester I. We also studied the functional requirement specification, design pro
 		\end{table}
 	
 	
-	\subsection{Summary for semester II}
-	\hspace*{0.5 in}In this chapter we described the implementation details of the project plan for
-Semester I. We also studied the necessary functions and the desirable functions of AITMS.
+	\subsection{Summary for Semester II}
+	\hspace*{0.5 in}This chapter explains implementation details of the project plan for
+Semester II. Necessary functions and the desirable functions of AITMS are briefly discussed.
 
 	\newpage
 
@@ -335,22 +337,24 @@ Semester I. We also studied the necessary functions and the desirable functions 
 	
 	\subsection{Necessary Functions}
 	\begin{itemize}
-		\item{Deliver a reusable piece of code.}
-		\item{Producing optimized traffic signal timing as output}
-		\item{Deployment of simulation built onto the unity.}
+		\item{\textbf{Simulation: }Simulation provides creation of road maps for traffic system, it helps in simulating real-time traffic and visualizing traffic densities. It consists of a wide variety of traffic component presets which make creation of road maps easier through drag and drop. It is implemented in Unity3D.}
+		\item{\textbf{RL Agents Scripts: }It consists of a set of scripts which help define training parameters and reward mechanisms for MLAgents. It is developed keeping reusability in mind, in order to allow the users to program and experiment with different reward mechanisms.}
+		\item{\textbf{Training Smart Traffic Signals: }The primary purpose of the system is to provide a platform for training smart traffic signals using reinforcement learning. The trained models are able to reduce waiting time by providing optimal green signal time as output such that maximum waiting vehicles are able to pass through without stalling other phases for longer than necessary.}
 	\end{itemize}
 	
 	\subsection{Desirable  Functions}
 	\begin{itemize}
-		\item{Assistance to emergency and VIP vehicles.}	
-		\item{Traffic incident detection.}
-		\item{Real-time Traffic Congestion Detection.}
-		\item{Real-time Statistics.}
+		\begin{comment}
+			\item{Assistance to emergency and VIP vehicles.}	
+			\item{Traffic incident detection.}
+		\end{comment}
+		\item{\textbf{Real-time Traffic Congestion Detection: }Having access to CCTV footage as well as vehicle counts for all the phases in real-time make it possible to detect congestion in real-time.}
+		\item{\textbf{Real-time Statistics: }Collection of essential parameters such as vehicle counts and phase time provide scope for generating statistical reports on traffic flow in real-time.}
 		
 	\end{itemize}
 	
 	\section{Summary}
-	\hspace*{0.5in}This chapter describes the implementation details of the project plan for Semester I. The necessary functions and the desirable functions of Artificially Intelligent Traffic Management System were also studied.
+	\hspace*{0.5in}This chapter describes the implementation details of the project plan for Semester I and Semester II. The necessary functions and the desirable functions of Artificially Intelligent Traffic Management System were also studied.
 	%*****************************Chapter5***************
 	\chapter{Design}
 	\hspace*{0.5in}This chapter describes the Software Requirement Specification (SRS) to be implemented for Artificially Intelligent Traffic Management System. It also explains the architecture of the system and external interface requirements.\\
@@ -595,7 +599,7 @@ Semester I. We also studied the necessary functions and the desirable functions 
 		
 		\begin{itemize}
 			
-			\item{\textbf{Simulation} The Simulation is one of the most important features provided by AITMS. Simulation provides creation of maps of traffic system, it also helps in generating real-time traffic and visualizing traffic densities. It is implemented in Unity3D. Simulation is further divide into many smaller modules below. \begin{itemize}
+			\item{\textbf{Simulation} The Simulation is one of the most important features provided by AITMS. Simulation provides creation of maps of traffic system, it also helps in simulating real-time traffic and visualizing traffic densities. It is implemented in Unity3D. Simulation is further divide into many smaller modules below. \begin{itemize}
 			\item{\textbf{NavMesh Module:} The NavMesh represents the area where the center of the agent can move. 
 			\begin{figure}[H]
 				\centering
@@ -720,7 +724,7 @@ Semester I. We also studied the necessary functions and the desirable functions 
 		
 		
 		\section{Summary}
-		\hspace*{0.5in}In this chapter we discussed the implementation details of the Artificially Intelligent Traffic Management System and also the implementation of various features included in the application. We also saw the results in the form of snapshots of the AITMS.
+		\hspace*{0.5in}This chapter discusses the implementation details of the AITMS and also the implementation of various features included in the application. It also consists of the results in the form of snapshots of AITMS.
 		
 		%*****************************Chapter 8******************
 		
@@ -851,7 +855,7 @@ Semester I. We also studied the necessary functions and the desirable functions 
 		\end{longtable}
 		
 		\section{Summary}
-		\hspace{0.5in}In this chapter we have described the formal technical reviews and the outcome of those. We have described the Test Plan which was successfully carried out at regular development phases.\\
+		\hspace{0.5in}This chapter describes the formal technical reviews and their outcomes. It describes the Test Plan which was successfully carried out at regular development phases.\\
 		
 	
 	%*******************t**********Chapter 9******************
@@ -940,11 +944,11 @@ Semester I. We also studied the necessary functions and the desirable functions 
 	\chapter{Conclusion}
 	\hspace*{0.5in}AITMS provides a platform for simulating traffic flow and training smart signals using reinforcement learning models which are fed inputs in the form of state observations from various traffic intersections in the simulation. The aim of training is to maximize a reward function which penalizes the model based on average waiting time and vehicle count. Hence, a successfully trained model is able to reduce unnecessary waiting time and at the same time provide just enough green signal time to allow maximum waiting vehicles to pass through. The proposed system for smart traffic signals is able to successfully minimize congestion in simple road maps consisting of 4-5 intersections by approximately upto 25\%. The various scripts were made keeping reusability in mind to allow the users to program and experiment with different reward functions.
 
-\hspace*{0.5in}A wide variety of traffic component prefabs (or presets) with generalized parameters help in replicating characteristics of traffic flow in real life. This helps the simulation provide information valuable to planning road maps since areas prone to congestion and slow traffic flow become easily observable.
+	\hspace*{0.5in}A wide variety of traffic component prefabs (or presets) with generalized parameters help in replicating characteristics of traffic flow in real life. This helps the simulation provide information valuable to planning road maps since areas prone to congestion and slow traffic flow become easily observable.
 
-\hspace*{0.5in}AI based smart signals provide sufficient scope for scalability since reduction in congestion helps in dealing with increasing number of vehicles. AITMS is designed to use inputs based on inferences which can be gathered from existing CCTV cameras by using object detection algorithms like YOLO on live footage. This maintains feasibility and eliminates the need to install new sensors.
+	\hspace*{0.5in}AI based smart signals provide sufficient scope for scalability since reduction in congestion helps in dealing with increasing number of vehicles. AITMS is designed to use inputs based on inferences which can be gathered from existing CCTV cameras by using object detection algorithms like YOLO on live footage. This maintains feasibility and eliminates the need to install new sensors.
 
-\hspace*{0.5in}Furthermore, collection of CCTV footage and traffic data at intersections helps in generating statistical reports on congestion and provides future scope for additional features such as incident detection and detecting traffic violations.
+	\hspace*{0.5in}Furthermore, collection of CCTV footage and traffic data at intersections helps in generating statistical reports on congestion and provides future scope for additional features such as incident detection and detecting traffic violations.
 	
 	
 		

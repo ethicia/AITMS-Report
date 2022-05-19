@@ -17,8 +17,8 @@
 \contentsline {section}{\numberline {4.1}Project Plan}{8}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Project Plan for semester I}{8}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Summary for semester I}{9}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Project Plan for semester II}{10}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Summary for semester II}{10}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.3}Project Plan for Semester II}{10}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Summary for Semester II}{10}{subsection.4.1.4}%
 \contentsline {section}{\numberline {4.2}Requirement Analysis}{11}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Necessary Functions}{11}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Desirable Functions}{11}{subsection.4.2.2}%
