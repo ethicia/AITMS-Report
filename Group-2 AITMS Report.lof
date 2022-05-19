@@ -10,8 +10,20 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Use Case Diagram}}{21}{figure.6.1}%
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Activity Diagram}}{22}{figure.6.2}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Component Diagram}}{23}{figure.6.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces NavMesh Components}}{24}{figure.7.1}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces NavMesh Components}}{25}{figure.7.1}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces ATIMS Scene Creation Screen}}{29}{figure.7.2}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces ATIMS Simulation Screen}}{30}{figure.7.3}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces ATIMS Simulation Screen (Intersection)}}{30}{figure.7.4}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces ATIMS Simulation Screen (Roundabout)}}{31}{figure.7.5}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces ATIMS Game View Screen}}{31}{figure.7.6}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces ATIMS Map Viewer}}{32}{figure.7.7}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces ATIMS NavSection Prefabs}}{32}{figure.7.8}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces ATIMS Agent Prefabs}}{33}{figure.7.9}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces ATIMS Training Progress Graph (Rewards vs Steps)}}{33}{figure.7.10}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces ATIMS Training Result Graph (AvgWait vs SimulationTime) Showing Approximately 27 \% Improvement}}{34}{figure.7.11}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -35,25 +35,29 @@
 \contentsline {chapter}{\numberline {6}Modeling}{20}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Use Case Diagram}{20}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Activity Diagram}{22}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Summary}{23}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Implementation and Results}{24}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Implementation Details}{24}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Steps for Training a Smart Traffic Signal}{26}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Training Configuration}{26}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Reward Mechanism}{27}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Model Architectures}{27}{section.7.5}%
-\contentsline {section}{\numberline {7.6}Results}{27}{section.7.6}%
-\contentsline {section}{\numberline {7.7}Summary}{28}{section.7.7}%
-\contentsline {chapter}{\numberline {8}Testing}{29}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Formal Technical Review}{29}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Test Plan}{30}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Summary}{32}{section.8.3}%
-\contentsline {chapter}{\numberline {9}Technical Specifications}{33}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Advantages}{33}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Limitations}{34}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Applications}{34}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Hardware Requirements}{35}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Software Requirements}{35}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Summary}{35}{section.9.6}%
-\contentsline {chapter}{\numberline {10}Future Scope}{36}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Conclusion}{37}{chapter.11}%
+\contentsline {section}{\numberline {6.3}Component Diagram}{23}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Summary}{24}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Implementation and Results}{25}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Implementation Details}{25}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Steps for Training a Smart Traffic Signal}{27}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Training Configuration}{27}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Reward Mechanism}{28}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Model Architectures}{28}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Results}{29}{section.7.6}%
+\contentsline {section}{\numberline {7.7}Summary}{34}{section.7.7}%
+\contentsline {chapter}{\numberline {8}Testing}{35}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Formal Technical Review}{35}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Test Plan}{36}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Summary}{38}{section.8.3}%
+\contentsline {chapter}{\numberline {9}Technical Specifications}{39}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Advantages}{39}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Limitations}{40}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Applications}{40}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Hardware Requirements}{41}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Software Requirements}{41}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Summary}{41}{section.9.6}%
+\contentsline {chapter}{\numberline {10}Future Scope}{42}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Conclusion}{43}{chapter.11}%
+\vspace \bigskipamount 
+\contentsline {part}{Appendix}{44}{chapter.11}%
+\contentsline {chapter}{\numberline {A}Glossary}{44}{appendix.A}%
