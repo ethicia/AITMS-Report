@@ -191,7 +191,7 @@ Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
 (fancyheadings.sty
 \headrulewidth=\dimen143
 \footrulewidth=\dimen144
-\plainheadrulewidth=\dimen145
+\plain`rulewidth=\dimen145
 \plainfootrulewidth=\dimen146
 \headwidth=\dimen147
 ) (D:\Program Files\MiKTeX\tex/latex/graphics\epsfig.sty

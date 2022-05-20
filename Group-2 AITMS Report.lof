@@ -2,27 +2,29 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces AITMS Jira Board}}{9}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces AITMS GitHub Board}}{9}{figure.4.2}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Layered form of System Architecture}}{16}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces System Architecture Illustration}}{18}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Level 0 Data Flow Diagram}}{19}{figure.5.3}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Level 1 Data Flow Diagram}}{19}{figure.5.4}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Layered form of System Architecture}}{18}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces System Architecture Illustration}}{20}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Level 0 Data Flow Diagram}}{21}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Level 1 Data Flow Diagram}}{21}{figure.5.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Use Case Diagram}}{22}{figure.6.1}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Activity Diagram}}{23}{figure.6.2}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Component Diagram}}{24}{figure.6.3}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Use Case Diagram}}{24}{figure.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Activity Diagram}}{25}{figure.6.2}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Component Diagram}}{26}{figure.6.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces NavMesh Components}}{26}{figure.7.1}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces AITMS Scene Creation Screen}}{30}{figure.7.2}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces AITMS Simulation Screen}}{31}{figure.7.3}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces AITMS Simulation Screen (Intersection)}}{31}{figure.7.4}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces AITMS Simulation Screen (Roundabout)}}{32}{figure.7.5}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces AITMS Game View Screen}}{32}{figure.7.6}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces AITMS Map Viewer}}{33}{figure.7.7}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces AITMS NavSection Prefabs}}{33}{figure.7.8}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces AITMS Agent Prefabs}}{34}{figure.7.9}%
-\contentsline {figure}{\numberline {7.10}{\ignorespaces AITMS Training Progress Graph (Rewards vs Steps)}}{34}{figure.7.10}%
-\contentsline {figure}{\numberline {7.11}{\ignorespaces AITMS Training Result Graph (AvgWait vs SimulationTime) Showing Approximately 27 \% Improvement}}{35}{figure.7.11}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces NavMesh Components}}{28}{figure.7.1}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces AITMS Scene Creation Screen}}{32}{figure.7.2}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces AITMS Simulation Screen}}{33}{figure.7.3}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces AITMS Simulation Screen (Intersection)}}{33}{figure.7.4}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces AITMS Simulation Screen (Roundabout)}}{34}{figure.7.5}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces AITMS Game View Screen}}{34}{figure.7.6}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces AITMS Map Viewer}}{35}{figure.7.7}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces AITMS NavSection Prefabs}}{35}{figure.7.8}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces AITMS Agent Prefabs}}{36}{figure.7.9}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces AITMS Training Progress Graph (Rewards vs Steps)}}{36}{figure.7.10}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces AITMS Training Result Graph (AvgWait vs SimulationTime) Showing Approximately 27 \% Improvement}}{37}{figure.7.11}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

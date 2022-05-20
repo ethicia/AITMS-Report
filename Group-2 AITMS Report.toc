@@ -14,53 +14,54 @@
 \contentsline {section}{\numberline {3.2}Additional Features}{7}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Summary}{7}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Analysis}{8}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Project Plan}{8}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Project Plan for semester I}{8}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Summary for semester I}{9}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Project Plan for semester II}{10}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Summary for semester II}{10}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Requirement Analysis}{11}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Necessary Functions}{11}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Desirable Functions}{11}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Summary}{11}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Design}{12}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Software Requirement Specifications}{12}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Project Scope}{12}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Operating Environment}{13}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Design and Implementation Constraints}{13}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}Assumptions}{14}{subsection.5.1.4}%
-\contentsline {subsection}{\numberline {5.1.5}Dependencies}{14}{subsection.5.1.5}%
-\contentsline {section}{\numberline {5.2}System Architecture}{16}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Software System Attribute}{18}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Data Flow Diagram}{19}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Summary}{20}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Modeling}{21}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Use Case Diagram}{21}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Activity Diagram}{23}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Component Diagram}{24}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Summary}{25}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Implementation and Results}{26}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Implementation Details}{26}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Steps for Training a Smart Traffic Signal}{28}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Training Configuration}{28}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Reward Mechanism}{29}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Model Architectures}{29}{section.7.5}%
-\contentsline {section}{\numberline {7.6}Results}{30}{section.7.6}%
-\contentsline {section}{\numberline {7.7}Summary}{35}{section.7.7}%
-\contentsline {chapter}{\numberline {8}Testing}{36}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Formal Technical Review}{36}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Test Plan}{37}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Summary}{39}{section.8.3}%
-\contentsline {chapter}{\numberline {9}Technical Specifications}{40}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Advantages}{40}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Limitations}{41}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Applications}{41}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Hardware Requirements}{42}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Software Requirements}{42}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Summary}{42}{section.9.6}%
-\contentsline {chapter}{\numberline {10}Future Scope}{43}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Conclusion}{44}{chapter.11}%
+\contentsline {subsection}{\numberline {4.0.1}Agile Methodology and Version Control}{8}{subsection.4.0.1}%
+\contentsline {section}{\numberline {4.1}Project Plan}{10}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Project Plan for Semester I}{10}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Summary for Semester I}{11}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Project Plan for Semester II}{11}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Summary for Semester II}{12}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Requirement Analysis}{12}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Necessary Functions}{12}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Desirable Functions}{12}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Summary}{13}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Design}{14}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Software Requirement Specifications}{14}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Project Scope}{14}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Operating Environment}{15}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Design and Implementation Constraints}{15}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Assumptions}{16}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Dependencies}{16}{subsection.5.1.5}%
+\contentsline {section}{\numberline {5.2}System Architecture}{18}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Software System Attribute}{20}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Data Flow Diagram}{21}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Summary}{22}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Modeling}{23}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Use Case Diagram}{23}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Activity Diagram}{25}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Component Diagram}{26}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Summary}{27}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Implementation and Results}{28}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Implementation Details}{28}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Steps for Training a Smart Traffic Signal}{30}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Training Configuration}{30}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Reward Mechanism}{31}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Model Architectures}{31}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Results}{32}{section.7.6}%
+\contentsline {section}{\numberline {7.7}Summary}{37}{section.7.7}%
+\contentsline {chapter}{\numberline {8}Testing}{38}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Formal Technical Review}{38}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Test Plan}{39}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Summary}{41}{section.8.3}%
+\contentsline {chapter}{\numberline {9}Technical Specifications}{42}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Advantages}{42}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Limitations}{43}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Applications}{43}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Hardware Requirements}{44}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Software Requirements}{44}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Summary}{44}{section.9.6}%
+\contentsline {chapter}{\numberline {10}Future Scope}{45}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Conclusion}{46}{chapter.11}%
 \vspace \bigskipamount 
-\contentsline {part}{Appendix}{45}{chapter.11}%
-\contentsline {chapter}{\numberline {A}Glossary}{45}{appendix.A}%
-\contentsline {chapter}{Bibliography}{46}{appendix.A}%
+\contentsline {part}{Appendix}{47}{chapter.11}%
+\contentsline {chapter}{\numberline {A}Glossary}{47}{appendix.A}%
+\contentsline {chapter}{Bibliography}{48}{appendix.A}%
