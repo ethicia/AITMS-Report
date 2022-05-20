@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  20 MAY 2022 00:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  20 MAY 2022 00:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -701,7 +701,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./metbkc-eps-converted-to.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<./metbkc-eps-converted-to.pdf, id=261, 973.6375pt x 112.42pt>
+<./metbkc-eps-converted-to.pdf, id=264, 973.6375pt x 112.42pt>
 File: ./metbkc-eps-converted-to.pdf Graphic file (type pdf)
 <use ./metbkc-eps-converted-to.pdf>
 Package pdftex.def Info: ./metbkc-eps-converted-to.pdf  used on input line 91.
@@ -1078,7 +1078,7 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 
 [15]
-<./Diagrams/PNG/layered_architecture.png, id=512, 784.9325pt x 562.1pt>
+<./Diagrams/PNG/layered_architecture.png, id=516, 784.9325pt x 562.1pt>
 File: ./Diagrams/PNG/layered_architecture.png Graphic file (type png)
 <use ./Diagrams/PNG/layered_architecture.png>
 Package pdftex.def Info: ./Diagrams/PNG/layered_architecture.png  used on input
@@ -1120,7 +1120,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 430--431
 
  []
 
-<./Diagrams/PNG/architecture.png, id=520, 1086.0575pt x 665.48625pt>
+<./Diagrams/PNG/architecture.png, id=524, 1086.0575pt x 665.48625pt>
 File: ./Diagrams/PNG/architecture.png Graphic file (type png)
 <use ./Diagrams/PNG/architecture.png>
 Package pdftex.def Info: ./Diagrams/PNG/architecture.png  used on input line 43
@@ -1151,12 +1151,12 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.475 	
         <./Diagrams/PNG/architecture.png>]
-<./Diagrams/PNG/dataflow.png, id=530, 2008.50375pt x 2007.5pt>
+<./Diagrams/PNG/dataflow.png, id=534, 2008.50375pt x 2007.5pt>
 File: ./Diagrams/PNG/dataflow.png Graphic file (type png)
 <use ./Diagrams/PNG/dataflow.png>
 Package pdftex.def Info: ./Diagrams/PNG/dataflow.png  used on input line 478.
 (pdftex.def)             Requested size: 238.58891pt x 238.49121pt.
-<./Diagrams/PNG/dfd1.png, id=531, 786.68906pt x 336.50719pt>
+<./Diagrams/PNG/dfd1.png, id=535, 786.68906pt x 336.50719pt>
 File: ./Diagrams/PNG/dfd1.png Graphic file (type png)
 <use ./Diagrams/PNG/dfd1.png>
 Package pdftex.def Info: ./Diagrams/PNG/dfd1.png  used on input line 484.
@@ -1197,7 +1197,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 498--500
 [21
 
 ]
-<./Diagrams/PNG/uml.jpg, id=545, 1369.115pt x 984.67876pt>
+<./Diagrams/PNG/uml.jpg, id=549, 1369.115pt x 984.67876pt>
 File: ./Diagrams/PNG/uml.jpg Graphic file (type jpg)
 <use ./Diagrams/PNG/uml.jpg>
 Package pdftex.def Info: ./Diagrams/PNG/uml.jpg  used on input line 510.
@@ -1213,7 +1213,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.520 	\newpage
                 <./Diagrams/PNG/uml.jpg>] Excluding 'comment' comment.
-<./Diagrams/PNG/flow.png, id=551, 2007.5pt x 2007.5pt>
+<./Diagrams/PNG/flow.png, id=555, 2007.5pt x 2007.5pt>
 File: ./Diagrams/PNG/flow.png Graphic file (type png)
 <use ./Diagrams/PNG/flow.png>
 Package pdftex.def Info: ./Diagrams/PNG/flow.png  used on input line 528.
@@ -1229,7 +1229,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.531 	\newpage
                 <./Diagrams/PNG/flow.png>] Excluding 'comment' comment.
-<./Diagrams/PNG/cc.png, id=557, 2668.97125pt x 1204.5pt>
+<./Diagrams/PNG/cc.png, id=561, 2668.97125pt x 1204.5pt>
 File: ./Diagrams/PNG/cc.png Graphic file (type png)
 <use ./Diagrams/PNG/cc.png>
 Package pdftex.def Info: ./Diagrams/PNG/cc.png  used on input line 574.
@@ -1250,7 +1250,7 @@ Overfull \vbox (2.49998pt too high) has occurred while \output is active []
 
 [25]
 Chapter 7.
-<./Diagrams/PNG/NavMeshModule.png, id=567, 853.1875pt x 515.9275pt>
+<./Diagrams/PNG/NavMeshModule.png, id=571, 853.1875pt x 515.9275pt>
 File: ./Diagrams/PNG/NavMeshModule.png Graphic file (type png)
 <use ./Diagrams/PNG/NavMeshModule.png>
 Package pdftex.def Info: ./Diagrams/PNG/NavMeshModule.png  used on input line 6
@@ -1286,12 +1286,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 655--656
 
  []
 
-<./Diagrams/PNG/scene.png, id=586, 1445.4pt x 813.0375pt>
+<./Diagrams/PNG/scene.png, id=590, 1445.4pt x 813.0375pt>
 File: ./Diagrams/PNG/scene.png Graphic file (type png)
 <use ./Diagrams/PNG/scene.png>
 Package pdftex.def Info: ./Diagrams/PNG/scene.png  used on input line 663.
 (pdftex.def)             Requested size: 433.62pt x 243.91313pt.
-<./Diagrams/PNG/cross.png, id=587, 883.80188pt x 533.74406pt>
+<./Diagrams/PNG/cross.png, id=591, 883.80188pt x 533.74406pt>
 File: ./Diagrams/PNG/cross.png Graphic file (type png)
 <use ./Diagrams/PNG/cross.png>
 Package pdftex.def Info: ./Diagrams/PNG/cross.png  used on input line 669.
@@ -1307,13 +1307,13 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.672 		
          <./Diagrams/PNG/scene.png>]
-<./Diagrams/PNG/licescene2.png, id=593, 998.22937pt x 435.12563pt>
+<./Diagrams/PNG/licescene2.png, id=597, 998.22937pt x 435.12563pt>
 File: ./Diagrams/PNG/licescene2.png Graphic file (type png)
 <use ./Diagrams/PNG/licescene2.png>
 Package pdftex.def Info: ./Diagrams/PNG/licescene2.png  used on input line 675.
 
 (pdftex.def)             Requested size: 433.62pt x 189.01253pt.
-<./Diagrams/PNG/livescene.png, id=594, 995.97093pt x 432.86719pt>
+<./Diagrams/PNG/livescene.png, id=598, 995.97093pt x 432.86719pt>
 File: ./Diagrams/PNG/livescene.png Graphic file (type png)
 <use ./Diagrams/PNG/livescene.png>
 Package pdftex.def Info: ./Diagrams/PNG/livescene.png  used on input line 681.
@@ -1335,12 +1335,12 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.684 		
          <./Diagrams/PNG/cross.png> <./Diagrams/PNG/licescene2.png>]
-<./Diagrams/PNG/scene2.png, id=601, 1445.4pt x 813.0375pt>
+<./Diagrams/PNG/scene2.png, id=605, 1445.4pt x 813.0375pt>
 File: ./Diagrams/PNG/scene2.png Graphic file (type png)
 <use ./Diagrams/PNG/scene2.png>
 Package pdftex.def Info: ./Diagrams/PNG/scene2.png  used on input line 687.
 (pdftex.def)             Requested size: 433.62pt x 243.91313pt.
-<./Diagrams/PNG/fulllive.png, id=602, 1445.4pt x 813.0375pt>
+<./Diagrams/PNG/fulllive.png, id=606, 1445.4pt x 813.0375pt>
 File: ./Diagrams/PNG/fulllive.png Graphic file (type png)
 <use ./Diagrams/PNG/fulllive.png>
 Package pdftex.def Info: ./Diagrams/PNG/fulllive.png  used on input line 693.
@@ -1362,12 +1362,12 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.696 		
          <./Diagrams/PNG/livescene.png> <./Diagrams/PNG/scene2.png>]
-<./Diagrams/PNG/prefabs.png, id=609, 1445.4pt x 813.0375pt>
+<./Diagrams/PNG/prefabs.png, id=613, 1445.4pt x 813.0375pt>
 File: ./Diagrams/PNG/prefabs.png Graphic file (type png)
 <use ./Diagrams/PNG/prefabs.png>
 Package pdftex.def Info: ./Diagrams/PNG/prefabs.png  used on input line 699.
 (pdftex.def)             Requested size: 433.62pt x 243.91313pt.
-<./Diagrams/PNG/agent.png, id=610, 731.73375pt x 420.82219pt>
+<./Diagrams/PNG/agent.png, id=614, 731.73375pt x 420.82219pt>
 File: ./Diagrams/PNG/agent.png Graphic file (type png)
 <use ./Diagrams/PNG/agent.png>
 Package pdftex.def Info: ./Diagrams/PNG/agent.png  used on input line 705.
@@ -1389,12 +1389,12 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.708 		
          <./Diagrams/PNG/fulllive.png> <./Diagrams/PNG/prefabs.png>]
-<./Diagrams/PNG/graph.png, id=617, 1531.7225pt x 451.6875pt>
+<./Diagrams/PNG/graph.png, id=621, 1531.7225pt x 451.6875pt>
 File: ./Diagrams/PNG/graph.png Graphic file (type png)
 <use ./Diagrams/PNG/graph.png>
 Package pdftex.def Info: ./Diagrams/PNG/graph.png  used on input line 711.
 (pdftex.def)             Requested size: 433.62pt x 127.86385pt.
-<./Diagrams/PNG/result.png, id=618, 705.38531pt x 424.58624pt>
+<./Diagrams/PNG/result.png, id=622, 705.38531pt x 424.58624pt>
 File: ./Diagrams/PNG/result.png Graphic file (type png)
 <use ./Diagrams/PNG/result.png>
 Package pdftex.def Info: ./Diagrams/PNG/result.png  used on input line 717.
@@ -1734,7 +1734,7 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `"Group-2 AITMS Report".out' has not changed.
 
-(rerunfilecheck)             Checksum: 0318ED415DF1A97BE9A6D9680EAA3E44;12025.
+(rerunfilecheck)             Checksum: 4BAB9E77A00631AC8E58D5599B0CB8E1;12140.
  ) 
 Here is how much of TeX's memory you used:
  20101 strings out of 478582
@@ -1752,9 +1752,9 @@ onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/bright/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bright/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/bright/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Group-2 AITMS Report.pdf" (56 pages, 3468478 bytes).
+Output written on "Group-2 AITMS Report.pdf" (56 pages, 3468957 bytes).
 PDF statistics:
- 747 PDF objects out of 1000 (max. 8388607)
+ 751 PDF objects out of 1000 (max. 8388607)
  153 named destinations out of 1000 (max. 500000)
- 620 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 628 words of extra memory for PDF output out of 10000 (max. 10000000)
 

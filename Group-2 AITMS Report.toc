@@ -63,3 +63,4 @@
 \vspace \bigskipamount 
 \contentsline {part}{Appendix}{45}{chapter.11}%
 \contentsline {chapter}{\numberline {A}Glossary}{45}{appendix.A}%
+\contentsline {chapter}{Bibliography}{46}{appendix.A}%
